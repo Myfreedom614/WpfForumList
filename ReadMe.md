@@ -45,4 +45,4 @@ What's New in Version 1.2:
 
 
 
-Any issues, please feel free to let me know: v-frche@microsoft.com
+Any issues, please feel free to let me know: yapchen[AT]microsoft.com
