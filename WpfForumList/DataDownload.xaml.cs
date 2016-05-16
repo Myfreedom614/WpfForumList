@@ -21,6 +21,7 @@ namespace WpfForumList
     /// </summary>
     public partial class DataDownload : Window
     {
+        string baseDir = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
         public DataDownload()
         {
             InitializeComponent();
@@ -71,7 +72,7 @@ namespace WpfForumList
                 {
                     client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_MSDNDownloadFileCompleted);
                     client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_MSDNDownloadProgressChanged);
-                    client.DownloadFileAsync(new Uri(url), AppDomain.CurrentDomain.BaseDirectory + "MSDNForum.xml");
+                    client.DownloadFileAsync(new Uri(url), baseDir + "\\MSDNForum.xml");
                 }
             }
             catch(Exception ex)
@@ -92,7 +93,7 @@ namespace WpfForumList
             {
                 client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_MSDNCHSDownloadFileCompleted);
                 client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_MSDNDownloadProgressChanged);
-                client.DownloadFileAsync(new Uri(url), AppDomain.CurrentDomain.BaseDirectory + "MSDNCHSForum.xml");
+                client.DownloadFileAsync(new Uri(url), baseDir + "\\MSDNCHSForum.xml");
             }
         }
 
@@ -119,7 +120,7 @@ namespace WpfForumList
             {
                 client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_TechNetCHSDownloadFileCompleted);
                 client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_TechNetDownloadProgressChanged);
-                client.DownloadFileAsync(new Uri(url), AppDomain.CurrentDomain.BaseDirectory + "TechNetCHSForum.xml");
+                client.DownloadFileAsync(new Uri(url), baseDir + "\\TechNetCHSForum.xml");
             }
         }
 
@@ -146,7 +147,7 @@ namespace WpfForumList
                 {
                     client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_TechNetDownloadFileCompleted);
                     client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_TechNetDownloadProgressChanged);
-                    client.DownloadFileAsync(new Uri(url), AppDomain.CurrentDomain.BaseDirectory + "TechNetForum.xml");
+                    client.DownloadFileAsync(new Uri(url), baseDir + "\\TechNetForum.xml");
                 }
             }
             catch (Exception ex)

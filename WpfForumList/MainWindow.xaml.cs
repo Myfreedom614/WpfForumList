@@ -31,6 +31,8 @@ namespace WpfForumList
     /// </summary>
     public partial class MainWindow : Window
     {
+        string baseDir = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+
         private bool isMSDNNeedDownload = false;
         private bool isTechNetNeedDownload = false;
 
@@ -53,7 +55,7 @@ namespace WpfForumList
         /// </summary>
         private void UpdateTVMSDNDataContextBinding()
         {
-            XmlDataProvider xdp = new XmlDataProvider() { Source = new Uri(AppDomain.CurrentDomain.BaseDirectory + "MSDNForum.xml"), XPath = "select/optgroup" };
+            XmlDataProvider xdp = new XmlDataProvider() { Source = new Uri(baseDir + "\\MSDNForum.xml"), XPath = "select/optgroup" };
             try
             {
                 tv_MSDN.DataContext = xdp;
@@ -72,7 +74,7 @@ namespace WpfForumList
         /// </summary>
         private void UpdateTVMSDNCHSDataContextBinding()
         {
-            XmlDataProvider xdp = new XmlDataProvider() { Source = new Uri(AppDomain.CurrentDomain.BaseDirectory + "MSDNCHSForum.xml"), XPath = "select/optgroup" };
+            XmlDataProvider xdp = new XmlDataProvider() { Source = new Uri(baseDir + "\\MSDNCHSForum.xml"), XPath = "select/optgroup" };
             try
             {
                 tv_MSDN.DataContext = xdp;
@@ -92,7 +94,7 @@ namespace WpfForumList
         /// </summary>
         private void UpdateTVTechNetDataContextBinding()
         {
-            XmlDataProvider xdp = new XmlDataProvider() { Source = new Uri(AppDomain.CurrentDomain.BaseDirectory + "TechNetForum.xml"), XPath = "select/optgroup" };
+            XmlDataProvider xdp = new XmlDataProvider() { Source = new Uri(baseDir + "\\TechNetForum.xml"), XPath = "select/optgroup" };
             try { 
                 tv_TechNet.DataContext = xdp;
             }
@@ -111,7 +113,7 @@ namespace WpfForumList
         /// </summary>
         private void UpdateTVTechNetCHSDataContextBinding()
         {
-            XmlDataProvider xdp = new XmlDataProvider() { Source = new Uri(AppDomain.CurrentDomain.BaseDirectory + "TechNetCHSForum.xml"), XPath = "select/optgroup" };
+            XmlDataProvider xdp = new XmlDataProvider() { Source = new Uri(baseDir + "\\TechNetCHSForum.xml"), XPath = "select/optgroup" };
             try
             {
                 tv_TechNet.DataContext = xdp;
@@ -133,7 +135,7 @@ namespace WpfForumList
         /// </summary>
         private void InitialSomething()
         {
-            if (File.Exists(AppDomain.CurrentDomain.BaseDirectory + "MSDNForum.xml") == false)
+            if (File.Exists(baseDir + "\\MSDNForum.xml") == false)
             {
                 //MessageBox.Show("MSDNForum.xml is missing");
                 isMSDNNeedDownload = true;
@@ -141,7 +143,7 @@ namespace WpfForumList
             else
                 EmptyXMLNode(Forums.MSDN);
 
-            if (File.Exists(AppDomain.CurrentDomain.BaseDirectory + "MSDNCHSForum.xml") == false)
+            if (File.Exists(baseDir + "\\MSDNCHSForum.xml") == false)
             {
                 //MessageBox.Show("MSDNCHSForum.xml is missing");
                 isMSDNNeedDownload = true;
@@ -149,7 +151,7 @@ namespace WpfForumList
             else
                 EmptyXMLNode(Forums.MSDNCHS);
 
-            if (File.Exists(AppDomain.CurrentDomain.BaseDirectory + "TechNetForum.xml") == false)
+            if (File.Exists(baseDir + "\\TechNetForum.xml") == false)
             {
                 //MessageBox.Show("TechNetForum.xml is missing");
                 isTechNetNeedDownload = true;
@@ -157,13 +159,38 @@ namespace WpfForumList
             else
                 EmptyXMLNode(Forums.TechNet);
 
-            if (File.Exists(AppDomain.CurrentDomain.BaseDirectory + "TechNetCHSForum.xml") == false)
+            if (File.Exists(baseDir + "\\TechNetCHSForum.xml") == false)
             {
                 //MessageBox.Show("TechNetCHSForum.xml is missing");
                 isTechNetNeedDownload = true;
             }
             else
                 EmptyXMLNode(Forums.TechNetCHS);
+        }
+
+        private void UpdateDataContextBinding()
+        {
+            if (isMSDNNeedDownload && File.Exists(baseDir + "\\MSDNForum.xml"))
+            {
+                //Update DataContext and Binding
+                UpdateTVMSDNDataContextBinding();
+            }
+            else if (isMSDNNeedDownload && File.Exists(baseDir + "\\MSDNCHSForum.xml"))
+            {
+                //Update DataContext and Binding
+                UpdateTVMSDNCHSDataContextBinding();
+            }
+
+            if (isTechNetNeedDownload && File.Exists(baseDir + "\\TechNetForum.xml"))
+            {
+                //Update DataContext and Binding
+                UpdateTVTechNetDataContextBinding();
+            }
+            else if (isTechNetNeedDownload && File.Exists(baseDir + "\\TechNetCHSForum.xml"))
+            {
+                //Update DataContext and Binding
+                UpdateTVTechNetCHSDataContextBinding();
+            }
         }
 
         /// <summary>
@@ -178,37 +205,21 @@ namespace WpfForumList
                 DataDownload w = new DataDownload(isMSDNNeedDownload, isTechNetNeedDownload);
                 if (w.ShowDialog() == false)
                 {
-                    string baseDir = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
-                    if (isMSDNNeedDownload && File.Exists(baseDir + "\\MSDNForum.xml"))
-                    {
-                        //Update DataContext and Binding
-                        UpdateTVMSDNDataContextBinding();
-                    }
-                    else if (isMSDNNeedDownload && File.Exists(baseDir + "\\MSDNCHSForum.xml"))
-                    {
-                        //Update DataContext and Binding
-                        UpdateTVMSDNCHSDataContextBinding();
-                    }
-
-                    if (isTechNetNeedDownload && File.Exists(baseDir + "\\TechNetForum.xml"))
-                    {
-                        //Update DataContext and Binding
-                        UpdateTVTechNetDataContextBinding();
-                    }
-                    else if (isTechNetNeedDownload && File.Exists(baseDir + "\\TechNetCHSForum.xml"))
-                    {
-                        //Update DataContext and Binding
-                        UpdateTVTechNetCHSDataContextBinding();
-                    }
+                    UpdateDataContextBinding();
                 }
+            }
+            else
+            {
+                UpdateTVMSDNData();
+                UpdateTVTechNetData();
             }
         }
 
         #region Processing XML File
-        /// <summary>
-        /// Empty XML Node Count
-        /// </summary>
-        /// <param name="forum"></param>
+            /// <summary>
+            /// Empty XML Node Count
+            /// </summary>
+            /// <param name="forum"></param>
         private void EmptyXMLNode(Enum forum)
         {
             string filename = forum.ToString();
@@ -240,33 +251,33 @@ namespace WpfForumList
                 if (filename == Forums.MSDN.ToString())
                 { 
                     isMSDNNeedDownload = true;
-                    if(File.Exists(AppDomain.CurrentDomain.BaseDirectory + "MSDNForum.xml"))
+                    if(File.Exists(baseDir + "\\MSDNForum.xml"))
                     {
-                        File.Delete(AppDomain.CurrentDomain.BaseDirectory + "MSDNForum.xml");
+                        File.Delete(baseDir + "\\MSDNForum.xml");
                     }
                 }
                 if (filename == Forums.MSDNCHS.ToString())
                 {
                     isMSDNNeedDownload = true;
-                    if (File.Exists(AppDomain.CurrentDomain.BaseDirectory + "MSDNCHSForum.xml"))
+                    if (File.Exists(baseDir + "\\MSDNCHSForum.xml"))
                     {
-                        File.Delete(AppDomain.CurrentDomain.BaseDirectory + "MSDNCHSForum.xml");
+                        File.Delete(baseDir + "\\MSDNCHSForum.xml");
                     }
                 }
                 if (filename == Forums.TechNet.ToString())
                 { 
                     isTechNetNeedDownload = true;
-                    if (File.Exists(AppDomain.CurrentDomain.BaseDirectory + "TechNetForum.xml"))
+                    if (File.Exists(baseDir + "\\TechNetForum.xml"))
                     {
-                        File.Delete(AppDomain.CurrentDomain.BaseDirectory + "TechNetForum.xml");
+                        File.Delete(baseDir + "\\TechNetForum.xml");
                     }
                 }
                 if (filename == Forums.TechNetCHS.ToString())
                 {
                     isTechNetNeedDownload = true;
-                    if (File.Exists(AppDomain.CurrentDomain.BaseDirectory + "TechNetCHSForum.xml"))
+                    if (File.Exists(baseDir + "\\TechNetCHSForum.xml"))
                     {
-                        File.Delete(AppDomain.CurrentDomain.BaseDirectory + "TechNetCHSForum.xml");
+                        File.Delete(baseDir + "\\TechNetCHSForum.xml");
                     }
                 }
             }
@@ -330,33 +341,33 @@ namespace WpfForumList
                 if (filename == Forums.MSDN.ToString())
                 {
                     isMSDNNeedDownload = true;
-                    if (File.Exists(AppDomain.CurrentDomain.BaseDirectory + "MSDNForum.xml"))
+                    if (File.Exists(baseDir + "\\MSDNForum.xml"))
                     {
-                        File.Delete(AppDomain.CurrentDomain.BaseDirectory + "MSDNForum.xml");
+                        File.Delete(baseDir + "\\MSDNForum.xml");
                     }
                 }
                 if (filename == Forums.MSDNCHS.ToString())
                 {
                     isMSDNNeedDownload = true;
-                    if (File.Exists(AppDomain.CurrentDomain.BaseDirectory + "MSDNCHSForum.xml"))
+                    if (File.Exists(baseDir + "\\MSDNCHSForum.xml"))
                     {
-                        File.Delete(AppDomain.CurrentDomain.BaseDirectory + "MSDNCHSForum.xml");
+                        File.Delete(baseDir + "\\MSDNCHSForum.xml");
                     }
                 }
                 if (filename == Forums.TechNet.ToString())
                 {
                     isTechNetNeedDownload = true;
-                    if (File.Exists(AppDomain.CurrentDomain.BaseDirectory + "TechNetForum.xml"))
+                    if (File.Exists(baseDir + "\\TechNetForum.xml"))
                     {
-                        File.Delete(AppDomain.CurrentDomain.BaseDirectory + "TechNetForum.xml");
+                        File.Delete(baseDir + "\\TechNetForum.xml");
                     }
                 }
                 if (filename == Forums.TechNetCHS.ToString())
                 {
                     isTechNetNeedDownload = true;
-                    if (File.Exists(AppDomain.CurrentDomain.BaseDirectory + "TechNetCHSForum.xml"))
+                    if (File.Exists(baseDir + "\\TechNetCHSForum.xml"))
                     {
-                        File.Delete(AppDomain.CurrentDomain.BaseDirectory + "TechNetCHSForum.xml");
+                        File.Delete(baseDir + "\\TechNetCHSForum.xml");
                     }
                 }
                 CheckDownload(isMSDNNeedDownload, isTechNetNeedDownload);
@@ -464,9 +475,9 @@ namespace WpfForumList
             timer.Stop();
             string filepath = string.Empty;
             if (cbxMSDN.SelectedIndex == 0)
-                filepath = AppDomain.CurrentDomain.BaseDirectory + "MSDNForum.xml";
+                filepath = baseDir + "\\MSDNForum.xml";
             else
-                filepath = AppDomain.CurrentDomain.BaseDirectory + "MSDNCHSForum.xml";
+                filepath = baseDir + "\\MSDNCHSForum.xml";
 
             if (ChkMSDN.IsChecked == true && File.Exists(filepath))
             {
@@ -493,9 +504,9 @@ namespace WpfForumList
             }
 
             if (cbxTechNet.SelectedIndex == 0)
-                filepath = AppDomain.CurrentDomain.BaseDirectory + "TechNetForum.xml";
+                filepath = baseDir + "\\TechNetForum.xml";
             else
-                filepath = AppDomain.CurrentDomain.BaseDirectory + "TechNetCHSForum.xml";
+                filepath = baseDir + "\\TechNetCHSForum.xml";
 
             if (ChkTechNet.IsChecked == true && File.Exists(filepath))
             {
@@ -624,9 +635,9 @@ namespace WpfForumList
             string filepath = string.Empty;
 
             if (cbxMSDN.SelectedIndex == 0)
-                filepath = AppDomain.CurrentDomain.BaseDirectory + "MSDNForum.xml";
+                filepath = baseDir + "\\MSDNForum.xml";
             else
-                filepath = AppDomain.CurrentDomain.BaseDirectory + "MSDNCHSForum.xml";
+                filepath = baseDir + "\\MSDNCHSForum.xml";
 
             if (ChkMSDN.IsChecked == true && File.Exists(filepath))
             {
@@ -647,9 +658,9 @@ namespace WpfForumList
             }
 
             if (cbxTechNet.SelectedIndex == 0)
-                filepath = AppDomain.CurrentDomain.BaseDirectory + "TechNetForum.xml";
+                filepath = baseDir + "\\TechNetForum.xml";
             else
-                filepath = AppDomain.CurrentDomain.BaseDirectory + "TechNetCHSForum.xml";
+                filepath = baseDir + "\\TechNetCHSForum.xml";
 
             if (ChkTechNet.IsChecked == true && File.Exists(filepath))
             {
@@ -688,12 +699,7 @@ namespace WpfForumList
             }
         }
 
-        /// <summary>
-        /// MSDN ComboBox SelectionChanged
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void cbxMSDN_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void UpdateTVMSDNData()
         {
             if(cbxMSDN.SelectedIndex==0)
             {
@@ -704,13 +710,7 @@ namespace WpfForumList
                 UpdateTVMSDNCHSDataContextBinding();
             }
         }
-
-        /// <summary>
-        /// TechNet ComboBox SelectionChanged
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void cbxTechNet_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void UpdateTVTechNetData()
         {
             if (cbxTechNet.SelectedIndex == 0)
             {
@@ -722,6 +722,27 @@ namespace WpfForumList
             }
         }
 
+
+        /// <summary>
+        /// MSDN ComboBox SelectionChanged
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void cbxMSDN_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            UpdateTVMSDNData();
+        }
+
+        /// <summary>
+        /// TechNet ComboBox SelectionChanged
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void cbxTechNet_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            UpdateTVTechNetData();
+        }
+
         #endregion
 
         private void window_Loaded(object sender, RoutedEventArgs e)
@@ -729,6 +750,5 @@ namespace WpfForumList
             cbxMSDN.SelectionChanged+=cbxMSDN_SelectionChanged;
             cbxTechNet.SelectionChanged += cbxTechNet_SelectionChanged;
         }
-
     }
 }
