@@ -9,6 +9,11 @@ How to use it:
 3. Input Keyword and check MSDN or TechNet as you like, click "Search" button
 4. After a while, the appropriate nodes will be automatically expanded, the keywords will be highlighted, the number of results can display at the end of parent node
 
+What's New in Version 1.7:
+---------------------------
+1. Fix Bug: Application startup Path issue when launching from ShortCut
+2. Check updates from server
+
 What's New in Version 1.6:
 ---------------------------
 1. Fix Bug: Navigate to the Chinese Forum's issue
