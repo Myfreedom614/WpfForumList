@@ -22,20 +22,19 @@ What's New in Version 1.5:
 4. Add CHS forum
 5. Download logic optimization
 6. Fix Regex Bugs
---------------------------------------------------------------------------------------------------------
 
 What's New in Version 1.4:
 ---------------------------
 1. Add a converter to display total number
 2. Add Feedback hyperlink(Create E-mail in Outlook)
 3. Fix some bugs
---------------------------------------------------------------------------------------------------------
+
 
 What's New in Version 1.3:
 ---------------------------
 1. Remember window's size automatically
 2. Add two converters to optimize the display of results
---------------------------------------------------------------------------------------------------------
+
 
 What's New in Version 1.2:
 ---------------------------
@@ -43,7 +42,7 @@ What's New in Version 1.2:
 2. Double-click item to open link in the default web browser
 3. Add Copy command, press Ctrl + C to copy the hyperlink of a queue.
 4. After inputting keywords in the TextBox,  press Enter key to invoke Search function automatically.
---------------------------------------------------------------------------------------------------------
+
 
 
 Any issues, please feel free to let me know: v-frche@microsoft.com
