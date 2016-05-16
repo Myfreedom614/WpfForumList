@@ -1,0 +1,110 @@
+﻿<Window x:Class="WpfForumList.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:cv="clr-namespace:WpfForumList.Converters"
+        Title="Microsoft Forum List" 
+        xmlns:my="clr-namespace:WpfForumList.Extension"
+        Height="{my:SettingBinding Height}"
+        Width="{my:SettingBinding Width}"
+        Name="window" 
+        WindowStartupLocation="CenterScreen" Loaded="window_Loaded">
+    <Window.Resources>
+        <XmlDataProvider x:Key="MSDN" Source="MSDNForum.xml" XPath="select/optgroup" />
+        <XmlDataProvider x:Key="MSDNCHS" Source="MSDNCHSForum.xml" XPath="select/optgroup" />
+        <XmlDataProvider x:Key="TechNet" Source="TechNetForum.xml" XPath="select/optgroup" />
+        <XmlDataProvider x:Key="TechNetCHS" Source="TechNetCHSForum.xml" XPath="select/optgroup" />
+
+        <cv:QueueCountConverter x:Key="queueCountConverter" />
+        <cv:ForegroundConverter x:Key="foregroundConverter" />
+        <cv:TotalCountConverter x:Key="totalCountConverter" />
+    </Window.Resources>
+    
+    <Grid Name="grid1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition />
+            <RowDefinition Height="30" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <ComboBox Name="cbxMSDN" Margin="5,0,0,0" Width="Auto" Height="23" SelectedIndex="0" >
+                <ComboBoxItem>English</ComboBoxItem>
+                <ComboBoxItem>Chinese</ComboBoxItem>
+            </ComboBox>
+            <Label Content="MSDN Forums:" FontWeight="Bold" />
+            <Label Name="labelMSDN" Foreground="{Binding RelativeSource={RelativeSource Self}, Path=Content, Converter={StaticResource totalCountConverter}}" />
+        </StackPanel>
+        <TreeView x:Name="tv_MSDN" Grid.Row="1" DataContext="{StaticResource MSDN}"  ItemsSource="{Binding}">
+            <TreeView.CommandBindings>
+                <CommandBinding Command="ApplicationCommands.Copy" 
+                        Executed="copyCmdBinding_Executed"/>
+            </TreeView.CommandBindings>
+            <TreeView.ItemContainerStyle>
+                <Style TargetType="{x:Type TreeViewItem}">
+                    <EventSetter Event="MouseDoubleClick" Handler="OnMSDNTreeNodeDoubleClick"/>
+                </Style>
+            </TreeView.ItemContainerStyle>
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate >
+                    <HierarchicalDataTemplate.ItemsSource>
+                        <Binding XPath="child::*" />
+                    </HierarchicalDataTemplate.ItemsSource>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="5,0,0,0" Text="{Binding XPath=@label}" />
+                        <TextBlock Text="   " />
+                        <TextBlock Text="{Binding XPath=@count, Converter={StaticResource queueCountConverter}}" Foreground="{Binding XPath=@count, Converter={StaticResource foregroundConverter}}" />
+                    </StackPanel>
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+        </TreeView>
+        <StackPanel Orientation="Horizontal" Grid.Column="1" >
+            <ComboBox Name="cbxTechNet" Margin="5,0,0,0" Width="Auto" Height="23" SelectedIndex="0" >
+                <ComboBoxItem>English</ComboBoxItem>
+                <ComboBoxItem>Chinese</ComboBoxItem>
+            </ComboBox>
+            <Label Content="TechNet Forums:" FontWeight="Bold" />
+            <Label Name="labelTechNet" Foreground="{Binding RelativeSource={RelativeSource Self}, Path=Content, Converter={StaticResource totalCountConverter}}" />
+        </StackPanel>
+        
+        <TreeView x:Name="tv_TechNet" Grid.Row="1" Grid.Column="1" DataContext="{StaticResource TechNet}" ItemsSource="{Binding}">
+            <TreeView.CommandBindings>
+                <CommandBinding Command="ApplicationCommands.Copy" 
+                        Executed="copyCmdBinding_Executed"/>
+            </TreeView.CommandBindings>
+            <TreeView.ItemContainerStyle>
+                <Style TargetType="{x:Type TreeViewItem}">
+                    <EventSetter Event="MouseDoubleClick" Handler="OnTechNetTreeNodeDoubleClick"/>
+                </Style>
+            </TreeView.ItemContainerStyle>
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate >
+                    <HierarchicalDataTemplate.ItemsSource>
+                        <Binding XPath="child::*" />
+                    </HierarchicalDataTemplate.ItemsSource>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Margin="5,0,0,0" Text="{Binding XPath=@label}" />
+                        <TextBlock Text="   " />
+                        <TextBlock Text="{Binding XPath=@count, Converter={StaticResource queueCountConverter}}" Foreground="{Binding XPath=@count, Converter={StaticResource foregroundConverter}}" />
+                    </StackPanel>
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+        </TreeView>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Grid.ColumnSpan="2" >
+            <Label Content="Keyword:" />
+            <TextBox Width="100" Margin="0,5,0,5" Name="TxtSearchText" ToolTip="Input keywords" KeyDown="TxtSearchText_KeyDown" />
+            <Button Content="Search" Margin="10,5,0,5" Name="BtnSearchText" Click="BtnSearchText_Click" />
+            <CheckBox Name="ChkMSDN" Margin="10,0,0,0" VerticalAlignment="Center" Content="MSDN" IsChecked="True" />
+            <CheckBox Name="ChkTechNet" Margin="10,0,0,0" VerticalAlignment="Center" Content="TechNet" />
+        </StackPanel>
+
+        <TextBlock Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,10,0" ToolTip="Click Here to Send Feedback To Franklin Chen">
+                <Hyperlink NavigateUri="" RequestNavigate="Hyperlink_RequestNavigate">
+                    Send Feedback to Franklin :)
+                </Hyperlink>
+        </TextBlock>
+    </Grid>
+</Window>

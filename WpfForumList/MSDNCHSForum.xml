@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<select id="CategoryOptionList" name="forum" class="CategoryOptionList" size="20" style="width: 100%;">
+
+  <optgroup label=".NET 开发">
+
+    <option label=".NET Framework 一般性问题讨论区" title=".NET Framework 一般性问题讨论区" value="2212">
+      .NET Framework 一般性问题讨论区
+    </option>
+
+    <option label="ADO.NET 与 LINQ" title="ADO.NET 与 LINQ" value="adonetzhchs">
+      ADO.NET 与 LINQ
+    </option>
+
+    <option label="Windows Communication Foundation" title="Windows Communication Foundation" value="wcfzhchs">
+      Windows Communication Foundation
+    </option>
+
+    <option label="Windows Presentation Foundation" title="Windows Presentation Foundation" value="wpfzhchs">
+      Windows Presentation Foundation
+    </option>
+
+    <option label="Windows Workflow Foundation" title="Windows Workflow Foundation" value="wwfzhchs">
+      Windows Workflow Foundation
+    </option>
+
+    <option label="XML 与 Web Services 讨论区" title="XML 与 Web Services 讨论区" value="xmlwebserviceszhchs">
+      XML 与 Web Services 讨论区
+    </option>
+
+  </optgroup>
+
+  <optgroup label="Kinect for Windows SDK">
+
+    <option label="Kinect for Windows 开发" title="Kinect for Windows 开发" value="k4wdevelopment">
+      Kinect for Windows 开发
+    </option>
+
+  </optgroup>
+
+  <optgroup label="Microsoft Azure">
+
+    <option label="MySQL Database on Azure" title="MySQL Database on Azure" value="AzureMySQLRDS">
+      MySQL Database on Azure
+    </option>
+
+    <option label="微软云Azure开发讨论区" title="微软云Azure开发讨论区" value="windowsazurezhchs">
+      微软云Azure开发讨论区
+    </option>
+
+  </optgroup>
+
+  <optgroup label="Visual Studio Development">
+
+    <option label="Visual Basic" title="Visual Basic" value="vbasiczhchs">
+      Visual Basic
+    </option>
+
+    <option label="Visual C#" title="Visual C#" value="visualcshartzhchs">
+      Visual C#
+    </option>
+
+    <option label="Visual C++" title="Visual C++" value="visualcpluszhchs">
+      Visual C++
+    </option>
+
+    <option label="Visual Studio 2010" title="Visual Studio 2010" value="visualstudio2010zhchs">
+      Visual Studio 2010
+    </option>
+
+    <option label="Visual Studio 2012 讨论区" title="Visual Studio 2012 讨论区" value="visualstudio2012zhcn">
+      Visual Studio 2012 讨论区
+    </option>
+
+    <option label="Visual Studio 相关讨论" title="Visual Studio 相关讨论" value="vstudiozhchs">
+      Visual Studio 相关讨论
+    </option>
+
+    <option label="微软敏捷软件开发与TFS (Team Foundation Server）" title="微软敏捷软件开发与TFS (Team Foundation Server）" value="vstszhchs">
+      微软敏捷软件开发与TFS (Team Foundation Server）
+    </option>
+
+  </optgroup>
+
+  <optgroup label="Web 技术">
+
+    <option label="ASP.NET 与 AJAX" title="ASP.NET 与 AJAX" value="295">
+      ASP.NET 与 AJAX
+    </option>
+
+    <option label="Silverlight 技术" title="Silverlight 技术" value="silverlightzhchs">
+      Silverlight 技术
+    </option>
+
+    <option label="Web开发, 微软浏览器IE相关讨论 (IIS，IE8，IE9，IE10，IE11等)  " title="Web开发, 微软浏览器IE相关讨论 (IIS，IE8，IE9，IE10，IE11等)  " value="267">
+      Web开发, 微软浏览器IE相关讨论 (IIS，IE8，IE9，IE10，IE11等)
+    </option>
+
+  </optgroup>
+
+  <optgroup label="Webcast 网络广播">
+
+    <option label="MSDN Webcast" title="MSDN Webcast" value="msdnwebcastzhchs">
+      MSDN Webcast
+    </option>
+
+  </optgroup>
+
+  <optgroup label="Windows 10技术">
+
+    <option label="Windows 10 通用应用开发及Web App技术讨论区" title="Windows 10 通用应用开发及Web App技术讨论区" value="window10app">
+      Windows 10 通用应用开发及Web App技术讨论区
+    </option>
+
+    <option label="Windows应用商店技术讨论区" title="Windows应用商店技术讨论区" value="winstoreappzhcn">
+      Windows应用商店技术讨论区
+    </option>
+
+  </optgroup>
+
+  <optgroup label="Windows Client">
+
+    <option label="Windows硬件开发者论坛(包含WHQL测试)" title="Windows硬件开发者论坛(包含WHQL测试)" value="2150">
+      Windows硬件开发者论坛(包含WHQL测试)
+    </option>
+
+  </optgroup>
+
+  <optgroup label="Windows Embedded 嵌入式技术">
+
+    <option label=".NET Micro Framework" title=".NET Micro Framework" value="microframeworkzhchs">
+      .NET Micro Framework
+    </option>
+
+    <option label="Windows Embedded CE" title="Windows Embedded CE" value="windowsembeddedcezhchs">
+      Windows Embedded CE
+    </option>
+
+    <option label="Windows Embedded Standard 7 (嵌入式Windows 7)" title="Windows Embedded Standard 7 (嵌入式Windows 7)" value="windowsembeddedstandardzhcn">
+      Windows Embedded Standard 7 (嵌入式Windows 7)
+    </option>
+
+    <option label="Windows XP Embedded and Windows Embedded Standard 2009 (嵌入式Windows XP)" title="Windows XP Embedded and Windows Embedded Standard 2009 (嵌入式Windows XP)" value="windowsxpembeddedzhchs">
+      Windows XP Embedded and Windows Embedded Standard 2009 (嵌入式Windows XP)
+    </option>
+
+  </optgroup>
+
+  <optgroup label="Windows Phone">
+
+    <option label="Windows Phone Dev Center 论坛" title="Windows Phone Dev Center 论坛" value="wpdevzh">
+      Windows Phone Dev Center 论坛
+    </option>
+
+    <option label="Windows Phone 技术开发" title="Windows Phone 技术开发" value="wpappszh">
+      Windows Phone 技术开发
+    </option>
+
+  </optgroup>
+
+  <optgroup label="Windows 移动设备">
+
+    <option label="Windows Mobile 开发" title="Windows Mobile 开发" value="1729">
+      Windows Mobile 开发
+    </option>
+
+    <option label="Windows Phone 开发" title="Windows Phone 开发" value="windowsphonezhchs">
+      Windows Phone 开发
+    </option>
+
+    <option label="Windows Phone 用户" title="Windows Phone 用户" value="windowsmobilezhchs">
+      Windows Phone 用户
+    </option>
+
+  </optgroup>
+
+  <optgroup label="沟通与协作 Business Productivity">
+
+    <option label="SharePoint、Web Part、WSS 开发" title="SharePoint、Web Part、WSS 开发" value="sharepointwebpartzhchs">
+      SharePoint、Web Part、WSS 开发
+    </option>
+
+  </optgroup>
+
+  <optgroup label="活动专区">
+
+    <option label="“微软–摩根士丹利杯”2011金融超级计算挑战赛 " title="“微软–摩根士丹利杯”2011金融超级计算挑战赛 " value="WindowsHPCServer">
+      “微软–摩根士丹利杯”2011金融超级计算挑战赛
+    </option>
+
+    <option label="微软MSDN中文网站用户意见建议反馈专区" title="微软MSDN中文网站用户意见建议反馈专区" value="msdncn">
+      微软MSDN中文网站用户意见建议反馈专区
+    </option>
+
+    <option label="微软MVP社区巡讲活动专属讨论区 | 微软MSDN论坛五周年庆祝活动专属讨论区" title="微软MVP社区巡讲活动专属讨论区 | 微软MSDN论坛五周年庆祝活动专属讨论区" value="1693">
+      微软MVP社区巡讲活动专属讨论区 | 微软MSDN论坛五周年庆祝活动专属讨论区
+    </option>
+
+    <option label="微软学生讨论专区" title="微软学生讨论专区" value="studentzhchs">
+      微软学生讨论专区
+    </option>
+
+  </optgroup>
+
+  <optgroup label="论坛建议和管理">
+
+    <option label="MSDN版主私有论坛" title="MSDN版主私有论坛" value="moderatorszhchs">
+      MSDN版主私有论坛
+    </option>
+
+    <option label="论坛最新消息公告" title="论坛最新消息公告" value="1691">
+      论坛最新消息公告
+    </option>
+
+    <option label="新人入坛指南" title="新人入坛指南" value="1897">
+      新人入坛指南
+    </option>
+
+    <option label="站务交流" title="站务交流" value="1692">
+      站务交流
+    </option>
+
+  </optgroup>
+
+  <optgroup label="企业应用平台 Enterprise Application Platform">
+
+    <option label="SQL Server" title="SQL Server" value="sqlserverzhchs">
+      SQL Server
+    </option>
+
+  </optgroup>
+
+  <optgroup label="综合讨论区">
+
+    <option label="微软一站式示例代码库" title="微软一站式示例代码库" value="codezhchs">
+      微软一站式示例代码库
+    </option>
+
+    <option label="一般性问题讨论区" title="一般性问题讨论区" value="1761">
+      一般性问题讨论区
+    </option>
+
+  </optgroup>
+
+</select>

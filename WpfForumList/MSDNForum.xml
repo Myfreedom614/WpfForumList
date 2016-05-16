@@ -1,0 +1,1924 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<select id="CategoryOptionList" name="forum" class="CategoryOptionList" size="20" style="width: 100%;">
+    
+        <optgroup label=".NET Framework">
+            
+                <option label=".NET Framework Class Libraries" title=".NET Framework Class Libraries" value="netfxbcl">
+                    .NET Framework Class Libraries
+                </option>
+            
+                <option label=".NET Framework Setup and Servicing" title=".NET Framework Setup and Servicing" value="netfxsetup">
+                    .NET Framework Setup and Servicing
+                </option>
+            
+                <option label=".NET Native Preview" title=".NET Native Preview" value="dotnetnative">
+                    .NET Native Preview
+                </option>
+            
+                <option label=".NET StockTrader Sample Application" title=".NET StockTrader Sample Application" value="dotnetstocktradersampleapplication">
+                    .NET StockTrader Sample Application
+                </option>
+            
+                <option label="AppFabric Caching" title="AppFabric Caching" value="velocity">
+                    AppFabric Caching
+                </option>
+            
+                <option label="Chart Controls for .NET Framework" title="Chart Controls for .NET Framework" value="MSWinWebChart">
+                    Chart Controls for .NET Framework
+                </option>
+            
+                <option label="Claims based access platform (CBA), code-named Geneva" title="Claims based access platform (CBA), code-named Geneva" value="Geneva">
+                    Claims based access platform (CBA), code-named Geneva
+                </option>
+            
+                <option label="Common Language Runtime Internals and Architecture" title="Common Language Runtime Internals and Architecture" value="clr">
+                    Common Language Runtime Internals and Architecture
+                </option>
+            
+                <option label="JScript for the .NET Framework" title="JScript for the .NET Framework" value="netfxjscript">
+                    JScript for the .NET Framework
+                </option>
+            
+                <option label="Parallel Programming with the .NET Framework" title="Parallel Programming with the .NET Framework" value="parallelextensions">
+                    Parallel Programming with the .NET Framework
+                </option>
+            
+                <option label="POS for .NET" title="POS for .NET" value="posfordotnet">
+                    POS for .NET
+                </option>
+            
+                <option label="Visual Basic" title="Visual Basic" value="vbgeneral">
+                    Visual Basic
+                </option>
+            
+                <option label="Visual C# " title="Visual C# " value="csharpgeneral">
+                    Visual C# 
+                </option>
+            
+                <option label="Windows Communication Foundation, Serialization, and Networking" title="Windows Communication Foundation, Serialization, and Networking" value="wcf">
+                    Windows Communication Foundation, Serialization, and Networking
+                </option>
+            
+                <option label="Windows Presentation Foundation (WPF)" title="Windows Presentation Foundation (WPF)" value="wpf">
+                    Windows Presentation Foundation (WPF)
+                </option>
+            
+                <option label="Windows Workflow Foundation" title="Windows Workflow Foundation" value="wfprerelease">
+                    Windows Workflow Foundation
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Administrators and Moderators">
+            
+                <option label="Moderator’s Forum" title="Moderator’s Forum" value="Msdnmod">
+                    Moderator’s Forum
+                </option>
+            
+                <option label="MSDN Moderators Sandbox" title="MSDN Moderators Sandbox" value="msdnmodsandbox">
+                    MSDN Moderators Sandbox
+                </option>
+            
+                <option label="MSDN Moderators Sandbox NEW" title="MSDN Moderators Sandbox NEW" value="msdnmodsandboxnew">
+                    MSDN Moderators Sandbox NEW
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Apps for Office and SharePoint">
+            
+                <option label="Developing Apps for Office 2013" title="Developing Apps for Office 2013" value="appsforoffice">
+                    Developing Apps for Office 2013
+                </option>
+            
+                <option label="Developing Apps for SharePoint 2013" title="Developing Apps for SharePoint 2013" value="appsforsharepoint">
+                    Developing Apps for SharePoint 2013
+                </option>
+            
+                <option label="Publishing Apps for the Office Store" title="Publishing Apps for the Office Store" value="officestore">
+                    Publishing Apps for the Office Store
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Architecture">
+            
+                <option label="Architecture General" title="Architecture General" value="architecturegeneral">
+                    Architecture General
+                </option>
+            
+                <option label="Software Modeling Tools" title="Software Modeling Tools" value="modelingandtools">
+                    Software Modeling Tools
+                </option>
+            
+                <option label="The Architect Role" title="The Architect Role" value="architect">
+                    The Architect Role
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Archived Forums A-B">
+            
+                <option label="ADO.NET Entity Framework and LINQ to Entities (Pre-Release)" title="ADO.NET Entity Framework and LINQ to Entities (Pre-Release)" value="adonetefx">
+                    ADO.NET Entity Framework and LINQ to Entities (Pre-Release)
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Archived Forums E-H">
+            
+                <option label="Git, Mercurial and Dropbox Deployment to Azure" title="Git, Mercurial and Dropbox Deployment to Azure" value="azuregit">
+                    Git, Mercurial and Dropbox Deployment to Azure
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Archived Forums I-L">
+            
+                <option label="Innovate on Office" title="Innovate on Office" value="innovateonoffice">
+                    Innovate on Office
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Archived Forums M">
+            
+                <option label="Microsoft Unified Communications Client SDK" title="Microsoft Unified Communications Client SDK" value="ucclientsdk">
+                    Microsoft Unified Communications Client SDK
+                </option>
+            
+                <option label="Moderator Only Forum Sandbox" title="Moderator Only Forum Sandbox" value="ModeratorForumSandbox">
+                    Moderator Only Forum Sandbox
+                </option>
+            
+                <option label="Moderator Posting Only Forum Sandbox" title="Moderator Posting Only Forum Sandbox" value="ModeratorPostingSandbox">
+                    Moderator Posting Only Forum Sandbox
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Archived Forums SA-SM">
+            
+                <option label="Silverlight (formerly WPF/E) Developer Issues" title="Silverlight (formerly WPF/E) Developer Issues" value="silverlightdeveloper">
+                    Silverlight (formerly WPF/E) Developer Issues
+                </option>
+            
+                <option label="Silverlight (formerly WPF/E) General Discussion" title="Silverlight (formerly WPF/E) General Discussion" value="silverlightgeneral">
+                    Silverlight (formerly WPF/E) General Discussion
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Archived Forums SN-SZ">
+            
+                <option label="SQL Azure Labs Support" title="SQL Azure Labs Support" value="sqlazurelabssupport">
+                    SQL Azure Labs Support
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Bing">
+            
+                <option label="App Linking" title="App Linking" value="applinking">
+                    App Linking
+                </option>
+            
+                <option label="Speech Service for Developers" title="Speech Service for Developers" value="SpeechService">
+                    Speech Service for Developers
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Bing Ads API: Development">
+            
+                <option label="Bing Ads API: Development" title="Bing Ads API: Development" value="BingAds">
+                    Bing Ads API: Development
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Bing Maps">
+            
+                <option label="Bing Maps AJAX Controls" title="Bing Maps AJAX Controls" value="bingmapsajax">
+                    Bing Maps AJAX Controls
+                </option>
+            
+                <option label="Bing Maps for Windows Store apps " title="Bing Maps for Windows Store apps " value="bingmapswindows8">
+                    Bing Maps for Windows Store apps 
+                </option>
+            
+                <option label="Bing Maps General" title="Bing Maps General" value="bingmaps">
+                    Bing Maps General
+                </option>
+            
+                <option label="Bing Maps REST, SOAP, Spatial Data Services" title="Bing Maps REST, SOAP, Spatial Data Services" value="bingmapsservices">
+                    Bing Maps REST, SOAP, Spatial Data Services
+                </option>
+            
+                <option label="Bing Maps Silverlight, WPF, WP7" title="Bing Maps Silverlight, WPF, WP7" value="bingmapssilverlightwpfcontrols">
+                    Bing Maps Silverlight, WPF, WP7
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="BizTalk Server">
+            
+                <option label="BizTalk ESB Toolkit" title="BizTalk ESB Toolkit" value="biztalkesb">
+                    BizTalk ESB Toolkit
+                </option>
+            
+                <option label="BizTalk Server Adapters and Adapter Pack" title="BizTalk Server Adapters and Adapter Pack" value="biztalkr2adapters">
+                    BizTalk Server Adapters and Adapter Pack
+                </option>
+            
+                <option label="BizTalk Server EDI and AS2" title="BizTalk Server EDI and AS2" value="biztalkediandas2">
+                    BizTalk Server EDI and AS2
+                </option>
+            
+                <option label="BizTalk Server General" title="BizTalk Server General" value="biztalkgeneral">
+                    BizTalk Server General
+                </option>
+            
+                <option label="BizTalk Server RFID" title="BizTalk Server RFID" value="biztalkrfid">
+                    BizTalk Server RFID
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Commerce Server">
+            
+                <option label="Commerce Server 2007" title="Commerce Server 2007" value="commserver2007">
+                    Commerce Server 2007
+                </option>
+            
+                <option label="Commerce Server 2009" title="Commerce Server 2009" value="commserver2009">
+                    Commerce Server 2009
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Data Platform Development">
+            
+                <option label="ADO.NET DataSet" title="ADO.NET DataSet" value="adodotnetdataset">
+                    ADO.NET DataSet
+                </option>
+            
+                <option label="ADO.NET Entity Framework and LINQ to Entities" title="ADO.NET Entity Framework and LINQ to Entities" value="adodotnetentityframework">
+                    ADO.NET Entity Framework and LINQ to Entities
+                </option>
+            
+                <option label="ADO.NET Managed Providers" title="ADO.NET Managed Providers" value="adodotnetdataproviders">
+                    ADO.NET Managed Providers
+                </option>
+            
+                <option label="LINQ to SQL" title="LINQ to SQL" value="linqtosql">
+                    LINQ to SQL
+                </option>
+            
+                <option label="Reactive Extensions (Rx)" title="Reactive Extensions (Rx)" value="rx">
+                    Reactive Extensions (Rx)
+                </option>
+            
+                <option label="WCF Data Services" title="WCF Data Services" value="adodotnetdataservices">
+                    WCF Data Services
+                </option>
+            
+                <option label="XML, System.Xml, MSXML and XmlLite" title="XML, System.Xml, MSXML and XmlLite" value="xmlandnetfx">
+                    XML, System.Xml, MSXML and XmlLite
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Data Platform Development (Pre-release)">
+            
+                <option label="Microsoft Live Labs Volta" title="Microsoft Live Labs Volta" value="livelabsvolta">
+                    Microsoft Live Labs Volta
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Development">
+            
+                <option label="Developing for the Mobile Device Management Protocol  " title="Developing for the Mobile Device Management Protocol  " value="developingmdmsolutions">
+                    Developing for the Mobile Device Management Protocol  
+                </option>
+            
+                <option label="Known Issues for Windows 10 SDK and Tools" title="Known Issues for Windows 10 SDK and Tools" value="Win10SDKToolsIssues">
+                    Known Issues for Windows 10 SDK and Tools
+                </option>
+            
+                <option label="MSDN Magazine" title="MSDN Magazine" value="msdnmagazine">
+                    MSDN Magazine
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="DevLabs">
+            
+                <option label="Code Contracts" title="Code Contracts" value="codecontracts">
+                    Code Contracts
+                </option>
+            
+                <option label="Debugger Canvas" title="Debugger Canvas" value="debuggercanvas">
+                    Debugger Canvas
+                </option>
+            
+                <option label="Microsoft Solver Foundation" title="Microsoft Solver Foundation" value="solverfoundation">
+                    Microsoft Solver Foundation
+                </option>
+            
+                <option label="The Forum of Sho" title="The Forum of Sho" value="theforumofsho">
+                    The Forum of Sho
+                </option>
+            
+                <option label="TPL Dataflow" title="TPL Dataflow" value="tpldataflow">
+                    TPL Dataflow
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Dynamics">
+            
+                <option label="CRM" title="CRM" value="crm">
+                    CRM
+                </option>
+            
+                <option label="CRM Deployment" title="CRM Deployment" value="crmdeployment">
+                    CRM Deployment
+                </option>
+            
+                <option label="CRM Development" title="CRM Development" value="crmdevelopment">
+                    CRM Development
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Exchange Server">
+            
+                <option label="Exchange Server Development" title="Exchange Server Development" value="exchangesvrdevelopment">
+                    Exchange Server Development
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Expression">
+            
+                <option label="Expression Blend + SketchFlow" title="Expression Blend + SketchFlow" value="blend">
+                    Expression Blend + SketchFlow
+                </option>
+            
+                <option label="Expression Design" title="Expression Design" value="design">
+                    Expression Design
+                </option>
+            
+                <option label="Expression Encoder" title="Expression Encoder" value="encoder">
+                    Expression Encoder
+                </option>
+            
+                <option label="Expression Web and SuperPreview" title="Expression Web and SuperPreview" value="web">
+                    Expression Web and SuperPreview
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Feedback and Discussions">
+            
+                <option label="MSDN and TechNet Search Feedback" title="MSDN and TechNet Search Feedback" value="SearchFeedback">
+                    MSDN and TechNet Search Feedback
+                </option>
+            
+                <option label="MSDN Subscriptions Feedback" title="MSDN Subscriptions Feedback" value="msdnfeedback">
+                    MSDN Subscriptions Feedback
+                </option>
+            
+                <option label="MSDN, TechNet and Expression Library Feedback" title="MSDN, TechNet and Expression Library Feedback" value="libraryfeedback">
+                    MSDN, TechNet and Expression Library Feedback
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="HealthVault">
+            
+                <option label="HealthVault Developer" title="HealthVault Developer" value="healthvault">
+                    HealthVault Developer
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="In-App Advertising (Ads-In-Apps)">
+            
+                <option label="Ad Revenue, Payout &amp; Taxes" title="Ad Revenue, Payout &amp; Taxes" value="aiarev">
+                    Ad Revenue, Payout &amp; Taxes
+                </option>
+            
+                <option label="AdSDK Integration &amp; Ad Mediation" title="AdSDK Integration &amp; Ad Mediation" value="aiasdk">
+                    AdSDK Integration &amp; Ad Mediation
+                </option>
+            
+                <option label="App &amp; Ad Unit Management" title="App &amp; Ad Unit Management" value="aiamgr">
+                    App &amp; Ad Unit Management
+                </option>
+            
+                <option label="Promote Your App" title="Promote Your App" value="aiaads">
+                    Promote Your App
+                </option>
+            
+                <option label="Reporting" title="Reporting" value="aiabi">
+                    Reporting
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Internet Explorer Development">
+            
+                <option label="Internet Explorer Extension Development" title="Internet Explorer Extension Development" value="ieextensiondevelopment">
+                    Internet Explorer Extension Development
+                </option>
+            
+                <option label="Internet Explorer Web Development" title="Internet Explorer Web Development" value="iewebdevelopment">
+                    Internet Explorer Web Development
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Internet of Things">
+            
+                <option label="Windows IoT" title="Windows IoT" value="WindowsIoT">
+                    Windows IoT
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="JScript and Scripting">
+            
+                <option label="JScript Native" title="JScript Native" value="jscript">
+                    JScript Native
+                </option>
+            
+                <option label="Scripting" title="Scripting" value="scripting">
+                    Scripting
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Kinect for Windows SDKs">
+            
+                <option label="Kinect for Windows v1 SDK" title="Kinect for Windows v1 SDK" value="kinectsdk">
+                    Kinect for Windows v1 SDK
+                </option>
+            
+                <option label="Kinect for Windows v2 SDK" title="Kinect for Windows v2 SDK" value="kinectv2sdk">
+                    Kinect for Windows v2 SDK
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Learning">
+            
+                <option label="Small Basic" title="Small Basic" value="smallbasic">
+                    Small Basic
+                </option>
+            
+                <option label="Training and Certification" title="Training and Certification" value="CertGeneral">
+                    Training and Certification
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Lync Server">
+            
+                <option label="Microsoft Lync Client Development" title="Microsoft Lync Client Development" value="communicatorsdk">
+                    Microsoft Lync Client Development
+                </option>
+            
+                <option label="Microsoft Lync Persistent Chat Server SDK" title="Microsoft Lync Persistent Chat Server SDK" value="lyncpersistentcssdk">
+                    Microsoft Lync Persistent Chat Server SDK
+                </option>
+            
+                <option label="Microsoft Lync Server SDK and Office Communications Server SDK" title="Microsoft Lync Server SDK and Office Communications Server SDK" value="communicationsserversdk">
+                    Microsoft Lync Server SDK and Office Communications Server SDK
+                </option>
+            
+                <option label="Microsoft Unified Communications Managed API SDK" title="Microsoft Unified Communications Managed API SDK" value="ucmanagedsdk">
+                    Microsoft Unified Communications Managed API SDK
+                </option>
+            
+                <option label="Microsoft Unified Communications Web API" title="Microsoft Unified Communications Web API" value="ucwebapi">
+                    Microsoft Unified Communications Web API
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Machine Translation and Language Tools">
+            
+                <option label="Microsoft Translator Developer &amp; Web Master Support" title="Microsoft Translator Developer &amp; Web Master Support" value="microsofttranslator">
+                    Microsoft Translator Developer &amp; Web Master Support
+                </option>
+            
+                <option label="Microsoft Translator Hub Forum" title="Microsoft Translator Hub Forum" value="translatorhub">
+                    Microsoft Translator Hub Forum
+                </option>
+            
+                <option label="Microsoft Translator User Forum (Including Bing Translator)" title="Microsoft Translator User Forum (Including Bing Translator)" value="translator">
+                    Microsoft Translator User Forum (Including Bing Translator)
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Maps In Windows">
+            
+                <option label="Maps In Windows - APIs" title="Maps In Windows - APIs" value="MapsInWindows">
+                    Maps In Windows - APIs
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Microsoft Atlas API: Development">
+            
+                <option label="Microsoft Atlas APIs: Development" title="Microsoft Atlas APIs: Development" value="msatlasapidev">
+                    Microsoft Atlas APIs: Development
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Microsoft Azure">
+            
+                <option label="Azure Active Directory" title="Azure Active Directory" value="WindowsAzureAD">
+                    Azure Active Directory
+                </option>
+            
+                <option label="Azure API Management" title="Azure API Management" value="azureapimgmt">
+                    Azure API Management
+                </option>
+            
+                <option label="Azure App Service - Web Apps" title="Azure App Service - Web Apps" value="windowsazurewebsitespreview">
+                    Azure App Service - Web Apps
+                </option>
+            
+                <option label="Azure App Service API Apps Public Preview" title="Azure App Service API Apps Public Preview" value="AzureAPIApps">
+                    Azure App Service API Apps Public Preview
+                </option>
+            
+                <option label="Azure Automation" title="Azure Automation" value="azureautomation">
+                    Azure Automation
+                </option>
+            
+                <option label="Azure Backup" title="Azure Backup" value="windowsazureonlinebackup">
+                    Azure Backup
+                </option>
+            
+                <option label="Azure Batch" title="Azure Batch" value="azurebatch">
+                    Azure Batch
+                </option>
+            
+                <option label="Azure BizTalk Services" title="Azure BizTalk Services" value="azurebiztalksvcs">
+                    Azure BizTalk Services
+                </option>
+            
+                <option label="Azure Cache" title="Azure Cache" value="azurecache">
+                    Azure Cache
+                </option>
+            
+                <option label="Azure CDN" title="Azure CDN" value="azurecdn">
+                    Azure CDN
+                </option>
+            
+                <option label="Azure Data Catalog" title="Azure Data Catalog" value="azuredatacatalog">
+                    Azure Data Catalog
+                </option>
+            
+                <option label="Azure Data Factory" title="Azure Data Factory" value="AzureDataFactory">
+                    Azure Data Factory
+                </option>
+            
+                <option label="Azure DocumentDB" title="Azure DocumentDB" value="AzureDocumentDB">
+                    Azure DocumentDB
+                </option>
+            
+                <option label="Azure HDInsight" title="Azure HDInsight" value="hdinsight">
+                    Azure HDInsight
+                </option>
+            
+                <option label="Azure Key Vault" title="Azure Key Vault" value="AzureKeyVault">
+                    Azure Key Vault
+                </option>
+            
+                <option label="Azure Logic Apps" title="Azure Logic Apps" value="azurelogicapps">
+                    Azure Logic Apps
+                </option>
+            
+                <option label="Azure Management Portal" title="Azure Management Portal" value="windowsazuremanagement">
+                    Azure Management Portal
+                </option>
+            
+                <option label="Azure Marketplace" title="Azure Marketplace" value="DataMarket">
+                    Azure Marketplace
+                </option>
+            
+                <option label="Azure Media Services" title="Azure Media Services" value="MediaServices">
+                    Azure Media Services
+                </option>
+            
+                <option label="Azure Mobile Engagement" title="Azure Mobile Engagement" value="azuremobileengagement">
+                    Azure Mobile Engagement
+                </option>
+            
+                <option label="Azure Mobile Services" title="Azure Mobile Services" value="azuremobile">
+                    Azure Mobile Services
+                </option>
+            
+                <option label="Azure Multi-Factor Authentication" title="Azure Multi-Factor Authentication" value="windowsazureactiveauthentication">
+                    Azure Multi-Factor Authentication
+                </option>
+            
+                <option label="Azure Networking (DNS, Traffic Manager, VPN, VNET)" title="Azure Networking (DNS, Traffic Manager, VPN, VNET)" value="WAVirtualMachinesVirtualNetwork">
+                    Azure Networking (DNS, Traffic Manager, VPN, VNET)
+                </option>
+            
+                <option label="Azure Notification Hubs" title="Azure Notification Hubs" value="notificationhubs">
+                    Azure Notification Hubs
+                </option>
+            
+                <option label="Azure Operational Insights" title="Azure Operational Insights" value="opinsights">
+                    Azure Operational Insights
+                </option>
+            
+                <option label="Azure Pack" title="Azure Pack" value="windowsazurepack">
+                    Azure Pack
+                </option>
+            
+                <option label="Azure RemoteApp" title="Azure RemoteApp" value="AzureRemoteApp">
+                    Azure RemoteApp
+                </option>
+            
+                <option label="Azure Scheduler" title="Azure Scheduler" value="azurescheduler">
+                    Azure Scheduler
+                </option>
+            
+                <option label="Azure Scripting and Command Line Tools" title="Azure Scripting and Command Line Tools" value="azurescripting">
+                    Azure Scripting and Command Line Tools
+                </option>
+            
+                <option label="Azure Search" title="Azure Search" value="azuresearch">
+                    Azure Search
+                </option>
+            
+                <option label="Azure Service Fabric" title="Azure Service Fabric" value="AzureServiceFabric">
+                    Azure Service Fabric
+                </option>
+            
+                <option label="Azure SQL Data Warehouse" title="Azure SQL Data Warehouse" value="AzureSQLDataWarehouse">
+                    Azure SQL Data Warehouse
+                </option>
+            
+                <option label="Azure SQL Database" title="Azure SQL Database" value="ssdsgetstarted">
+                    Azure SQL Database
+                </option>
+            
+                <option label="Azure Storage" title="Azure Storage" value="windowsazuredata">
+                    Azure Storage
+                </option>
+            
+                <option label="Azure Stream Analytics" title="Azure Stream Analytics" value="AzureStreamAnalytics">
+                    Azure Stream Analytics
+                </option>
+            
+                <option label="Azure Virtual Machines" title="Azure Virtual Machines" value="WAVirtualMachinesforWindows">
+                    Azure Virtual Machines
+                </option>
+            
+                <option label="Cloud Services (Web and Worker Roles)" title="Cloud Services (Web and Worker Roles)" value="windowsazuredevelopment">
+                    Cloud Services (Web and Worker Roles)
+                </option>
+            
+                <option label="Language Understanding Intelligent Service (LUIS)" title="Language Understanding Intelligent Service (LUIS)" value="LUIS">
+                    Language Understanding Intelligent Service (LUIS)
+                </option>
+            
+                <option label="Machine Learning" title="Machine Learning" value="MachineLearning">
+                    Machine Learning
+                </option>
+            
+                <option label="Microsoft Azure Site Recovery" title="Microsoft Azure Site Recovery" value="hypervrecovmgr">
+                    Microsoft Azure Site Recovery
+                </option>
+            
+                <option label="Pricing &amp; Billing" title="Pricing &amp; Billing" value="windowsazurepurchasing">
+                    Pricing &amp; Billing
+                </option>
+            
+                <option label="Project Oxford" title="Project Oxford" value="mlapi">
+                    Project Oxford
+                </option>
+            
+                <option label="Service Bus" title="Service Bus" value="servbus">
+                    Service Bus
+                </option>
+            
+                <option label="StorSimple" title="StorSimple" value="StorSimple">
+                    StorSimple
+                </option>
+            
+                <option label="Visual Studio Online" title="Visual Studio Online" value="TFService">
+                    Visual Studio Online
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Microsoft ISV Community Center">
+            
+                <option label="ISV Open Discussions" title="ISV Open Discussions" value="isv">
+                    ISV Open Discussions
+                </option>
+            
+                <option label="Partnering with Microsoft" title="Partnering with Microsoft" value="isvpartneringwithmsft">
+                    Partnering with Microsoft
+                </option>
+            
+                <option label="Visual Basic for Applications (VBA)" title="Visual Basic for Applications (VBA)" value="isvvba">
+                    Visual Basic for Applications (VBA)
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Microsoft Office for Developers">
+            
+                <option label="Access for Developers" title="Access for Developers" value="accessdev">
+                    Access for Developers
+                </option>
+            
+                <option label="Developing Apps for Office 2013" title="Developing Apps for Office 2013" value="appsforoffice">
+                    Developing Apps for Office 2013
+                </option>
+            
+                <option label="Excel for Developers" title="Excel for Developers" value="exceldev">
+                    Excel for Developers
+                </option>
+            
+                <option label="General Office Development" title="General Office Development" value="officegeneral">
+                    General Office Development
+                </option>
+            
+                <option label="Open XML Format SDK" title="Open XML Format SDK" value="oxmlsdk">
+                    Open XML Format SDK
+                </option>
+            
+                <option label="Outlook for Developers" title="Outlook for Developers" value="outlookdev">
+                    Outlook for Developers
+                </option>
+            
+                <option label="Visual Studio Tools for Office (VSTO)" title="Visual Studio Tools for Office (VSTO)" value="vsto">
+                    Visual Studio Tools for Office (VSTO)
+                </option>
+            
+                <option label="Word for Developers" title="Word for Developers" value="worddev">
+                    Word for Developers
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Microsoft Partner Center">
+            
+                <option label="Microsoft Partner Center API" title="Microsoft Partner Center API" value="partnercenterapi">
+                    Microsoft Partner Center API
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Microsoft Research">
+            
+                <option label="Microsoft Automatic Graph Layout" title="Microsoft Automatic Graph Layout" value="automaticgraphlayout">
+                    Microsoft Automatic Graph Layout
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Microsoft Robotics">
+            
+                <option label="Microsoft Robotics - Community" title="Microsoft Robotics - Community" value="roboticscommunity">
+                    Microsoft Robotics - Community
+                </option>
+            
+                <option label="Microsoft Robotics - Concurrency and Coordination Runtime (CCR)" title="Microsoft Robotics - Concurrency and Coordination Runtime (CCR)" value="roboticsccr">
+                    Microsoft Robotics - Concurrency and Coordination Runtime (CCR)
+                </option>
+            
+                <option label="Microsoft Robotics - Decentralized Software Services (DSS)" title="Microsoft Robotics - Decentralized Software Services (DSS)" value="roboticsdss">
+                    Microsoft Robotics - Decentralized Software Services (DSS)
+                </option>
+            
+                <option label="Microsoft Robotics - Hardware Configuration and Troubleshooting" title="Microsoft Robotics - Hardware Configuration and Troubleshooting" value="roboticstroubleshooting">
+                    Microsoft Robotics - Hardware Configuration and Troubleshooting
+                </option>
+            
+                <option label="Microsoft Robotics - Simulation" title="Microsoft Robotics - Simulation" value="roboticssimulation">
+                    Microsoft Robotics - Simulation
+                </option>
+            
+                <option label="Microsoft Robotics - Visual Programming Language" title="Microsoft Robotics - Visual Programming Language" value="roboticsvisualprogramminglanguage">
+                    Microsoft Robotics - Visual Programming Language
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Microsoft Sync Framework">
+            
+                <option label="SyncFx - Microsoft Sync Framework Developer Discussions" title="SyncFx - Microsoft Sync Framework Developer Discussions" value="syncdevdiscussions">
+                    SyncFx - Microsoft Sync Framework Developer Discussions
+                </option>
+            
+                <option label="SyncFx – Microsoft Sync Framework Toolkit" title="SyncFx – Microsoft Sync Framework Toolkit" value="synclab">
+                    SyncFx – Microsoft Sync Framework Toolkit
+                </option>
+            
+                <option label="SyncFx - SyncToy-File Synchronization" title="SyncFx - SyncToy-File Synchronization" value="synctoy">
+                    SyncFx - SyncToy-File Synchronization
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Office Live Development">
+            
+                <option label="Office Live Basics, Essentials and Premium" title="Office Live Basics, Essentials and Premium" value="olbasics">
+                    Office Live Basics, Essentials and Premium
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Open Specifications">
+            
+                <option label="Exchange Server Protocols" title="Exchange Server Protocols" value="os_exchangeprotocols">
+                    Exchange Server Protocols
+                </option>
+            
+                <option label="Office Protocols" title="Office Protocols" value="os_office">
+                    Office Protocols
+                </option>
+            
+                <option label="Office XML, ODF, and Binary File Formats" title="Office XML, ODF, and Binary File Formats" value="os_binaryfile">
+                    Office XML, ODF, and Binary File Formats
+                </option>
+            
+                <option label="Open Specifications Questions" title="Open Specifications Questions" value="os_specifications">
+                    Open Specifications Questions
+                </option>
+            
+                <option label="SharePoint Server Protocols" title="SharePoint Server Protocols" value="os_sharepoint">
+                    SharePoint Server Protocols
+                </option>
+            
+                <option label="SQL Server Protocols" title="SQL Server Protocols" value="os_sqlserver">
+                    SQL Server Protocols
+                </option>
+            
+                <option label="Windows File Sharing Protocols" title="Windows File Sharing Protocols" value="os_fileservices">
+                    Windows File Sharing Protocols
+                </option>
+            
+                <option label="Windows Protocols" title="Windows Protocols" value="os_windowsprotocols">
+                    Windows Protocols
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Orchard">
+            
+                <option label="Orchard - Help and Support" title="Orchard - Help and Support" value="orchardsupport">
+                    Orchard - Help and Support
+                </option>
+            
+                <option label="Orchard –Discussions" title="Orchard –Discussions" value="orcharddiscussions">
+                    Orchard –Discussions
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Other Forums">
+            
+                <option label="Connected Services Framework" title="Connected Services Framework" value="csf">
+                    Connected Services Framework
+                </option>
+            
+                <option label="Customer Care Framework" title="Customer Care Framework" value="customercareframework">
+                    Customer Care Framework
+                </option>
+            
+                <option label="HealthVault Developer" title="HealthVault Developer" value="healthvault">
+                    HealthVault Developer
+                </option>
+            
+                <option label="Microsoft Atlas APIs: Development" title="Microsoft Atlas APIs: Development" value="msatlasapidev">
+                    Microsoft Atlas APIs: Development
+                </option>
+            
+                <option label="Microsoft Online Syndication Interface Developer Forum (MOSI)" title="Microsoft Online Syndication Interface Developer Forum (MOSI)" value="MOSIDeveloperSupport">
+                    Microsoft Online Syndication Interface Developer Forum (MOSI)
+                </option>
+            
+                <option label="Microsoft Security Development Lifecycle (SDL)" title="Microsoft Security Development Lifecycle (SDL)" value="sdlprocess">
+                    Microsoft Security Development Lifecycle (SDL)
+                </option>
+            
+                <option label="Reference Source Server Discussion" title="Reference Source Server Discussion" value="refsourceserver">
+                    Reference Source Server Discussion
+                </option>
+            
+                <option label="Search Server: Installation, Configuration and Administration" title="Search Server: Installation, Configuration and Administration" value="searchserverinstallconfigandadminstration">
+                    Search Server: Installation, Configuration and Administration
+                </option>
+            
+                <option label="Surface Application Design and Development" title="Surface Application Design and Development" value="surfaceappdevelopment">
+                    Surface Application Design and Development
+                </option>
+            
+                <option label="Visual Studio Report Controls" title="Visual Studio Report Controls" value="vsreportcontrols">
+                    Visual Studio Report Controls
+                </option>
+            
+                <option label="Windows Performance Toolkit" title="Windows Performance Toolkit" value="wptk_v4">
+                    Windows Performance Toolkit
+                </option>
+            
+                <option label="Windows Performance Toolkit (WPT) v5" title="Windows Performance Toolkit (WPT) v5" value="wptkv5">
+                    Windows Performance Toolkit (WPT) v5
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Project">
+            
+                <option label="Project Customization and Programming" title="Project Customization and Programming" value="project2010custprog">
+                    Project Customization and Programming
+                </option>
+            
+                <option label="Project Online General Questions and Answers" title="Project Online General Questions and Answers" value="projectonline">
+                    Project Online General Questions and Answers
+                </option>
+            
+                <option label="Project Server - Setup, Upgrade, Administration and Operation" title="Project Server - Setup, Upgrade, Administration and Operation" value="projserv2010setup">
+                    Project Server - Setup, Upgrade, Administration and Operation
+                </option>
+            
+                <option label="Project Server General Questions and Answers" title="Project Server General Questions and Answers" value="projectserver2010general">
+                    Project Server General Questions and Answers
+                </option>
+            
+                <option label="Project Standard and Professional General Questions and Answers" title="Project Standard and Professional General Questions and Answers" value="projectprofessional2010general">
+                    Project Standard and Professional General Questions and Answers
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Project Server">
+            
+                <option label="Project Customization and Programming" title="Project Customization and Programming" value="project2010custprog">
+                    Project Customization and Programming
+                </option>
+            
+                <option label="Project Server - Setup, Upgrade, Administration and Operation" title="Project Server - Setup, Upgrade, Administration and Operation" value="projserv2010setup">
+                    Project Server - Setup, Upgrade, Administration and Operation
+                </option>
+            
+                <option label="Project Server General Questions and Answers" title="Project Server General Questions and Answers" value="projectserver2010general">
+                    Project Server General Questions and Answers
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Samsung PC">
+            
+                <option label="The Samsung Windows Developer Preview PC General" title="The Samsung Windows Developer Preview PC General" value="samsungpcgeneral">
+                    The Samsung Windows Developer Preview PC General
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="SharePoint">
+            
+                <option label="Developing Apps for SharePoint 2013" title="Developing Apps for SharePoint 2013" value="appsforsharepoint">
+                    Developing Apps for SharePoint 2013
+                </option>
+            
+                <option label="SharePoint 2010 - Development and Programming" title="SharePoint 2010 - Development and Programming" value="sharepointdevelopmentprevious">
+                    SharePoint 2010 - Development and Programming
+                </option>
+            
+                <option label="SharePoint 2010 - General Discussions and Questions" title="SharePoint 2010 - General Discussions and Questions" value="sharepointgeneralprevious">
+                    SharePoint 2010 - General Discussions and Questions
+                </option>
+            
+                <option label="SharePoint 2010 - Search" title="SharePoint 2010 - Search" value="sharepointsearchprevious">
+                    SharePoint 2010 - Search
+                </option>
+            
+                <option label="SharePoint 2010 - Setup, Upgrade, Administration and Operations" title="SharePoint 2010 - Setup, Upgrade, Administration and Operations" value="sharepointadminprevious">
+                    SharePoint 2010 - Setup, Upgrade, Administration and Operations
+                </option>
+            
+                <option label="SharePoint 2010 - Using SharePoint Designer, InfoPath and Other Customizations" title="SharePoint 2010 - Using SharePoint Designer, InfoPath and Other Customizations" value="sharepointcustomizationprevious">
+                    SharePoint 2010 - Using SharePoint Designer, InfoPath and Other Customizations
+                </option>
+            
+                <option label="SharePoint 2013 -  Setup, Upgrade, Administration and Operations" title="SharePoint 2013 -  Setup, Upgrade, Administration and Operations" value="sharepointadmin">
+                    SharePoint 2013 -  Setup, Upgrade, Administration and Operations
+                </option>
+            
+                <option label="SharePoint 2013 - Development and Programming " title="SharePoint 2013 - Development and Programming " value="sharepointdevelopment">
+                    SharePoint 2013 - Development and Programming 
+                </option>
+            
+                <option label="SharePoint 2013 - General Discussions and Questions" title="SharePoint 2013 - General Discussions and Questions" value="sharepointgeneral">
+                    SharePoint 2013 - General Discussions and Questions
+                </option>
+            
+                <option label="SharePoint 2013 - Search" title="SharePoint 2013 - Search" value="sharepointsearch">
+                    SharePoint 2013 - Search
+                </option>
+            
+                <option label="SharePoint 2013 - Using SharePoint Designer, InfoPath and Other Customizations" title="SharePoint 2013 - Using SharePoint Designer, InfoPath and Other Customizations" value="sharepointcustomization">
+                    SharePoint 2013 - Using SharePoint Designer, InfoPath and Other Customizations
+                </option>
+            
+                <option label="SharePoint Legacy Versions - Development and Other Programming" title="SharePoint Legacy Versions - Development and Other Programming" value="sharepointdevelopmentlegacy">
+                    SharePoint Legacy Versions - Development and Other Programming
+                </option>
+            
+                <option label="SharePoint Legacy Versions - General Discussions and Questions" title="SharePoint Legacy Versions - General Discussions and Questions" value="sharepointgenerallegacy">
+                    SharePoint Legacy Versions - General Discussions and Questions
+                </option>
+            
+                <option label="SharePoint Legacy Versions - Search" title="SharePoint Legacy Versions - Search" value="sharepointsearchlegacy">
+                    SharePoint Legacy Versions - Search
+                </option>
+            
+                <option label="SharePoint Legacy Versions - Setup, Upgrade, Administration and Operations" title="SharePoint Legacy Versions - Setup, Upgrade, Administration and Operations" value="sharepointadminlegacy">
+                    SharePoint Legacy Versions - Setup, Upgrade, Administration and Operations
+                </option>
+            
+                <option label="SharePoint Legacy Versions - Using SharePoint Designer, InfoPath and Other Customizations" title="SharePoint Legacy Versions - Using SharePoint Designer, InfoPath and Other Customizations" value="sharepointcustomizationlegacy">
+                    SharePoint Legacy Versions - Using SharePoint Designer, InfoPath and Other Customizations
+                </option>
+            
+                <option label="Workflow Manager 1.0" title="Workflow Manager 1.0" value="wflmgr">
+                    Workflow Manager 1.0
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Silverlight">
+            
+                <option label="Accessing Web Services with Silverlight " title="Accessing Web Services with Silverlight " value="silverlightweb">
+                    Accessing Web Services with Silverlight 
+                </option>
+            
+                <option label="Designing with Silverlight" title="Designing with Silverlight" value="silverlightdesigning">
+                    Designing with Silverlight
+                </option>
+            
+                <option label="Expression Studio with Silverlight" title="Expression Studio with Silverlight" value="silverlightexpression">
+                    Expression Studio with Silverlight
+                </option>
+            
+                <option label="Game Development with Silverlight" title="Game Development with Silverlight" value="silverlightgamedev">
+                    Game Development with Silverlight
+                </option>
+            
+                <option label="Getting Started with Silverlight " title="Getting Started with Silverlight " value="silverlightstart">
+                    Getting Started with Silverlight 
+                </option>
+            
+                <option label="Hosting and Streaming with Silverlight" title="Hosting and Streaming with Silverlight" value="silverlighthosting">
+                    Hosting and Streaming with Silverlight
+                </option>
+            
+                <option label="Managed Extensibility Framework (MEF) with Silverlight" title="Managed Extensibility Framework (MEF) with Silverlight" value="silverlightmef">
+                    Managed Extensibility Framework (MEF) with Silverlight
+                </option>
+            
+                <option label="MVVM / ViewModel Pattern with Silverlight" title="MVVM / ViewModel Pattern with Silverlight" value="silverlightmvvm">
+                    MVVM / ViewModel Pattern with Silverlight
+                </option>
+            
+                <option label="Performance Profiling and Optimization with Silverlight" title="Performance Profiling and Optimization with Silverlight" value="silverlightperf">
+                    Performance Profiling and Optimization with Silverlight
+                </option>
+            
+                <option label="PivotViewer Control with Silverlight" title="PivotViewer Control with Silverlight" value="silverlightpivotviewer">
+                    PivotViewer Control with Silverlight
+                </option>
+            
+                <option label="Programming Silverlight with .NET – General " title="Programming Silverlight with .NET – General " value="silverlightnet">
+                    Programming Silverlight with .NET – General 
+                </option>
+            
+                <option label="Programming Silverlight with JavaScript " title="Programming Silverlight with JavaScript " value="silverlightjavascript">
+                    Programming Silverlight with JavaScript 
+                </option>
+            
+                <option label="Report a Silverlight Bug " title="Report a Silverlight Bug " value="silverlightbugs">
+                    Report a Silverlight Bug 
+                </option>
+            
+                <option label="Silverlight 4" title="Silverlight 4" value="silverlightarchieve">
+                    Silverlight 4
+                </option>
+            
+                <option label="Silverlight 5" title="Silverlight 5" value="silverlightgen">
+                    Silverlight 5
+                </option>
+            
+                <option label="Silverlight Controls and Silverlight Toolkit " title="Silverlight Controls and Silverlight Toolkit " value="silverlightcontrols">
+                    Silverlight Controls and Silverlight Toolkit 
+                </option>
+            
+                <option label="Silverlight for Windows Phone " title="Silverlight for Windows Phone " value="silverlightwinphone">
+                    Silverlight for Windows Phone 
+                </option>
+            
+                <option label="Silverlight Installation and Setup" title="Silverlight Installation and Setup" value="silverlightinstall">
+                    Silverlight Installation and Setup
+                </option>
+            
+                <option label="Silverlight Video and Media" title="Silverlight Video and Media" value="silverlightmedia">
+                    Silverlight Video and Media
+                </option>
+            
+                <option label="Visual Studio &amp; Silverlight Development Tools " title="Visual Studio &amp; Silverlight Development Tools " value="silverlightdevtools">
+                    Visual Studio &amp; Silverlight Development Tools 
+                </option>
+            
+                <option label="WCF RIA Services with Silverlight" title="WCF RIA Services with Silverlight" value="silverlightwcf">
+                    WCF RIA Services with Silverlight
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Skype for Business">
+            
+                <option label="Skype Web SDK" title="Skype Web SDK" value="SkypeWebSDK">
+                    Skype Web SDK
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Smart Device Development">
+            
+                <option label=".NET Compact Framework" title=".NET Compact Framework" value="netfxcompact">
+                    .NET Compact Framework
+                </option>
+            
+                <option label="Microsoft Device Emulator" title="Microsoft Device Emulator" value="microsoftdeviceemu">
+                    Microsoft Device Emulator
+                </option>
+            
+                <option label="Visual Studio Smart Device Development - Native C++ Project" title="Visual Studio Smart Device Development - Native C++ Project" value="vssmartdevicesnative">
+                    Visual Studio Smart Device Development - Native C++ Project
+                </option>
+            
+                <option label="Visual Studio Smart Device Development – Visual Basic and C# Projects" title="Visual Studio Smart Device Development – Visual Basic and C# Projects" value="vssmartdevicesvbcs">
+                    Visual Studio Smart Device Development – Visual Basic and C# Projects
+                </option>
+            
+                <option label="Windows Mobile Development" title="Windows Mobile Development" value="windowsmobiledev">
+                    Windows Mobile Development
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="SQL Server">
+            
+                <option label=".NET Framework inside SQL Server" title=".NET Framework inside SQL Server" value="sqlnetfx">
+                    .NET Framework inside SQL Server
+                </option>
+            
+                <option label="Data Mining" title="Data Mining" value="sqldatamining">
+                    Data Mining
+                </option>
+            
+                <option label="Database Design" title="Database Design" value="databasedesign">
+                    Database Design
+                </option>
+            
+                <option label="Database Mirroring" title="Database Mirroring" value="sqldatabasemirroring">
+                    Database Mirroring
+                </option>
+            
+                <option label="Getting started with SQL Server" title="Getting started with SQL Server" value="sqlgetstarted">
+                    Getting started with SQL Server
+                </option>
+            
+                <option label="Microsoft Drivers for PHP for SQL Server" title="Microsoft Drivers for PHP for SQL Server" value="sqldriverforphp">
+                    Microsoft Drivers for PHP for SQL Server
+                </option>
+            
+                <option label="Microsoft StreamInsight" title="Microsoft StreamInsight" value="streaminsight">
+                    Microsoft StreamInsight
+                </option>
+            
+                <option label="Power Pivot" title="Power Pivot" value="sqlkjpowerpivotforexcel">
+                    Power Pivot
+                </option>
+            
+                <option label="SQL Server 2016 Preview" title="SQL Server 2016 Preview" value="SQLServer2016Preview">
+                    SQL Server 2016 Preview
+                </option>
+            
+                <option label="SQL Server Analysis Services" title="SQL Server Analysis Services" value="sqlanalysisservices">
+                    SQL Server Analysis Services
+                </option>
+            
+                <option label="SQL Server Application and Multi-Server Management" title="SQL Server Application and Multi-Server Management" value="sqlkjappmsmgmt">
+                    SQL Server Application and Multi-Server Management
+                </option>
+            
+                <option label="SQL Server Compact" title="SQL Server Compact" value="sqlce">
+                    SQL Server Compact
+                </option>
+            
+                <option label="SQL Server Data Access" title="SQL Server Data Access" value="sqldataaccess">
+                    SQL Server Data Access
+                </option>
+            
+                <option label="SQL Server Data Quality Services" title="SQL Server Data Quality Services" value="sqldataqualityservices">
+                    SQL Server Data Quality Services
+                </option>
+            
+                <option label="SQL Server Data Tools" title="SQL Server Data Tools" value="ssdt">
+                    SQL Server Data Tools
+                </option>
+            
+                <option label="SQL Server Data Warehousing" title="SQL Server Data Warehousing" value="sqldatawarehousing">
+                    SQL Server Data Warehousing
+                </option>
+            
+                <option label="SQL Server Database Engine" title="SQL Server Database Engine" value="sqldatabaseengine">
+                    SQL Server Database Engine
+                </option>
+            
+                <option label="SQL Server Distributed Replay" title="SQL Server Distributed Replay" value="sqldru">
+                    SQL Server Distributed Replay
+                </option>
+            
+                <option label="SQL Server Documentation" title="SQL Server Documentation" value="sqldocumentation">
+                    SQL Server Documentation
+                </option>
+            
+                <option label="SQL Server Express" title="SQL Server Express" value="sqlexpress">
+                    SQL Server Express
+                </option>
+            
+                <option label="SQL Server High Availability and Disaster Recovery" title="SQL Server High Availability and Disaster Recovery" value="sqldisasterrecovery">
+                    SQL Server High Availability and Disaster Recovery
+                </option>
+            
+                <option label="SQL Server In-Memory Technologies" title="SQL Server In-Memory Technologies" value="sqlinmemory">
+                    SQL Server In-Memory Technologies
+                </option>
+            
+                <option label="SQL Server Integration Services" title="SQL Server Integration Services" value="sqlintegrationservices">
+                    SQL Server Integration Services
+                </option>
+            
+                <option label="SQL Server Manageability" title="SQL Server Manageability" value="sqlkjmanageability">
+                    SQL Server Manageability
+                </option>
+            
+                <option label="SQL Server Master Data Services" title="SQL Server Master Data Services" value="sqlmds">
+                    SQL Server Master Data Services
+                </option>
+            
+                <option label="SQL Server Migration" title="SQL Server Migration" value="sqlservermigration">
+                    SQL Server Migration
+                </option>
+            
+                <option label="SQL Server Notification Services" title="SQL Server Notification Services" value="sqlnotificationservices">
+                    SQL Server Notification Services
+                </option>
+            
+                <option label="SQL Server PowerPivot for SharePoint" title="SQL Server PowerPivot for SharePoint" value="sqlkjpowerpointforsharepoint">
+                    SQL Server PowerPivot for SharePoint
+                </option>
+            
+                <option label="SQL Server Replication" title="SQL Server Replication" value="sqlreplication">
+                    SQL Server Replication
+                </option>
+            
+                <option label="SQL Server Reporting Services, Power View" title="SQL Server Reporting Services, Power View" value="sqlreportingservices">
+                    SQL Server Reporting Services, Power View
+                </option>
+            
+                <option label="SQL Server Samples and Community Projects" title="SQL Server Samples and Community Projects" value="sqlserversamples">
+                    SQL Server Samples and Community Projects
+                </option>
+            
+                <option label="SQL Server Search" title="SQL Server Search" value="sqlsearch">
+                    SQL Server Search
+                </option>
+            
+                <option label="SQL Server Security" title="SQL Server Security" value="sqlsecurity">
+                    SQL Server Security
+                </option>
+            
+                <option label="SQL Server Setup &amp; Upgrade" title="SQL Server Setup &amp; Upgrade" value="sqlsetupandupgrade">
+                    SQL Server Setup &amp; Upgrade
+                </option>
+            
+                <option label="SQL Server SMO/DMO" title="SQL Server SMO/DMO" value="sqlsmoanddmo">
+                    SQL Server SMO/DMO
+                </option>
+            
+                <option label="SQL Server Spatial" title="SQL Server Spatial" value="sqlspatial">
+                    SQL Server Spatial
+                </option>
+            
+                <option label="SQL Server Tools" title="SQL Server Tools" value="sqltools">
+                    SQL Server Tools
+                </option>
+            
+                <option label="SQL Server XML" title="SQL Server XML" value="sqlxml">
+                    SQL Server XML
+                </option>
+            
+                <option label="SQL Service Broker" title="SQL Service Broker" value="sqlservicebroker">
+                    SQL Service Broker
+                </option>
+            
+                <option label="Transact-SQL" title="Transact-SQL" value="transactsql">
+                    Transact-SQL
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Unified Communications">
+            
+                <option label="Microsoft Lync Client Development" title="Microsoft Lync Client Development" value="communicatorsdk">
+                    Microsoft Lync Client Development
+                </option>
+            
+                <option label="Microsoft Lync Persistent Chat Server SDK" title="Microsoft Lync Persistent Chat Server SDK" value="lyncpersistentcssdk">
+                    Microsoft Lync Persistent Chat Server SDK
+                </option>
+            
+                <option label="Microsoft Lync Server SDK and Office Communications Server SDK" title="Microsoft Lync Server SDK and Office Communications Server SDK" value="communicationsserversdk">
+                    Microsoft Lync Server SDK and Office Communications Server SDK
+                </option>
+            
+                <option label="Microsoft Unified Communications Managed API SDK" title="Microsoft Unified Communications Managed API SDK" value="ucmanagedsdk">
+                    Microsoft Unified Communications Managed API SDK
+                </option>
+            
+                <option label="Microsoft Unified Communications Web API" title="Microsoft Unified Communications Web API" value="ucwebapi">
+                    Microsoft Unified Communications Web API
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Using Forums">
+            
+                <option label="Announcements for all Forums" title="Announcements for all Forums" value="announce">
+                    Announcements for all Forums
+                </option>
+            
+                <option label="Forums Issues (not product support)" title="Forums Issues (not product support)" value="reportabug">
+                    Forums Issues (not product support)
+                </option>
+            
+                <option label="MSDN and TechNet Profile and Recognition System Discussions" title="MSDN and TechNet Profile and Recognition System Discussions" value="Profile">
+                    MSDN and TechNet Profile and Recognition System Discussions
+                </option>
+            
+                <option label="Off-Topic Posts (Do Not Post Here)" title="Off-Topic Posts (Do Not Post Here)" value="Offtopic">
+                    Off-Topic Posts (Do Not Post Here)
+                </option>
+            
+                <option label="Suggestions and Feedback for the Forums" title="Suggestions and Feedback for the Forums" value="suggest">
+                    Suggestions and Feedback for the Forums
+                </option>
+            
+                <option label="Where is the Forum For…?" title="Where is the Forum For…?" value="whatforum">
+                    Where is the Forum For…?
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Virtualization">
+            
+                <option label="Windows Containers" title="Windows Containers" value="windowscontainers">
+                    Windows Containers
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Visio 2010">
+            
+                <option label="Visio General Questions and Answers for IT Professionals" title="Visio General Questions and Answers for IT Professionals" value="visiogeneral">
+                    Visio General Questions and Answers for IT Professionals
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Visual FoxPro">
+            
+                <option label="Visual FoxPro General" title="Visual FoxPro General" value="visualfoxprogeneral">
+                    Visual FoxPro General
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Visual Studio Design and Architecture Tools">
+            
+                <option label="Visual Studio Visualization &amp; Modeling SDK (DSL Tools)" title="Visual Studio Visualization &amp; Modeling SDK (DSL Tools)" value="dslvsarchx">
+                    Visual Studio Visualization &amp; Modeling SDK (DSL Tools)
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Visual Studio Development">
+            
+                <option label="Application Insights (AI)" title="Application Insights (AI)" value="ApplicationInsights">
+                    Application Insights (AI)
+                </option>
+            
+                <option label="MSBuild" title="MSBuild" value="msbuild">
+                    MSBuild
+                </option>
+            
+                <option label="Test Tools in Visual Studio 2010 and 2012" title="Test Tools in Visual Studio 2010 and 2012" value="vstest">
+                    Test Tools in Visual Studio 2010 and 2012
+                </option>
+            
+                <option label="Testing with Visual Studio Test Manager (MTM)" title="Testing with Visual Studio Test Manager (MTM)" value="vsmantest">
+                    Testing with Visual Studio Test Manager (MTM)
+                </option>
+            
+                <option label="Tools for Apache Cordova" title="Tools for Apache Cordova" value="ToolsForApacheCordova">
+                    Tools for Apache Cordova
+                </option>
+            
+                <option label="Visual Studio Code Visualization &amp; Modeling Tools" title="Visual Studio Code Visualization &amp; Modeling Tools" value="vsarch">
+                    Visual Studio Code Visualization &amp; Modeling Tools
+                </option>
+            
+                <option label="Visual Studio Diagnostics (Debugger, Profiler, IntelliTrace)" title="Visual Studio Diagnostics (Debugger, Profiler, IntelliTrace)" value="vsdebug">
+                    Visual Studio Diagnostics (Debugger, Profiler, IntelliTrace)
+                </option>
+            
+                <option label="Visual Studio General Questions" title="Visual Studio General Questions" value="visualstudiogeneral">
+                    Visual Studio General Questions
+                </option>
+            
+                <option label="Visual Studio Integrate" title="Visual Studio Integrate" value="vsx">
+                    Visual Studio Integrate
+                </option>
+            
+                <option label="Visual Studio LightSwitch - General Questions" title="Visual Studio LightSwitch - General Questions" value="lightswitch">
+                    Visual Studio LightSwitch - General Questions
+                </option>
+            
+                <option label="Visual Studio LightSwitch Extensibility" title="Visual Studio LightSwitch Extensibility" value="lsextensibility">
+                    Visual Studio LightSwitch Extensibility
+                </option>
+            
+                <option label="Visual Studio Online" title="Visual Studio Online" value="TFService">
+                    Visual Studio Online
+                </option>
+            
+                <option label="Visual Studio Setup and Installation" title="Visual Studio Setup and Installation" value="vssetup">
+                    Visual Studio Setup and Installation
+                </option>
+            
+                <option label="Visual Studio Tools for Applications (VSTA)" title="Visual Studio Tools for Applications (VSTA)" value="vsta">
+                    Visual Studio Tools for Applications (VSTA)
+                </option>
+            
+                <option label="Visual Studio Tools for Office (VSTO)" title="Visual Studio Tools for Office (VSTO)" value="vsto">
+                    Visual Studio Tools for Office (VSTO)
+                </option>
+            
+                <option label="Visual Studio Unit Testing" title="Visual Studio Unit Testing" value="vsunittest">
+                    Visual Studio Unit Testing
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Visual Studio Languages">
+            
+                <option label="C++ Standards, Extensions, and Interop" title="C++ Standards, Extensions, and Interop" value="vclanguage">
+                    C++ Standards, Extensions, and Interop
+                </option>
+            
+                <option label="Microsoft &quot;Roslyn&quot; CTP" title="Microsoft &quot;Roslyn&quot; CTP" value="roslyn">
+                    Microsoft "Roslyn" CTP
+                </option>
+            
+                <option label="Parallel Computing in C++ and Native Code" title="Parallel Computing in C++ and Native Code" value="parallelcppnative">
+                    Parallel Computing in C++ and Native Code
+                </option>
+            
+                <option label="Visual Basic" title="Visual Basic" value="vbgeneral">
+                    Visual Basic
+                </option>
+            
+                <option label="Visual C# " title="Visual C# " value="csharpgeneral">
+                    Visual C# 
+                </option>
+            
+                <option label="Visual C++" title="Visual C++" value="vcgeneral">
+                    Visual C++
+                </option>
+            
+                <option label="Visual F#" title="Visual F#" value="fsharpgeneral">
+                    Visual F#
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Visual Studio Team Foundation Server ">
+            
+                <option label="Application Insights (AI)" title="Application Insights (AI)" value="ApplicationInsights">
+                    Application Insights (AI)
+                </option>
+            
+                <option label="Team Foundation Server - Build and release management" title="Team Foundation Server - Build and release management" value="tfsbuild">
+                    Team Foundation Server - Build and release management
+                </option>
+            
+                <option label="Team Foundation Server - Eclipse and Cross Platform" title="Team Foundation Server - Eclipse and Cross Platform" value="tee">
+                    Team Foundation Server - Eclipse and Cross Platform
+                </option>
+            
+                <option label="Team Foundation Server - General" title="Team Foundation Server - General" value="tfsgeneral">
+                    Team Foundation Server - General
+                </option>
+            
+                <option label="Team Foundation Server – Migration and Integration" title="Team Foundation Server – Migration and Integration" value="tfsintegration">
+                    Team Foundation Server – Migration and Integration
+                </option>
+            
+                <option label="Team Foundation Server - Process Templates" title="Team Foundation Server - Process Templates" value="tfsprocess">
+                    Team Foundation Server - Process Templates
+                </option>
+            
+                <option label="Team Foundation Server - Project Management &amp; Work Item" title="Team Foundation Server - Project Management &amp; Work Item" value="tfsworkitemtracking">
+                    Team Foundation Server - Project Management &amp; Work Item
+                </option>
+            
+                <option label="Team Foundation Server - Reporting &amp; Warehouse" title="Team Foundation Server - Reporting &amp; Warehouse" value="tfsreporting">
+                    Team Foundation Server - Reporting &amp; Warehouse
+                </option>
+            
+                <option label="Team Foundation Server - Setup and Administration" title="Team Foundation Server - Setup and Administration" value="tfsadmin">
+                    Team Foundation Server - Setup and Administration
+                </option>
+            
+                <option label="Team Foundation Server - Source and Version Control" title="Team Foundation Server - Source and Version Control" value="tfsversioncontrol">
+                    Team Foundation Server - Source and Version Control
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="WebsitePanel">
+            
+                <option label="WebsitePanel - Development" title="WebsitePanel - Development" value="wspdev">
+                    WebsitePanel - Development
+                </option>
+            
+                <option label="WebsitePanel - Discussions" title="WebsitePanel - Discussions" value="wspdiscuss">
+                    WebsitePanel - Discussions
+                </option>
+            
+                <option label="WebsitePanel - Enterprise Modules Support" title="WebsitePanel - Enterprise Modules Support" value="wspentsupport">
+                    WebsitePanel - Enterprise Modules Support
+                </option>
+            
+                <option label="WebsitePanel - Support" title="WebsitePanel - Support" value="wspsupport">
+                    WebsitePanel - Support
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows and Windows phone apps">
+            
+                <option label="Dev Center App" title="Dev Center App" value="wpdcapp">
+                    Dev Center App
+                </option>
+            
+                <option label="Developing Universal Windows apps" title="Developing Universal Windows apps" value="wpdevelop">
+                    Developing Universal Windows apps
+                </option>
+            
+                <option label="Payouts and Reporting" title="Payouts and Reporting" value="wppayout">
+                    Payouts and Reporting
+                </option>
+            
+                <option label="Publishing Windows Store apps" title="Publishing Windows Store apps" value="windowsstore">
+                    Publishing Windows Store apps
+                </option>
+            
+                <option label="Register and Manage Account" title="Register and Manage Account" value="wpregister">
+                    Register and Manage Account
+                </option>
+            
+                <option label="Submitting and Publishing Apps" title="Submitting and Publishing Apps" value="wpsubmit">
+                    Submitting and Publishing Apps
+                </option>
+            
+                <option label="Windows App Studio Beta" title="Windows App Studio Beta" value="wpappstudio">
+                    Windows App Studio Beta
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows Desktop Development">
+            
+                <option label="Application Compatibility for Windows Desktop Development" title="Application Compatibility for Windows Desktop Development" value="windowscompatibility">
+                    Application Compatibility for Windows Desktop Development
+                </option>
+            
+                <option label="Application Security for Windows Desktop" title="Application Security for Windows Desktop" value="windowssecurity">
+                    Application Security for Windows Desktop
+                </option>
+            
+                <option label="C++ Standards, Extensions, and Interop" title="C++ Standards, Extensions, and Interop" value="vclanguage">
+                    C++ Standards, Extensions, and Interop
+                </option>
+            
+                <option label="Developing Windows Desktop Applications with Power Management" title="Developing Windows Desktop Applications with Power Management" value="powermanagement">
+                    Developing Windows Desktop Applications with Power Management
+                </option>
+            
+                <option label="Development with the Windows Sensor and Location Platform" title="Development with the Windows Sensor and Location Platform" value="windowssensorandlocationplatform">
+                    Development with the Windows Sensor and Location Platform
+                </option>
+            
+                <option label="DirectShow Development" title="DirectShow Development" value="windowsdirectshowdevelopment">
+                    DirectShow Development
+                </option>
+            
+                <option label="General Windows Desktop Development Issues" title="General Windows Desktop Development Issues" value="windowsgeneraldevelopmentissues">
+                    General Windows Desktop Development Issues
+                </option>
+            
+                <option label="Hardware Development Boards for Windows" title="Hardware Development Boards for Windows" value="HardwareBoards">
+                    Hardware Development Boards for Windows
+                </option>
+            
+                <option label="Media Foundation Development for Windows Desktop" title="Media Foundation Development for Windows Desktop" value="mediafoundationdevelopment">
+                    Media Foundation Development for Windows Desktop
+                </option>
+            
+                <option label="Message Analyzer" title="Message Analyzer" value="messageanalyzer">
+                    Message Analyzer
+                </option>
+            
+                <option label="Microsoft Message Queuing (MSMQ)" title="Microsoft Message Queuing (MSMQ)" value="msmq">
+                    Microsoft Message Queuing (MSMQ)
+                </option>
+            
+                <option label="Network Monitor" title="Network Monitor" value="netmon">
+                    Network Monitor
+                </option>
+            
+                <option label="Peer-to-Peer Networking for Windows Desktop" title="Peer-to-Peer Networking for Windows Desktop" value="peertopeer">
+                    Peer-to-Peer Networking for Windows Desktop
+                </option>
+            
+                <option label="User Interface development for Windows Desktop" title="User Interface development for Windows Desktop" value="windowsuidevelopment">
+                    User Interface development for Windows Desktop
+                </option>
+            
+                <option label="Visual C++" title="Visual C++" value="vcgeneral">
+                    Visual C++
+                </option>
+            
+                <option label="Windows Desktop Debugging" title="Windows Desktop Debugging" value="windbg">
+                    Windows Desktop Debugging
+                </option>
+            
+                <option label="Windows Desktop Development for Accessibility and Automation" title="Windows Desktop Development for Accessibility and Automation" value="windowsaccessibilityandautomation">
+                    Windows Desktop Development for Accessibility and Automation
+                </option>
+            
+                <option label="Windows Desktop Development for Ink, Touch, and Tablet PC" title="Windows Desktop Development for Ink, Touch, and Tablet PC" value="tabletandtouch">
+                    Windows Desktop Development for Ink, Touch, and Tablet PC
+                </option>
+            
+                <option label="Windows Desktop Optical Platform Discussion" title="Windows Desktop Optical Platform Discussion" value="windowsopticalplatform">
+                    Windows Desktop Optical Platform Discussion
+                </option>
+            
+                <option label="Windows Desktop Perfmon and Diagnostic tools" title="Windows Desktop Perfmon and Diagnostic tools" value="perfmon">
+                    Windows Desktop Perfmon and Diagnostic tools
+                </option>
+            
+                <option label="Windows Desktop Pro-Audio Application Development" title="Windows Desktop Pro-Audio Application Development" value="windowspro-audiodevelopment">
+                    Windows Desktop Pro-Audio Application Development
+                </option>
+            
+                <option label="Windows Desktop Ribbon Development" title="Windows Desktop Ribbon Development" value="windowsribbondevelopment">
+                    Windows Desktop Ribbon Development
+                </option>
+            
+                <option label="Windows Desktop SDK" title="Windows Desktop SDK" value="windowssdk">
+                    Windows Desktop SDK
+                </option>
+            
+                <option label="Windows Desktop Search Development" title="Windows Desktop Search Development" value="windowsdesktopsearchdevelopment">
+                    Windows Desktop Search Development
+                </option>
+            
+                <option label="Windows Desktop Search Help" title="Windows Desktop Search Help" value="windowsdesktopsearchhelp">
+                    Windows Desktop Search Help
+                </option>
+            
+                <option label="Windows Desktop Sidebar Gadget Development" title="Windows Desktop Sidebar Gadget Development" value="sidebargadfetdevelopment">
+                    Windows Desktop Sidebar Gadget Development
+                </option>
+            
+                <option label="Windows Desktop Web Services API (webservices.dll)" title="Windows Desktop Web Services API (webservices.dll)" value="wwsapi">
+                    Windows Desktop Web Services API (webservices.dll)
+                </option>
+            
+                <option label="Windows Desktop Winsock Kernel (WSK)" title="Windows Desktop Winsock Kernel (WSK)" value="wsk">
+                    Windows Desktop Winsock Kernel (WSK)
+                </option>
+            
+                <option label="Windows Filtering Platform (WFP)" title="Windows Filtering Platform (WFP)" value="wfp">
+                    Windows Filtering Platform (WFP)
+                </option>
+            
+                <option label="Windows Hardware Testing and Certification" title="Windows Hardware Testing and Certification" value="whck">
+                    Windows Hardware Testing and Certification
+                </option>
+            
+                <option label="Windows Hardware WDK and Driver Development" title="Windows Hardware WDK and Driver Development" value="wdk">
+                    Windows Hardware WDK and Driver Development
+                </option>
+            
+                <option label="Windows Imaging Component (WIC)" title="Windows Imaging Component (WIC)" value="windowswic">
+                    Windows Imaging Component (WIC)
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows Embedded Compact">
+            
+                <option label="Windows Embedded Compact Managed Application Development" title="Windows Embedded Compact Managed Application Development" value="winembmngdapp">
+                    Windows Embedded Compact Managed Application Development
+                </option>
+            
+                <option label="Windows Embedded Compact Native Application Development" title="Windows Embedded Compact Native Application Development" value="winembnatapp">
+                    Windows Embedded Compact Native Application Development
+                </option>
+            
+                <option label="Windows Embedded Compact Platform Development" title="Windows Embedded Compact Platform Development" value="winembplatdev">
+                    Windows Embedded Compact Platform Development
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows Embedded Standard">
+            
+                <option label="Standard 2009: Components/Run-time Issues" title="Standard 2009: Components/Run-time Issues" value="embeddedwindowscomponents">
+                    Standard 2009: Components/Run-time Issues
+                </option>
+            
+                <option label="Standard 2009: Embedded Enabling Features (EEFs)" title="Standard 2009: Embedded Enabling Features (EEFs)" value="embeddedwindowseefs">
+                    Standard 2009: Embedded Enabling Features (EEFs)
+                </option>
+            
+                <option label="Standard 2009: Misc" title="Standard 2009: Misc" value="embeddedwindowsmisc">
+                    Standard 2009: Misc
+                </option>
+            
+                <option label="Standard 2009: Tools" title="Standard 2009: Tools" value="embeddedwindowstools">
+                    Standard 2009: Tools
+                </option>
+            
+                <option label="Standard 7: Components/Run-time Issues" title="Standard 7: Components/Run-time Issues" value="quebeccomponentsforum">
+                    Standard 7: Components/Run-time Issues
+                </option>
+            
+                <option label="Standard 7: Embedded Enabling Features (EEFs)" title="Standard 7: Embedded Enabling Features (EEFs)" value="quebeceefs">
+                    Standard 7: Embedded Enabling Features (EEFs)
+                </option>
+            
+                <option label="Standard 7: Misc" title="Standard 7: Misc" value="quebecmisc">
+                    Standard 7: Misc
+                </option>
+            
+                <option label="Standard 7: Servicing and Deployment" title="Standard 7: Servicing and Deployment" value="quebecservicingdeployment">
+                    Standard 7: Servicing and Deployment
+                </option>
+            
+                <option label="Standard 7: Tools" title="Standard 7: Tools" value="quebectools">
+                    Standard 7: Tools
+                </option>
+            
+                <option label="Windows Embedded 8 Standard Community" title="Windows Embedded 8 Standard Community" value="wes8">
+                    Windows Embedded 8 Standard Community
+                </option>
+            
+                <option label="Windows Embedded 8.1 Industry" title="Windows Embedded 8.1 Industry" value="WEIndustry">
+                    Windows Embedded 8.1 Industry
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows Forms">
+            
+                <option label="ClickOnce and Setup &amp; Deployment Projects" title="ClickOnce and Setup &amp; Deployment Projects" value="winformssetup">
+                    ClickOnce and Setup &amp; Deployment Projects
+                </option>
+            
+                <option label="Windows Forms Data Controls and Databinding" title="Windows Forms Data Controls and Databinding" value="winformsdatacontrols">
+                    Windows Forms Data Controls and Databinding
+                </option>
+            
+                <option label="Windows Forms Designer" title="Windows Forms Designer" value="winformsdesigner">
+                    Windows Forms Designer
+                </option>
+            
+                <option label="Windows Forms General" title="Windows Forms General" value="winforms">
+                    Windows Forms General
+                </option>
+            
+                <option label="Windows Forms Sample Applications" title="Windows Forms Sample Applications" value="winformsapplications">
+                    Windows Forms Sample Applications
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows Hardware Development">
+            
+                <option label="Hardware Development Boards for Windows" title="Hardware Development Boards for Windows" value="HardwareBoards">
+                    Hardware Development Boards for Windows
+                </option>
+            
+                <option label="Windows Hardware Testing and Certification" title="Windows Hardware Testing and Certification" value="whck">
+                    Windows Hardware Testing and Certification
+                </option>
+            
+                <option label="Windows Hardware WDK and Driver Development" title="Windows Hardware WDK and Driver Development" value="wdk">
+                    Windows Hardware WDK and Driver Development
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows Phone Dev Center">
+            
+                <option label="Dev Center App" title="Dev Center App" value="wpdcapp">
+                    Dev Center App
+                </option>
+            
+                <option label="Payouts and Reporting" title="Payouts and Reporting" value="wppayout">
+                    Payouts and Reporting
+                </option>
+            
+                <option label="Register and Manage Account" title="Register and Manage Account" value="wpregister">
+                    Register and Manage Account
+                </option>
+            
+                <option label="Submitting and Publishing Apps" title="Submitting and Publishing Apps" value="wpsubmit">
+                    Submitting and Publishing Apps
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows Phone Development">
+            
+                <option label="Developing Universal Windows apps" title="Developing Universal Windows apps" value="wpdevelop">
+                    Developing Universal Windows apps
+                </option>
+            
+                <option label="Windows App Studio Beta" title="Windows App Studio Beta" value="wpappstudio">
+                    Windows App Studio Beta
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows Phone Preview for Developers">
+            
+                <option label="Windows Phone Preview Eligibility and Registration" title="Windows Phone Preview Eligibility and Registration" value="winphoneeligandreg">
+                    Windows Phone Preview Eligibility and Registration
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows Server">
+            
+                <option label="SDK for Home Server 2011, SBS 2011 Essentials, Storage Server 2008 R2 Essentials" title="SDK for Home Server 2011, SBS 2011 Essentials, Storage Server 2008 R2 Essentials" value="windowsserversolutionssdk">
+                    SDK for Home Server 2011, SBS 2011 Essentials, Storage Server 2008 R2 Essentials
+                </option>
+            
+                <option label="Server Virtualization" title="Server Virtualization" value="servervirtualization">
+                    Server Virtualization
+                </option>
+            
+                <option label="Windows Server 2008 Application Compatibility and Certification" title="Windows Server 2008 Application Compatibility and Certification" value="winserver2008appcompatabilityandcertification">
+                    Windows Server 2008 Application Compatibility and Certification
+                </option>
+            
+        </optgroup>
+    
+</select>

@@ -1,0 +1,1972 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<select id="CategoryOptionList" name="forum" class="CategoryOptionList" size="20" style="width: 100%;">
+    
+        <optgroup label="Academic Initiatives">
+            
+                <option label="System Center Mobile Device Manager" title="System Center Mobile Device Manager" value="SCMDM">
+                    System Center Mobile Device Manager
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Administrators and Moderators">
+            
+                <option label="Moderator’s Forum" title="Moderator’s Forum" value="Technetmod">
+                    Moderator’s Forum
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Archived Forums I-L">
+            
+                <option label="Learning Content Development System (LCDS) - Bugs and Feedback" title="Learning Content Development System (LCDS) - Bugs and Feedback" value="LCDS">
+                    Learning Content Development System (LCDS) - Bugs and Feedback
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Archived Forums M">
+            
+                <option label="Moderator Only Forum Sandbox" title="Moderator Only Forum Sandbox" value="ModeratorForumSandbox">
+                    Moderator Only Forum Sandbox
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Archived Forums T-U">
+            
+                <option label="Technet Sandbox Forum" title="Technet Sandbox Forum" value="TechnetSandboxForum">
+                    Technet Sandbox Forum
+                </option>
+            
+                <option label="Technet Sandbox Moderator Forum" title="Technet Sandbox Moderator Forum" value="TechnetSandboxModeratorForum">
+                    Technet Sandbox Moderator Forum
+                </option>
+            
+                <option label="Technet Sandbox Moderator Posting Forum" title="Technet Sandbox Moderator Posting Forum" value="TechnetModeratorPostingForum">
+                    Technet Sandbox Moderator Posting Forum
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="BizTalk Server">
+            
+                <option label="BizTalk Server Adapters and Adapter Pack" title="BizTalk Server Adapters and Adapter Pack" value="biztalkr2adapters">
+                    BizTalk Server Adapters and Adapter Pack
+                </option>
+            
+                <option label="BizTalk Server EDI and AS2" title="BizTalk Server EDI and AS2" value="biztalkediandas2">
+                    BizTalk Server EDI and AS2
+                </option>
+            
+                <option label="BizTalk Server General" title="BizTalk Server General" value="biztalkgeneral">
+                    BizTalk Server General
+                </option>
+            
+                <option label="BizTalk Server Host Integration Server" title="BizTalk Server Host Integration Server" value="biztalkhis">
+                    BizTalk Server Host Integration Server
+                </option>
+            
+                <option label="BizTalk Server RFID" title="BizTalk Server RFID" value="biztalkrfid">
+                    BizTalk Server RFID
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Cloud Computing">
+            
+                <option label="Cloud Computing: Infrastructure as a Service" title="Cloud Computing: Infrastructure as a Service" value="iaas">
+                    Cloud Computing: Infrastructure as a Service
+                </option>
+            
+                <option label="Cloud Computing: Platform as a Service" title="Cloud Computing: Platform as a Service" value="paas">
+                    Cloud Computing: Platform as a Service
+                </option>
+            
+                <option label="Cloud Computing: Private Cloud" title="Cloud Computing: Private Cloud" value="privatecloud">
+                    Cloud Computing: Private Cloud
+                </option>
+            
+                <option label="Cloud Computing: Software as a Service" title="Cloud Computing: Software as a Service" value="saas">
+                    Cloud Computing: Software as a Service
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Exchange Server">
+            
+                <option label="Exchange Server 2013 - Administration, Monitoring, and Performance" title="Exchange Server 2013 - Administration, Monitoring, and Performance" value="exchangesvradmin">
+                    Exchange Server 2013 - Administration, Monitoring, and Performance
+                </option>
+            
+                <option label="Exchange Server 2013 - Extended Components, Tools, and Utilities" title="Exchange Server 2013 - Extended Components, Tools, and Utilities" value="exchangesvr3rdpartyapps">
+                    Exchange Server 2013 - Extended Components, Tools, and Utilities
+                </option>
+            
+                <option label="Exchange Server 2013 - General Discussion" title="Exchange Server 2013 - General Discussion" value="exchangesvrgeneral">
+                    Exchange Server 2013 - General Discussion
+                </option>
+            
+                <option label="Exchange Server 2013 - High Availability and Disaster Recovery" title="Exchange Server 2013 - High Availability and Disaster Recovery" value="exchangesvravailabilityandisasterrecovery">
+                    Exchange Server 2013 - High Availability and Disaster Recovery
+                </option>
+            
+                <option label="Exchange Server 2013 - Mail Flow and Secure Messaging" title="Exchange Server 2013 - Mail Flow and Secure Messaging" value="exchangesvrsecuremessaging">
+                    Exchange Server 2013 - Mail Flow and Secure Messaging
+                </option>
+            
+                <option label="Exchange Server 2013 - Mobility and ActiveSync" title="Exchange Server 2013 - Mobility and ActiveSync" value="exchangesvrmobility">
+                    Exchange Server 2013 - Mobility and ActiveSync
+                </option>
+            
+                <option label="Exchange Server 2013 - Outlook, OWA, POP, and IMAP Clients" title="Exchange Server 2013 - Outlook, OWA, POP, and IMAP Clients" value="exchangesvrclients">
+                    Exchange Server 2013 - Outlook, OWA, POP, and IMAP Clients
+                </option>
+            
+                <option label="Exchange Server 2013 - Setup, Deployment, Updates, and Migration" title="Exchange Server 2013 - Setup, Deployment, Updates, and Migration" value="exchangesvrdeploy">
+                    Exchange Server 2013 - Setup, Deployment, Updates, and Migration
+                </option>
+            
+                <option label="Exchange Server 2013 - Sharing and Collaboration: Site Mailboxes and Public Folders" title="Exchange Server 2013 - Sharing and Collaboration: Site Mailboxes and Public Folders" value="exchangesvrsharingcollab">
+                    Exchange Server 2013 - Sharing and Collaboration: Site Mailboxes and Public Folders
+                </option>
+            
+                <option label="Exchange Server 2013 - Unified Messaging" title="Exchange Server 2013 - Unified Messaging" value="exchangesvrunifiedmessaging">
+                    Exchange Server 2013 - Unified Messaging
+                </option>
+            
+                <option label="Exchange Server Development" title="Exchange Server Development" value="exchangesvrdevelopment">
+                    Exchange Server Development
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Feedback and Discussions">
+            
+                <option label="MSDN and TechNet Search Feedback" title="MSDN and TechNet Search Feedback" value="SearchFeedback">
+                    MSDN and TechNet Search Feedback
+                </option>
+            
+                <option label="TechNet Wiki Discussion" title="TechNet Wiki Discussion" value="tnwiki">
+                    TechNet Wiki Discussion
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Forefront">
+            
+                <option label="Antigen" title="Antigen" value="Antigen">
+                    Antigen
+                </option>
+            
+                <option label="Forefront Client Security" title="Forefront Client Security" value="Forefrontclientgeneral">
+                    Forefront Client Security
+                </option>
+            
+                <option label="Forefront Edge Security – DirectAccess, UAG and IAG" title="Forefront Edge Security – DirectAccess, UAG and IAG" value="forefrontedgeiag">
+                    Forefront Edge Security – DirectAccess, UAG and IAG
+                </option>
+            
+                <option label="Forefront Endpoint Protection" title="Forefront Endpoint Protection" value="FCSNext">
+                    Forefront Endpoint Protection
+                </option>
+            
+                <option label="Forefront for Exchange Server" title="Forefront for Exchange Server" value="FSENext">
+                    Forefront for Exchange Server
+                </option>
+            
+                <option label="Forefront for Office Communications Server" title="Forefront for Office Communications Server" value="forefrontOCS">
+                    Forefront for Office Communications Server
+                </option>
+            
+                <option label="Forefront for SharePoint" title="Forefront for SharePoint" value="FSSPNext">
+                    Forefront for SharePoint
+                </option>
+            
+                <option label="Forefront Identity Manager 2010" title="Forefront Identity Manager 2010" value="ilm2">
+                    Forefront Identity Manager 2010
+                </option>
+            
+                <option label="Forefront Management Consoles" title="Forefront Management Consoles" value="ForefrontserverMC">
+                    Forefront Management Consoles
+                </option>
+            
+                <option label="Forefront Online Protection for Exchange" title="Forefront Online Protection for Exchange" value="FOPE">
+                    Forefront Online Protection for Exchange
+                </option>
+            
+                <option label="Forefront TMG and ISA Server" title="Forefront TMG and ISA Server" value="Forefrontedgegeneral">
+                    Forefront TMG and ISA Server
+                </option>
+            
+                <option label="Read Only - Forefront Security for Exchange Server" title="Read Only - Forefront Security for Exchange Server" value="forefrontexchange">
+                    Read Only - Forefront Security for Exchange Server
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Health Solutions">
+            
+                <option label="HealthVault User" title="HealthVault User" value="HealthVaultCustomer">
+                    HealthVault User
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Identity Management">
+            
+                <option label="Forefront Identity Manager 2010" title="Forefront Identity Manager 2010" value="ilm2">
+                    Forefront Identity Manager 2010
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Internet Explorer">
+            
+                <option label="Internet Explorer 8, 9, 10, 11" title="Internet Explorer 8, 9, 10, 11" value="ieitprocurrentver">
+                    Internet Explorer 8, 9, 10, 11
+                </option>
+            
+                <option label="Internet Explorer All Prior Versions" title="Internet Explorer All Prior Versions" value="ieitpropriorver">
+                    Internet Explorer All Prior Versions
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="IT at Microsoft">
+            
+                <option label="Microsoft Operations Framework -- MOF 4.0" title="Microsoft Operations Framework -- MOF 4.0" value="MOF4">
+                    Microsoft Operations Framework -- MOF 4.0
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="IT management">
+            
+                <option label="IT Management Planning and Technology" title="IT Management Planning and Technology" value="itmanager">
+                    IT Management Planning and Technology
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Learning">
+            
+                <option label="Training and Certification" title="Training and Certification" value="CertGeneral">
+                    Training and Certification
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Live Meeting">
+            
+                <option label="Live Meeting  - Creating, Joining Meetings, Configurations and Settings" title="Live Meeting  - Creating, Joining Meetings, Configurations and Settings" value="olmcjm">
+                    Live Meeting  - Creating, Joining Meetings, Configurations and Settings
+                </option>
+            
+                <option label="Live Meeting - In Meeting Experience, Console and Add-ins" title="Live Meeting - In Meeting Experience, Console and Add-ins" value="olmexp">
+                    Live Meeting - In Meeting Experience, Console and Add-ins
+                </option>
+            
+                <option label="Live Meeting - Media Discussion" title="Live Meeting - Media Discussion" value="olmmedia">
+                    Live Meeting - Media Discussion
+                </option>
+            
+                <option label="Live Meeting - Rollout/Deployment Programs" title="Live Meeting - Rollout/Deployment Programs" value="olmsrnd">
+                    Live Meeting - Rollout/Deployment Programs
+                </option>
+            
+                <option label="Live Meeting General Discussion" title="Live Meeting General Discussion" value="olmdiscussion">
+                    Live Meeting General Discussion
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Lync">
+            
+                <option label="Lync 2010 and OCS - Address Book and User Replicator" title="Lync 2010 and OCS - Address Book and User Replicator" value="ocsaddressbook">
+                    Lync 2010 and OCS - Address Book and User Replicator
+                </option>
+            
+                <option label="Lync 2010 and OCS - Capacity Planning and Performance" title="Lync 2010 and OCS - Capacity Planning and Performance" value="ocscapacityplanning">
+                    Lync 2010 and OCS - Capacity Planning and Performance
+                </option>
+            
+                <option label="Lync 2010 and OCS - Certificates" title="Lync 2010 and OCS - Certificates" value="ocscertificates">
+                    Lync 2010 and OCS - Certificates
+                </option>
+            
+                <option label="Lync 2010 and OCS - Conferencing" title="Lync 2010 and OCS - Conferencing" value="ocsconferencing">
+                    Lync 2010 and OCS - Conferencing
+                </option>
+            
+                <option label="Lync 2010 and OCS - Edge Servers" title="Lync 2010 and OCS - Edge Servers" value="ocsedge">
+                    Lync 2010 and OCS - Edge Servers
+                </option>
+            
+                <option label="Lync 2010 and OCS - Enterprise Voice and Telephony" title="Lync 2010 and OCS - Enterprise Voice and Telephony" value="ocsvoice">
+                    Lync 2010 and OCS - Enterprise Voice and Telephony
+                </option>
+            
+                <option label="Lync 2010 and OCS - Interoperability" title="Lync 2010 and OCS - Interoperability" value="ocsinterop">
+                    Lync 2010 and OCS - Interoperability
+                </option>
+            
+                <option label="Lync 2010 and OCS - Lync Clients and Devices" title="Lync 2010 and OCS - Lync Clients and Devices" value="ocsclients">
+                    Lync 2010 and OCS - Lync Clients and Devices
+                </option>
+            
+                <option label="Lync 2010 and OCS - Management" title="Lync 2010 and OCS - Management" value="ocsmanagement">
+                    Lync 2010 and OCS - Management
+                </option>
+            
+                <option label="Lync 2010 and OCS - Mobility" title="Lync 2010 and OCS - Mobility" value="ocsmobility">
+                    Lync 2010 and OCS - Mobility
+                </option>
+            
+                <option label="Lync 2010 and OCS - Monitoring, Archiving, and Compliance" title="Lync 2010 and OCS - Monitoring, Archiving, and Compliance" value="ocsmonitoring">
+                    Lync 2010 and OCS - Monitoring, Archiving, and Compliance
+                </option>
+            
+                <option label="Lync 2010 and OCS - Planning and Deployment" title="Lync 2010 and OCS - Planning and Deployment" value="ocsplanningdeployment">
+                    Lync 2010 and OCS - Planning and Deployment
+                </option>
+            
+                <option label="Lync 2010 and OCS - Presence and IM" title="Lync 2010 and OCS - Presence and IM" value="ocspresenceim">
+                    Lync 2010 and OCS - Presence and IM
+                </option>
+            
+                <option label="Lync 2010 and OCS - Security" title="Lync 2010 and OCS - Security" value="ocssecurity">
+                    Lync 2010 and OCS - Security
+                </option>
+            
+                <option label="Lync 2010 and OCS - UC Integration" title="Lync 2010 and OCS - UC Integration" value="ocsucintegration">
+                    Lync 2010 and OCS - UC Integration
+                </option>
+            
+                <option label="Skype pour Business" title="Skype pour Business" value="sfbfr">
+                    Skype pour Business
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Lync Server">
+            
+                <option label="Lync 2010 and OCS - Address Book and User Replicator" title="Lync 2010 and OCS - Address Book and User Replicator" value="ocsaddressbook">
+                    Lync 2010 and OCS - Address Book and User Replicator
+                </option>
+            
+                <option label="Lync 2010 and OCS - Capacity Planning and Performance" title="Lync 2010 and OCS - Capacity Planning and Performance" value="ocscapacityplanning">
+                    Lync 2010 and OCS - Capacity Planning and Performance
+                </option>
+            
+                <option label="Lync 2010 and OCS - Certificates" title="Lync 2010 and OCS - Certificates" value="ocscertificates">
+                    Lync 2010 and OCS - Certificates
+                </option>
+            
+                <option label="Lync 2010 and OCS - Conferencing" title="Lync 2010 and OCS - Conferencing" value="ocsconferencing">
+                    Lync 2010 and OCS - Conferencing
+                </option>
+            
+                <option label="Lync 2010 and OCS - Edge Servers" title="Lync 2010 and OCS - Edge Servers" value="ocsedge">
+                    Lync 2010 and OCS - Edge Servers
+                </option>
+            
+                <option label="Lync 2010 and OCS - Enterprise Voice and Telephony" title="Lync 2010 and OCS - Enterprise Voice and Telephony" value="ocsvoice">
+                    Lync 2010 and OCS - Enterprise Voice and Telephony
+                </option>
+            
+                <option label="Lync 2010 and OCS - Interoperability" title="Lync 2010 and OCS - Interoperability" value="ocsinterop">
+                    Lync 2010 and OCS - Interoperability
+                </option>
+            
+                <option label="Lync 2010 and OCS - Lync Clients and Devices" title="Lync 2010 and OCS - Lync Clients and Devices" value="ocsclients">
+                    Lync 2010 and OCS - Lync Clients and Devices
+                </option>
+            
+                <option label="Lync 2010 and OCS - Management" title="Lync 2010 and OCS - Management" value="ocsmanagement">
+                    Lync 2010 and OCS - Management
+                </option>
+            
+                <option label="Lync 2010 and OCS - Mobility" title="Lync 2010 and OCS - Mobility" value="ocsmobility">
+                    Lync 2010 and OCS - Mobility
+                </option>
+            
+                <option label="Lync 2010 and OCS - Monitoring, Archiving, and Compliance" title="Lync 2010 and OCS - Monitoring, Archiving, and Compliance" value="ocsmonitoring">
+                    Lync 2010 and OCS - Monitoring, Archiving, and Compliance
+                </option>
+            
+                <option label="Lync 2010 and OCS - Planning and Deployment" title="Lync 2010 and OCS - Planning and Deployment" value="ocsplanningdeployment">
+                    Lync 2010 and OCS - Planning and Deployment
+                </option>
+            
+                <option label="Lync 2010 and OCS - Presence and IM" title="Lync 2010 and OCS - Presence and IM" value="ocspresenceim">
+                    Lync 2010 and OCS - Presence and IM
+                </option>
+            
+                <option label="Lync 2010 and OCS - Security" title="Lync 2010 and OCS - Security" value="ocssecurity">
+                    Lync 2010 and OCS - Security
+                </option>
+            
+                <option label="Lync 2010 and OCS - UC Integration" title="Lync 2010 and OCS - UC Integration" value="ocsucintegration">
+                    Lync 2010 and OCS - UC Integration
+                </option>
+            
+                <option label="Lync Server 2013 - Interoperability" title="Lync Server 2013 - Interoperability" value="lyncinterop">
+                    Lync Server 2013 - Interoperability
+                </option>
+            
+                <option label="Lync Server 2013 - Management, Planning, and Deployment" title="Lync Server 2013 - Management, Planning, and Deployment" value="lyncdeploy">
+                    Lync Server 2013 - Management, Planning, and Deployment
+                </option>
+            
+                <option label="Lync Server 2013 - Persistent Chat" title="Lync Server 2013 - Persistent Chat" value="lyncpersistentchat">
+                    Lync Server 2013 - Persistent Chat
+                </option>
+            
+                <option label="Lync Server 2013 - Sign-In, Presence, IM, and Contacts" title="Lync Server 2013 - Sign-In, Presence, IM, and Contacts" value="lyncprofile">
+                    Lync Server 2013 - Sign-In, Presence, IM, and Contacts
+                </option>
+            
+                <option label="Lync Server 2013 - Video and Conferencing" title="Lync Server 2013 - Video and Conferencing" value="lyncconferencing">
+                    Lync Server 2013 - Video and Conferencing
+                </option>
+            
+                <option label="Lync Server 2013 - Voice" title="Lync Server 2013 - Voice" value="lyncvoice">
+                    Lync Server 2013 - Voice
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Microsoft Azure">
+            
+                <option label="Azure Management Portal" title="Azure Management Portal" value="windowsazuremanagement">
+                    Azure Management Portal
+                </option>
+            
+                <option label="Azure SQL Database" title="Azure SQL Database" value="ssdsgetstarted">
+                    Azure SQL Database
+                </option>
+            
+                <option label="Azure Storage" title="Azure Storage" value="windowsazuredata">
+                    Azure Storage
+                </option>
+            
+                <option label="Cloud Services (Web and Worker Roles)" title="Cloud Services (Web and Worker Roles)" value="windowsazuredevelopment">
+                    Cloud Services (Web and Worker Roles)
+                </option>
+            
+                <option label="Pricing &amp; Billing" title="Pricing &amp; Billing" value="windowsazurepurchasing">
+                    Pricing &amp; Billing
+                </option>
+            
+                <option label="Web Sites and Virtual Machines on Windows Server for Hosting Service Providers" title="Web Sites and Virtual Machines on Windows Server for Hosting Service Providers" value="websitesvirtualmachinesonwinserver">
+                    Web Sites and Virtual Machines on Windows Server for Hosting Service Providers
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Microsoft Desktop Optimization Pack (MDOP)">
+            
+                <option label="Application Virtualization (App-V)" title="Application Virtualization (App-V)" value="mdopappv">
+                    Application Virtualization (App-V)
+                </option>
+            
+                <option label="App-V Sequencing Recipes" title="App-V Sequencing Recipes" value="prescriptiveguidance">
+                    App-V Sequencing Recipes
+                </option>
+            
+                <option label="Microsoft Advanced Group Policy Management (AGPM)" title="Microsoft Advanced Group Policy Management (AGPM)" value="mdopagpm">
+                    Microsoft Advanced Group Policy Management (AGPM)
+                </option>
+            
+                <option label="Microsoft Bitlocker Administration and Monitoring (MBAM)" title="Microsoft Bitlocker Administration and Monitoring (MBAM)" value="mdopmbam">
+                    Microsoft Bitlocker Administration and Monitoring (MBAM)
+                </option>
+            
+                <option label="Microsoft Diagnostics and Recovery Toolset (DaRT)" title="Microsoft Diagnostics and Recovery Toolset (DaRT)" value="mdopdart">
+                    Microsoft Diagnostics and Recovery Toolset (DaRT)
+                </option>
+            
+                <option label="Microsoft Enterprise Desktop Virtualization (Med-V)" title="Microsoft Enterprise Desktop Virtualization (Med-V)" value="mdopmedv">
+                    Microsoft Enterprise Desktop Virtualization (Med-V)
+                </option>
+            
+                <option label="User Experience Virtualization (UE-V)" title="User Experience Virtualization (UE-V)" value="mdopuev">
+                    User Experience Virtualization (UE-V)
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Microsoft Enterprise Search">
+            
+                <option label="FAST Products (pre-2010)" title="FAST Products (pre-2010)" value="fastlegacy">
+                    FAST Products (pre-2010)
+                </option>
+            
+                <option label="FAST Search for Internet Sites, FAST Search for Internal Applications and FAST ESP" title="FAST Search for Internet Sites, FAST Search for Internal Applications and FAST ESP" value="fastinternetesp">
+                    FAST Search for Internet Sites, FAST Search for Internal Applications and FAST ESP
+                </option>
+            
+                <option label="FAST Search for SharePoint" title="FAST Search for SharePoint" value="fastsharepoint">
+                    FAST Search for SharePoint
+                </option>
+            
+                <option label="SharePoint 2013 - Search" title="SharePoint 2013 - Search" value="sharepointsearch">
+                    SharePoint 2013 - Search
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Microsoft Groove Server for IT Professionals">
+            
+                <option label="Groove Server" title="Groove Server" value="grooveserveritpro">
+                    Groove Server
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Microsoft Intune">
+            
+                <option label="Microsoft Intune" title="Microsoft Intune" value="microsoftintuneprod">
+                    Microsoft Intune
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Microsoft Office">
+            
+                <option label="Excel IT Pro Discussions" title="Excel IT Pro Discussions" value="excel">
+                    Excel IT Pro Discussions
+                </option>
+            
+                <option label="Office 2010 - IT Pro General Discussions" title="Office 2010 - IT Pro General Discussions" value="officeitproprevious">
+                    Office 2010 - IT Pro General Discussions
+                </option>
+            
+                <option label="Office 2010 - Planning, Deployment, and Compatibility" title="Office 2010 - Planning, Deployment, and Compatibility" value="officesetupdeployprevious">
+                    Office 2010 - Planning, Deployment, and Compatibility
+                </option>
+            
+                <option label="Office 2013 and Office 365 ProPlus - IT Pro General Discussions" title="Office 2013 and Office 365 ProPlus - IT Pro General Discussions" value="officeitpro">
+                    Office 2013 and Office 365 ProPlus - IT Pro General Discussions
+                </option>
+            
+                <option label="Office 2013 and Office 365 ProPlus - Planning, Deployment, and Compatibility" title="Office 2013 and Office 365 ProPlus - Planning, Deployment, and Compatibility" value="officesetupdeploy">
+                    Office 2013 and Office 365 ProPlus - Planning, Deployment, and Compatibility
+                </option>
+            
+                <option label="Office 2016 for Mac" title="Office 2016 for Mac" value="Office2016forMac">
+                    Office 2016 for Mac
+                </option>
+            
+                <option label="Office Legacy Versions - IT Pro General Discussions" title="Office Legacy Versions - IT Pro General Discussions" value="officeitprolegacy">
+                    Office Legacy Versions - IT Pro General Discussions
+                </option>
+            
+                <option label="Office Legacy Versions - Planning, Deployment, and Compatibility" title="Office Legacy Versions - Planning, Deployment, and Compatibility" value="officesetupdeploylegacy">
+                    Office Legacy Versions - Planning, Deployment, and Compatibility
+                </option>
+            
+                <option label="Outlook IT Pro Discussions" title="Outlook IT Pro Discussions" value="outlook">
+                    Outlook IT Pro Discussions
+                </option>
+            
+                <option label="Word IT Pro Discussions" title="Word IT Pro Discussions" value="word">
+                    Word IT Pro Discussions
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Microsoft Online Services">
+            
+                <option label="Microsoft Online: Administration Center" title="Microsoft Online: Administration Center" value="onlineservicesadministrationcenter">
+                    Microsoft Online: Administration Center
+                </option>
+            
+                <option label="Microsoft Online: Announcements" title="Microsoft Online: Announcements" value="onlineservicesannouncements">
+                    Microsoft Online: Announcements
+                </option>
+            
+                <option label="Microsoft Online: Exchange Online" title="Microsoft Online: Exchange Online" value="onlineservicesexchange">
+                    Microsoft Online: Exchange Online
+                </option>
+            
+                <option label="Microsoft Online: Live Meeting" title="Microsoft Online: Live Meeting" value="onlineserviceslivemeeting">
+                    Microsoft Online: Live Meeting
+                </option>
+            
+                <option label="Microsoft Online: Migration and Coexistence" title="Microsoft Online: Migration and Coexistence" value="onlineservicesmigrationandcoexistence">
+                    Microsoft Online: Migration and Coexistence
+                </option>
+            
+                <option label="Microsoft Online: Office Communications Online" title="Microsoft Online: Office Communications Online" value="onlineservicesoc">
+                    Microsoft Online: Office Communications Online
+                </option>
+            
+                <option label="Microsoft Online: Services Sign In for Mac" title="Microsoft Online: Services Sign In for Mac" value="onlineservices">
+                    Microsoft Online: Services Sign In for Mac
+                </option>
+            
+                <option label="Microsoft Online: Services Sign In for Windows" title="Microsoft Online: Services Sign In for Windows" value="onlineservicessigninapplication">
+                    Microsoft Online: Services Sign In for Windows
+                </option>
+            
+                <option label="Microsoft Online: SharePoint Online" title="Microsoft Online: SharePoint Online" value="onlineservicessharepoint">
+                    Microsoft Online: SharePoint Online
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Microsoft ProClarity">
+            
+                <option label="ProClarity - General" title="ProClarity - General" value="proclarity">
+                    ProClarity - General
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Microsoft Research">
+            
+                <option label="GeoS Community Forum" title="GeoS Community Forum" value="geos">
+                    GeoS Community Forum
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Office PerformancePoint Server">
+            
+                <option label="Data Integration Toolkit" title="Data Integration Toolkit" value="ppsdataintegrationtoolkit">
+                    Data Integration Toolkit
+                </option>
+            
+                <option label="Monitoring and Analytics" title="Monitoring and Analytics" value="ppsmonitoringandanalytics">
+                    Monitoring and Analytics
+                </option>
+            
+                <option label="Planning" title="Planning" value="ppsplanning">
+                    Planning
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Performance">
+            
+                <option label="Windows Performance Toolkit" title="Windows Performance Toolkit" value="wptk_v4">
+                    Windows Performance Toolkit
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Power BI">
+            
+                <option label="Power Map" title="Power Map" value="powermap">
+                    Power Map
+                </option>
+            
+                <option label="Power Pivot" title="Power Pivot" value="sqlkjpowerpivotforexcel">
+                    Power Pivot
+                </option>
+            
+                <option label="Power Query" title="Power Query" value="powerquery">
+                    Power Query
+                </option>
+            
+                <option label="Power View" title="Power View" value="powerview">
+                    Power View
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Previous Versions of Exchange">
+            
+                <option label="Exchange 2003 and Exchange 2007 - General Discussion" title="Exchange 2003 and Exchange 2007 - General Discussion" value="exchangesvrgenerallegacy">
+                    Exchange 2003 and Exchange 2007 - General Discussion
+                </option>
+            
+                <option label="Exchange 2010 for Hosters" title="Exchange 2010 for Hosters" value="exchange2010hosters">
+                    Exchange 2010 for Hosters
+                </option>
+            
+                <option label="Exchange Previous Versions - Administration, Monitoring, and Performance" title="Exchange Previous Versions - Administration, Monitoring, and Performance" value="exchangesvradminlegacy">
+                    Exchange Previous Versions - Administration, Monitoring, and Performance
+                </option>
+            
+                <option label="Exchange Previous Versions - Extended Components, Tools, and Utilities" title="Exchange Previous Versions - Extended Components, Tools, and Utilities" value="exchangesvr3rdpartyappslegacy">
+                    Exchange Previous Versions - Extended Components, Tools, and Utilities
+                </option>
+            
+                <option label="Exchange Previous Versions - High Availability and Disaster Recovery" title="Exchange Previous Versions - High Availability and Disaster Recovery" value="exchangesvravailabilityandisasterrecoverylegacy">
+                    Exchange Previous Versions - High Availability and Disaster Recovery
+                </option>
+            
+                <option label="Exchange Previous Versions - Mail Flow and Secure Messaging" title="Exchange Previous Versions - Mail Flow and Secure Messaging" value="exchangesvrsecuremessaginglegacy">
+                    Exchange Previous Versions - Mail Flow and Secure Messaging
+                </option>
+            
+                <option label="Exchange Previous Versions - Mobility and ActiveSync" title="Exchange Previous Versions - Mobility and ActiveSync" value="exchangesvrmobilitylegacy">
+                    Exchange Previous Versions - Mobility and ActiveSync
+                </option>
+            
+                <option label="Exchange Previous Versions - Outlook, OWA, POP, and IMAP Clients" title="Exchange Previous Versions - Outlook, OWA, POP, and IMAP Clients" value="exchangesvrclientslegacy">
+                    Exchange Previous Versions - Outlook, OWA, POP, and IMAP Clients
+                </option>
+            
+                <option label="Exchange Previous Versions - Setup, Deployment, Updates, and Migration" title="Exchange Previous Versions - Setup, Deployment, Updates, and Migration" value="exchangesvrdeploylegacy">
+                    Exchange Previous Versions - Setup, Deployment, Updates, and Migration
+                </option>
+            
+                <option label="Exchange Previous Versions - Unified Messaging" title="Exchange Previous Versions - Unified Messaging" value="exchangesvrunifiedmessaginglegacy">
+                    Exchange Previous Versions - Unified Messaging
+                </option>
+            
+                <option label="Exchange Server 2010" title="Exchange Server 2010" value="exchange2010">
+                    Exchange Server 2010
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Project">
+            
+                <option label="Project Customization and Programming" title="Project Customization and Programming" value="project2010custprog">
+                    Project Customization and Programming
+                </option>
+            
+                <option label="Project Online General Questions and Answers" title="Project Online General Questions and Answers" value="projectonline">
+                    Project Online General Questions and Answers
+                </option>
+            
+                <option label="Project Server - Setup, Upgrade, Administration and Operation" title="Project Server - Setup, Upgrade, Administration and Operation" value="projserv2010setup">
+                    Project Server - Setup, Upgrade, Administration and Operation
+                </option>
+            
+                <option label="Project Server General Questions and Answers" title="Project Server General Questions and Answers" value="projectserver2010general">
+                    Project Server General Questions and Answers
+                </option>
+            
+                <option label="Project Standard and Professional General Questions and Answers" title="Project Standard and Professional General Questions and Answers" value="projectprofessional2010general">
+                    Project Standard and Professional General Questions and Answers
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Project Server">
+            
+                <option label="Project Customization and Programming" title="Project Customization and Programming" value="project2010custprog">
+                    Project Customization and Programming
+                </option>
+            
+                <option label="Project Server - Setup, Upgrade, Administration and Operation" title="Project Server - Setup, Upgrade, Administration and Operation" value="projserv2010setup">
+                    Project Server - Setup, Upgrade, Administration and Operation
+                </option>
+            
+                <option label="Project Server General Questions and Answers" title="Project Server General Questions and Answers" value="projectserver2010general">
+                    Project Server General Questions and Answers
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Project Siena">
+            
+                <option label="Project Siena" title="Project Siena" value="projectsiena">
+                    Project Siena
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Rights Management Services">
+            
+                <option label="Active Directory Rights Management Service(On premise)" title="Active Directory Rights Management Service(On premise)" value="rms">
+                    Active Directory Rights Management Service(On premise)
+                </option>
+            
+                <option label="Microsoft RMS (Cloud)" title="Microsoft RMS (Cloud)" value="rmscloud">
+                    Microsoft RMS (Cloud)
+                </option>
+            
+                <option label="RMS for Users (Applications)" title="RMS for Users (Applications)" value="rmsapps">
+                    RMS for Users (Applications)
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Sandbox Forums">
+            
+                <option label="Moderator Only Forum Sandbox" title="Moderator Only Forum Sandbox" value="ModeratorForumSandbox">
+                    Moderator Only Forum Sandbox
+                </option>
+            
+                <option label="Moderator Posting Only Forum Sandbox" title="Moderator Posting Only Forum Sandbox" value="ModeratorPostingSandbox">
+                    Moderator Posting Only Forum Sandbox
+                </option>
+            
+                <option label="TechNet Sandbox" title="TechNet Sandbox" value="tnsandbox">
+                    TechNet Sandbox
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Scripting">
+            
+                <option label="Data Protection Manager - Scripting" title="Data Protection Manager - Scripting" value="dpmpowershell">
+                    Data Protection Manager - Scripting
+                </option>
+            
+                <option label="The Official Scripting Guys Forum!" title="The Official Scripting Guys Forum!" value="ITCG">
+                    The Official Scripting Guys Forum!
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Security">
+            
+                <option label="Enhanced Mitigation Experience Toolkit (EMET) Support" title="Enhanced Mitigation Experience Toolkit (EMET) Support" value="emet">
+                    Enhanced Mitigation Experience Toolkit (EMET) Support
+                </option>
+            
+                <option label="MBSA - Microsoft Baseline Security Analyzer" title="MBSA - Microsoft Baseline Security Analyzer" value="MBSA">
+                    MBSA - Microsoft Baseline Security Analyzer
+                </option>
+            
+                <option label="Microsoft Advanced Threat Analytics" title="Microsoft Advanced Threat Analytics" value="mata">
+                    Microsoft Advanced Threat Analytics
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="SharePoint">
+            
+                <option label="Cloud Search Service Application Preview" title="Cloud Search Service Application Preview" value="CloudSSA">
+                    Cloud Search Service Application Preview
+                </option>
+            
+                <option label="SharePoint 2010 - Development and Programming" title="SharePoint 2010 - Development and Programming" value="sharepointdevelopmentprevious">
+                    SharePoint 2010 - Development and Programming
+                </option>
+            
+                <option label="SharePoint 2010 - General Discussions and Questions" title="SharePoint 2010 - General Discussions and Questions" value="sharepointgeneralprevious">
+                    SharePoint 2010 - General Discussions and Questions
+                </option>
+            
+                <option label="SharePoint 2010 - Search" title="SharePoint 2010 - Search" value="sharepointsearchprevious">
+                    SharePoint 2010 - Search
+                </option>
+            
+                <option label="SharePoint 2010 - Setup, Upgrade, Administration and Operations" title="SharePoint 2010 - Setup, Upgrade, Administration and Operations" value="sharepointadminprevious">
+                    SharePoint 2010 - Setup, Upgrade, Administration and Operations
+                </option>
+            
+                <option label="SharePoint 2010 - Using SharePoint Designer, InfoPath and Other Customizations" title="SharePoint 2010 - Using SharePoint Designer, InfoPath and Other Customizations" value="sharepointcustomizationprevious">
+                    SharePoint 2010 - Using SharePoint Designer, InfoPath and Other Customizations
+                </option>
+            
+                <option label="SharePoint 2013 -  Setup, Upgrade, Administration and Operations" title="SharePoint 2013 -  Setup, Upgrade, Administration and Operations" value="sharepointadmin">
+                    SharePoint 2013 -  Setup, Upgrade, Administration and Operations
+                </option>
+            
+                <option label="SharePoint 2013 - Development and Programming " title="SharePoint 2013 - Development and Programming " value="sharepointdevelopment">
+                    SharePoint 2013 - Development and Programming 
+                </option>
+            
+                <option label="SharePoint 2013 - General Discussions and Questions" title="SharePoint 2013 - General Discussions and Questions" value="sharepointgeneral">
+                    SharePoint 2013 - General Discussions and Questions
+                </option>
+            
+                <option label="SharePoint 2013 - Search" title="SharePoint 2013 - Search" value="sharepointsearch">
+                    SharePoint 2013 - Search
+                </option>
+            
+                <option label="SharePoint 2013 - Using SharePoint Designer, InfoPath and Other Customizations" title="SharePoint 2013 - Using SharePoint Designer, InfoPath and Other Customizations" value="sharepointcustomization">
+                    SharePoint 2013 - Using SharePoint Designer, InfoPath and Other Customizations
+                </option>
+            
+                <option label="SharePoint Legacy Versions - Development and Other Programming" title="SharePoint Legacy Versions - Development and Other Programming" value="sharepointdevelopmentlegacy">
+                    SharePoint Legacy Versions - Development and Other Programming
+                </option>
+            
+                <option label="SharePoint Legacy Versions - General Discussions and Questions" title="SharePoint Legacy Versions - General Discussions and Questions" value="sharepointgenerallegacy">
+                    SharePoint Legacy Versions - General Discussions and Questions
+                </option>
+            
+                <option label="SharePoint Legacy Versions - Search" title="SharePoint Legacy Versions - Search" value="sharepointsearchlegacy">
+                    SharePoint Legacy Versions - Search
+                </option>
+            
+                <option label="SharePoint Legacy Versions - Setup, Upgrade, Administration and Operations" title="SharePoint Legacy Versions - Setup, Upgrade, Administration and Operations" value="sharepointadminlegacy">
+                    SharePoint Legacy Versions - Setup, Upgrade, Administration and Operations
+                </option>
+            
+                <option label="SharePoint Legacy Versions - Using SharePoint Designer, InfoPath and Other Customizations" title="SharePoint Legacy Versions - Using SharePoint Designer, InfoPath and Other Customizations" value="sharepointcustomizationlegacy">
+                    SharePoint Legacy Versions - Using SharePoint Designer, InfoPath and Other Customizations
+                </option>
+            
+                <option label="SharePoint Server 2016 Preview" title="SharePoint Server 2016 Preview" value="SP2016">
+                    SharePoint Server 2016 Preview
+                </option>
+            
+                <option label="Workflow Manager 1.0" title="Workflow Manager 1.0" value="wflmgr">
+                    Workflow Manager 1.0
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Skype for Business">
+            
+                <option label="Skype pour Business" title="Skype pour Business" value="sfbfr">
+                    Skype pour Business
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Solution Accelerators">
+            
+                <option label="Microsoft Assessment and Planning Toolkit" title="Microsoft Assessment and Planning Toolkit" value="map">
+                    Microsoft Assessment and Planning Toolkit
+                </option>
+            
+                <option label="Microsoft Deployment Toolkit" title="Microsoft Deployment Toolkit" value="mdt">
+                    Microsoft Deployment Toolkit
+                </option>
+            
+                <option label="Microsoft Operations Framework -- MOF 4.0" title="Microsoft Operations Framework -- MOF 4.0" value="MOF4">
+                    Microsoft Operations Framework -- MOF 4.0
+                </option>
+            
+                <option label="Security and Compliance Management" title="Security and Compliance Management" value="compliancemanagement">
+                    Security and Compliance Management
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="SQL Azure">
+            
+                <option label="Azure SQL Database" title="Azure SQL Database" value="ssdsgetstarted">
+                    Azure SQL Database
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="SQL Server">
+            
+                <option label=".NET Framework inside SQL Server" title=".NET Framework inside SQL Server" value="sqlnetfx">
+                    .NET Framework inside SQL Server
+                </option>
+            
+                <option label="Data Mining" title="Data Mining" value="sqldatamining">
+                    Data Mining
+                </option>
+            
+                <option label="Database Design" title="Database Design" value="databasedesign">
+                    Database Design
+                </option>
+            
+                <option label="Database Mirroring" title="Database Mirroring" value="sqldatabasemirroring">
+                    Database Mirroring
+                </option>
+            
+                <option label="Getting started with SQL Server" title="Getting started with SQL Server" value="sqlgetstarted">
+                    Getting started with SQL Server
+                </option>
+            
+                <option label="Microsoft Drivers for PHP for SQL Server" title="Microsoft Drivers for PHP for SQL Server" value="sqldriverforphp">
+                    Microsoft Drivers for PHP for SQL Server
+                </option>
+            
+                <option label="Microsoft StreamInsight" title="Microsoft StreamInsight" value="streaminsight">
+                    Microsoft StreamInsight
+                </option>
+            
+                <option label="Power Pivot" title="Power Pivot" value="sqlkjpowerpivotforexcel">
+                    Power Pivot
+                </option>
+            
+                <option label="SQL Server Analysis Services" title="SQL Server Analysis Services" value="sqlanalysisservices">
+                    SQL Server Analysis Services
+                </option>
+            
+                <option label="SQL Server Application and Multi-Server Management" title="SQL Server Application and Multi-Server Management" value="sqlkjappmsmgmt">
+                    SQL Server Application and Multi-Server Management
+                </option>
+            
+                <option label="SQL Server Compact" title="SQL Server Compact" value="sqlce">
+                    SQL Server Compact
+                </option>
+            
+                <option label="SQL Server Data Access" title="SQL Server Data Access" value="sqldataaccess">
+                    SQL Server Data Access
+                </option>
+            
+                <option label="SQL Server Data Quality Services" title="SQL Server Data Quality Services" value="sqldataqualityservices">
+                    SQL Server Data Quality Services
+                </option>
+            
+                <option label="SQL Server Data Warehousing" title="SQL Server Data Warehousing" value="sqldatawarehousing">
+                    SQL Server Data Warehousing
+                </option>
+            
+                <option label="SQL Server Database Engine" title="SQL Server Database Engine" value="sqldatabaseengine">
+                    SQL Server Database Engine
+                </option>
+            
+                <option label="SQL Server Distributed Replay" title="SQL Server Distributed Replay" value="sqldru">
+                    SQL Server Distributed Replay
+                </option>
+            
+                <option label="SQL Server Documentation" title="SQL Server Documentation" value="sqldocumentation">
+                    SQL Server Documentation
+                </option>
+            
+                <option label="SQL Server Express" title="SQL Server Express" value="sqlexpress">
+                    SQL Server Express
+                </option>
+            
+                <option label="SQL Server High Availability and Disaster Recovery" title="SQL Server High Availability and Disaster Recovery" value="sqldisasterrecovery">
+                    SQL Server High Availability and Disaster Recovery
+                </option>
+            
+                <option label="SQL Server Integration Services" title="SQL Server Integration Services" value="sqlintegrationservices">
+                    SQL Server Integration Services
+                </option>
+            
+                <option label="SQL Server Manageability" title="SQL Server Manageability" value="sqlkjmanageability">
+                    SQL Server Manageability
+                </option>
+            
+                <option label="SQL Server Master Data Services" title="SQL Server Master Data Services" value="sqlmds">
+                    SQL Server Master Data Services
+                </option>
+            
+                <option label="SQL Server Migration" title="SQL Server Migration" value="sqlservermigration">
+                    SQL Server Migration
+                </option>
+            
+                <option label="SQL Server Notification Services" title="SQL Server Notification Services" value="sqlnotificationservices">
+                    SQL Server Notification Services
+                </option>
+            
+                <option label="SQL Server PowerPivot for SharePoint" title="SQL Server PowerPivot for SharePoint" value="sqlkjpowerpointforsharepoint">
+                    SQL Server PowerPivot for SharePoint
+                </option>
+            
+                <option label="SQL Server Replication" title="SQL Server Replication" value="sqlreplication">
+                    SQL Server Replication
+                </option>
+            
+                <option label="SQL Server Reporting Services, Power View" title="SQL Server Reporting Services, Power View" value="sqlreportingservices">
+                    SQL Server Reporting Services, Power View
+                </option>
+            
+                <option label="SQL Server Samples and Community Projects" title="SQL Server Samples and Community Projects" value="sqlserversamples">
+                    SQL Server Samples and Community Projects
+                </option>
+            
+                <option label="SQL Server Search" title="SQL Server Search" value="sqlsearch">
+                    SQL Server Search
+                </option>
+            
+                <option label="SQL Server Security" title="SQL Server Security" value="sqlsecurity">
+                    SQL Server Security
+                </option>
+            
+                <option label="SQL Server Setup &amp; Upgrade" title="SQL Server Setup &amp; Upgrade" value="sqlsetupandupgrade">
+                    SQL Server Setup &amp; Upgrade
+                </option>
+            
+                <option label="SQL Server SMO/DMO" title="SQL Server SMO/DMO" value="sqlsmoanddmo">
+                    SQL Server SMO/DMO
+                </option>
+            
+                <option label="SQL Server Spatial" title="SQL Server Spatial" value="sqlspatial">
+                    SQL Server Spatial
+                </option>
+            
+                <option label="SQL Server Tools" title="SQL Server Tools" value="sqltools">
+                    SQL Server Tools
+                </option>
+            
+                <option label="SQL Server XML" title="SQL Server XML" value="sqlxml">
+                    SQL Server XML
+                </option>
+            
+                <option label="SQL Service Broker" title="SQL Service Broker" value="sqlservicebroker">
+                    SQL Service Broker
+                </option>
+            
+                <option label="Transact-SQL" title="Transact-SQL" value="transactsql">
+                    Transact-SQL
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="SQL Server (Pre-release)">
+            
+                <option label="Azure SQL Database" title="Azure SQL Database" value="ssdsgetstarted">
+                    Azure SQL Database
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Surface">
+            
+                <option label="Surface 1.0 Hardware, Platform and Applications" title="Surface 1.0 Hardware, Platform and Applications" value="SurfaceSoftware">
+                    Surface 1.0 Hardware, Platform and Applications
+                </option>
+            
+                <option label="Surface 2.0 Platform and Applications" title="Surface 2.0 Platform and Applications" value="surfacesoftware2">
+                    Surface 2.0 Platform and Applications
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="System Center">
+            
+                <option label="Remote Operations Manager - General" title="Remote Operations Manager - General" value="systemcenterrom">
+                    Remote Operations Manager - General
+                </option>
+            
+                <option label="System Center Essentials - Capacity Planner" title="System Center Essentials - Capacity Planner" value="systemcentercapacityplanner">
+                    System Center Essentials - Capacity Planner
+                </option>
+            
+                <option label="System Center Essentials - Deployment" title="System Center Essentials - Deployment" value="systemcenterdeployment">
+                    System Center Essentials - Deployment
+                </option>
+            
+                <option label="System Center Essentials - General" title="System Center Essentials - General" value="systemcenter">
+                    System Center Essentials - General
+                </option>
+            
+                <option label="System Center Essentials - Inventory" title="System Center Essentials - Inventory" value="systemcenterinventory">
+                    System Center Essentials - Inventory
+                </option>
+            
+                <option label="System Center Essentials - Monitoring" title="System Center Essentials - Monitoring" value="systemcentermonitoring">
+                    System Center Essentials - Monitoring
+                </option>
+            
+                <option label="System Center Essentials - Software Deployment" title="System Center Essentials - Software Deployment" value="systemcenterdevelopment">
+                    System Center Essentials - Software Deployment
+                </option>
+            
+                <option label="System Center Essentials - Updates" title="System Center Essentials - Updates" value="systemcenterupdates">
+                    System Center Essentials - Updates
+                </option>
+            
+                <option label="System Center Essentials 2010" title="System Center Essentials 2010" value="systemcenteressentials">
+                    System Center Essentials 2010
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="System Center">
+            
+                <option label="App Controller - General" title="App Controller - General" value="appcontroller">
+                    App Controller - General
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="System Center -  Service Manager">
+            
+                <option label="Service Manager - Administration (User Roles, Notifications, Workflows, etc.)" title="Service Manager - Administration (User Roles, Notifications, Workflows, etc.)" value="administration">
+                    Service Manager - Administration (User Roles, Notifications, Workflows, etc.)
+                </option>
+            
+                <option label="Service Manager - Customization Using the SDK and Authoring Tool" title="Service Manager - Customization Using the SDK and Authoring Tool" value="customization">
+                    Service Manager - Customization Using the SDK and Authoring Tool
+                </option>
+            
+                <option label="Service Manager - Data Warehouse, Reporting and Dashboards" title="Service Manager - Data Warehouse, Reporting and Dashboards" value="dwreportingdashboards">
+                    Service Manager - Data Warehouse, Reporting and Dashboards
+                </option>
+            
+                <option label="Service Manager - Documentation" title="Service Manager - Documentation" value="documentation">
+                    Service Manager - Documentation
+                </option>
+            
+                <option label="Service Manager - General" title="Service Manager - General" value="systemcenterservicemanager">
+                    Service Manager - General
+                </option>
+            
+                <option label="Service Manager - ITIL and MOF Processes - Incident, Problem, Change, Release, Service Request Management" title="Service Manager - ITIL and MOF Processes - Incident, Problem, Change, Release, Service Request Management" value="itilmofprocesses">
+                    Service Manager - ITIL and MOF Processes - Incident, Problem, Change, Release, Service Request Management
+                </option>
+            
+                <option label="Service Manager - Portals" title="Service Manager - Portals" value="portals">
+                    Service Manager - Portals
+                </option>
+            
+                <option label="Service Manager - Setup" title="Service Manager - Setup" value="setup">
+                    Service Manager - Setup
+                </option>
+            
+                <option label="Service Manager - System Center Integration and Connectors" title="Service Manager - System Center Integration and Connectors" value="connectors">
+                    Service Manager - System Center Integration and Connectors
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="System Center - Operations Manager">
+            
+                <option label="AVICode 5.7" title="AVICode 5.7" value="operationsmanageravicode">
+                    AVICode 5.7
+                </option>
+            
+                <option label="Operations Manager - Application Performance Monitoring (APM)" title="Operations Manager - Application Performance Monitoring (APM)" value="scomapm">
+                    Operations Manager - Application Performance Monitoring (APM)
+                </option>
+            
+                <option label="Operations Manager - Authoring" title="Operations Manager - Authoring" value="operationsmanagerauthoring">
+                    Operations Manager - Authoring
+                </option>
+            
+                <option label="Operations Manager - Deployment" title="Operations Manager - Deployment" value="operationsmanagerdeployment">
+                    Operations Manager - Deployment
+                </option>
+            
+                <option label="Operations Manager - Extensibility" title="Operations Manager - Extensibility" value="operationsmanagerextensibility">
+                    Operations Manager - Extensibility
+                </option>
+            
+                <option label="Operations Manager - General" title="Operations Manager - General" value="operationsmanagergeneral">
+                    Operations Manager - General
+                </option>
+            
+                <option label="Operations Manager - Management Packs" title="Operations Manager - Management Packs" value="operationsmanagermgmtpacks">
+                    Operations Manager - Management Packs
+                </option>
+            
+                <option label="Operations Manager - Reporting" title="Operations Manager - Reporting" value="operationsmanagerreporting">
+                    Operations Manager - Reporting
+                </option>
+            
+                <option label="Operations Manager - Unix and Linux" title="Operations Manager - Unix and Linux" value="operationsmanagerunixandlinux">
+                    Operations Manager - Unix and Linux
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="System Center - Virtual Machine Manager">
+            
+                <option label="Microsoft Azure Site Recovery" title="Microsoft Azure Site Recovery" value="hypervrecovmgr">
+                    Microsoft Azure Site Recovery
+                </option>
+            
+                <option label="Microsoft Enterprise Application Extension Handler" title="Microsoft Enterprise Application Extension Handler" value="MSEAH">
+                    Microsoft Enterprise Application Extension Handler
+                </option>
+            
+                <option label="Virtual Machine Manager – Clustering" title="Virtual Machine Manager – Clustering" value="virtualmachinemgrclustering">
+                    Virtual Machine Manager – Clustering
+                </option>
+            
+                <option label="Virtual Machine Manager – General" title="Virtual Machine Manager – General" value="virtualmachinemanager">
+                    Virtual Machine Manager – General
+                </option>
+            
+                <option label="Virtual Machine Manager – Hyper-V" title="Virtual Machine Manager – Hyper-V" value="virtualmachingmgrhyperv">
+                    Virtual Machine Manager – Hyper-V
+                </option>
+            
+                <option label="Virtual Machine Manager – P2V/V2V" title="Virtual Machine Manager – P2V/V2V" value="virtualmachinemgrp2vv2v">
+                    Virtual Machine Manager – P2V/V2V
+                </option>
+            
+                <option label="Virtual Machine Manager – PRO/SC integration" title="Virtual Machine Manager – PRO/SC integration" value="virtualmachinemgrproscintegration">
+                    Virtual Machine Manager – PRO/SC integration
+                </option>
+            
+                <option label="Virtual Machine Manager - Self-Service Portal 2.0" title="Virtual Machine Manager - Self-Service Portal 2.0" value="scvmmssp2">
+                    Virtual Machine Manager - Self-Service Portal 2.0
+                </option>
+            
+                <option label="Virtual Machine Manager – Setup" title="Virtual Machine Manager – Setup" value="virtualmachingmgrsetup">
+                    Virtual Machine Manager – Setup
+                </option>
+            
+                <option label="Virtual Machine Manager – VMware" title="Virtual Machine Manager – VMware" value="virtualmachinemgrvmware">
+                    Virtual Machine Manager – VMware
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="System Center 2012 Configuration Manager">
+            
+                <option label="Configuration Manager 2012 - Application Management" title="Configuration Manager 2012 - Application Management" value="configmanagerapps">
+                    Configuration Manager 2012 - Application Management
+                </option>
+            
+                <option label="Configuration Manager 2012 - General" title="Configuration Manager 2012 - General" value="configmanagergeneral">
+                    Configuration Manager 2012 - General
+                </option>
+            
+                <option label="Configuration Manager 2012 - Migration" title="Configuration Manager 2012 - Migration" value="configmanagermigration">
+                    Configuration Manager 2012 - Migration
+                </option>
+            
+                <option label="Configuration Manager 2012 - Mobile Device Management" title="Configuration Manager 2012 - Mobile Device Management" value="configmanagermdm">
+                    Configuration Manager 2012 - Mobile Device Management
+                </option>
+            
+                <option label="Configuration Manager 2012 - Operating System Deployment" title="Configuration Manager 2012 - Operating System Deployment" value="configmanagerosd">
+                    Configuration Manager 2012 - Operating System Deployment
+                </option>
+            
+                <option label="Configuration Manager 2012 - SDK and PowerShell" title="Configuration Manager 2012 - SDK and PowerShell" value="configmanagersdk">
+                    Configuration Manager 2012 - SDK and PowerShell
+                </option>
+            
+                <option label="Configuration Manager 2012 - Security, Updates and Compliance" title="Configuration Manager 2012 - Security, Updates and Compliance" value="configmanagersecurity">
+                    Configuration Manager 2012 - Security, Updates and Compliance
+                </option>
+            
+                <option label="Configuration Manager 2012 - Site and Client Deployment" title="Configuration Manager 2012 - Site and Client Deployment" value="configmanagerdeployment">
+                    Configuration Manager 2012 - Site and Client Deployment
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="System Center Configuration Manager">
+            
+                <option label="Configuration Manager 2007 Admin Console" title="Configuration Manager 2007 Admin Console" value="configmgradminconsole">
+                    Configuration Manager 2007 Admin Console
+                </option>
+            
+                <option label="Configuration Manager 2007 Announcements" title="Configuration Manager 2007 Announcements" value="configmgrannouncements">
+                    Configuration Manager 2007 Announcements
+                </option>
+            
+                <option label="Configuration Manager 2007 Asset Intelligence" title="Configuration Manager 2007 Asset Intelligence" value="configmgrai">
+                    Configuration Manager 2007 Asset Intelligence
+                </option>
+            
+                <option label="Configuration Manager 2007 Backup and Recovery" title="Configuration Manager 2007 Backup and Recovery" value="configmgrbackup">
+                    Configuration Manager 2007 Backup and Recovery
+                </option>
+            
+                <option label="Configuration Manager 2007 Desired Configuration Management" title="Configuration Manager 2007 Desired Configuration Management" value="configmgrdcm">
+                    Configuration Manager 2007 Desired Configuration Management
+                </option>
+            
+                <option label="Configuration Manager 2007 Documentation" title="Configuration Manager 2007 Documentation" value="configmgrdocs">
+                    Configuration Manager 2007 Documentation
+                </option>
+            
+                <option label="Configuration Manager 2007 General" title="Configuration Manager 2007 General" value="configmgrgeneral">
+                    Configuration Manager 2007 General
+                </option>
+            
+                <option label="Configuration Manager 2007 Internet Clients and Native Mode" title="Configuration Manager 2007 Internet Clients and Native Mode" value="configmgribcm">
+                    Configuration Manager 2007 Internet Clients and Native Mode
+                </option>
+            
+                <option label="Configuration Manager 2007 Inventory" title="Configuration Manager 2007 Inventory" value="configmgrinventory">
+                    Configuration Manager 2007 Inventory
+                </option>
+            
+                <option label="Configuration Manager 2007 Operating System Deployment" title="Configuration Manager 2007 Operating System Deployment" value="configmgrosd">
+                    Configuration Manager 2007 Operating System Deployment
+                </option>
+            
+                <option label="Configuration Manager 2007 Power Management" title="Configuration Manager 2007 Power Management" value="configmgrpower">
+                    Configuration Manager 2007 Power Management
+                </option>
+            
+                <option label="Configuration Manager 2007 Reporting" title="Configuration Manager 2007 Reporting" value="configmgrreporting">
+                    Configuration Manager 2007 Reporting
+                </option>
+            
+                <option label="Configuration Manager 2007 SDK" title="Configuration Manager 2007 SDK" value="configmgrsdk">
+                    Configuration Manager 2007 SDK
+                </option>
+            
+                <option label="Configuration Manager 2007 Setup/Deployment" title="Configuration Manager 2007 Setup/Deployment" value="configmgrsetup">
+                    Configuration Manager 2007 Setup/Deployment
+                </option>
+            
+                <option label="Configuration Manager 2007 Software Distribution" title="Configuration Manager 2007 Software Distribution" value="configmgrswdist">
+                    Configuration Manager 2007 Software Distribution
+                </option>
+            
+                <option label="Configuration Manager 2007 Software Updates Management" title="Configuration Manager 2007 Software Updates Management" value="configmgrsum">
+                    Configuration Manager 2007 Software Updates Management
+                </option>
+            
+                <option label="Configuration Manager Servicing" title="Configuration Manager Servicing" value="configmgrservicing">
+                    Configuration Manager Servicing
+                </option>
+            
+                <option label="Systems Management Server 2003" title="Systems Management Server 2003" value="sms">
+                    Systems Management Server 2003
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="System Center Cross Platform and Interoperability">
+            
+                <option label="Interop Connectors for Operations Manager" title="Interop Connectors for Operations Manager" value="interopgeneral">
+                    Interop Connectors for Operations Manager
+                </option>
+            
+                <option label="Opalis Integrations" title="Opalis Integrations" value="opalisint">
+                    Opalis Integrations
+                </option>
+            
+                <option label="Opalis Quick Integration Kit" title="Opalis Quick Integration Kit" value="opalisqik">
+                    Opalis Quick Integration Kit
+                </option>
+            
+                <option label="Opalis v4 General" title="Opalis v4 General" value="opalisv4">
+                    Opalis v4 General
+                </option>
+            
+                <option label="Opalis v5 / v6 General" title="Opalis v5 / v6 General" value="opalisv5v6">
+                    Opalis v5 / v6 General
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="System Center Data Protection Manager">
+            
+                <option label="Data Protection Manager - Disaster Protection" title="Data Protection Manager - Disaster Protection" value="dpmdrbackup">
+                    Data Protection Manager - Disaster Protection
+                </option>
+            
+                <option label="Data Protection Manager - Exchange protection" title="Data Protection Manager - Exchange protection" value="dpmexchbackup">
+                    Data Protection Manager - Exchange protection
+                </option>
+            
+                <option label="Data Protection Manager - File Protection" title="Data Protection Manager - File Protection" value="dpmfilebackup">
+                    Data Protection Manager - File Protection
+                </option>
+            
+                <option label="Data Protection Manager - General" title="Data Protection Manager - General" value="dataprotectionmanager">
+                    Data Protection Manager - General
+                </option>
+            
+                <option label="Data Protection Manager - Hyper-V and CSV Clusters" title="Data Protection Manager - Hyper-V and CSV Clusters" value="dpmhypervbackup">
+                    Data Protection Manager - Hyper-V and CSV Clusters
+                </option>
+            
+                <option label="Data Protection Manager - Laptop Protection" title="Data Protection Manager - Laptop Protection" value="dpmlpprotection">
+                    Data Protection Manager - Laptop Protection
+                </option>
+            
+                <option label="Data Protection Manager - Scripting" title="Data Protection Manager - Scripting" value="dpmpowershell">
+                    Data Protection Manager - Scripting
+                </option>
+            
+                <option label="Data Protection Manager - Setup and Agent management" title="Data Protection Manager - Setup and Agent management" value="dpmsetup">
+                    Data Protection Manager - Setup and Agent management
+                </option>
+            
+                <option label="Data Protection Manager - SQL Protection" title="Data Protection Manager - SQL Protection" value="dpmsqlbackup">
+                    Data Protection Manager - SQL Protection
+                </option>
+            
+                <option label="Data Protection Manager - Storage Pool" title="Data Protection Manager - Storage Pool" value="dpmstorage">
+                    Data Protection Manager - Storage Pool
+                </option>
+            
+                <option label="Data Protection Manager - System State and BMR Protection" title="Data Protection Manager - System State and BMR Protection" value="dpmssandbmrbackup">
+                    Data Protection Manager - System State and BMR Protection
+                </option>
+            
+                <option label="Data Protection Manager - Tape Protection" title="Data Protection Manager - Tape Protection" value="dpmtapebackuprecovery">
+                    Data Protection Manager - Tape Protection
+                </option>
+            
+                <option label="Data Protection Manager - Workgroup or Untrusted Machine Protection." title="Data Protection Manager - Workgroup or Untrusted Machine Protection." value="dpmworkgroupbackup">
+                    Data Protection Manager - Workgroup or Untrusted Machine Protection.
+                </option>
+            
+                <option label="Data Protection Manager -SharePoint Protection" title="Data Protection Manager -SharePoint Protection" value="dpmsharepointbackup">
+                    Data Protection Manager -SharePoint Protection
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="System Center Mobile Device Manager">
+            
+                <option label="System Center Mobile Device Manager" title="System Center Mobile Device Manager" value="SCMDM">
+                    System Center Mobile Device Manager
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="System Center Online Services">
+            
+                <option label="MDOP Asset Inventory Service - General Discussion" title="MDOP Asset Inventory Service - General Discussion" value="aisgeneral">
+                    MDOP Asset Inventory Service - General Discussion
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="System Center Orchestrator">
+            
+                <option label="System Center Orchestrator - Deployment" title="System Center Orchestrator - Deployment" value="scodeployment">
+                    System Center Orchestrator - Deployment
+                </option>
+            
+                <option label="System Center Orchestrator - General" title="System Center Orchestrator - General" value="scogeneral">
+                    System Center Orchestrator - General
+                </option>
+            
+                <option label="System Center Orchestrator - Quick Integration Kit / SDK Development" title="System Center Orchestrator - Quick Integration Kit / SDK Development" value="scoqik">
+                    System Center Orchestrator - Quick Integration Kit / SDK Development
+                </option>
+            
+                <option label="System Center Orchestrator - Service Provider Foundation" title="System Center Orchestrator - Service Provider Foundation" value="scspf">
+                    System Center Orchestrator - Service Provider Foundation
+                </option>
+            
+                <option label="System Center Orchestrator - System Center Integrations" title="System Center Orchestrator - System Center Integrations" value="scoscip">
+                    System Center Orchestrator - System Center Integrations
+                </option>
+            
+                <option label="System Center Orchestrator - Third-Party Integrations" title="System Center Orchestrator - Third-Party Integrations" value="sco3pip">
+                    System Center Orchestrator - Third-Party Integrations
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Troubleshooting">
+            
+                <option label="Microsoft Tech Companion for Windows 8" title="Microsoft Tech Companion for Windows 8" value="MTCWin8">
+                    Microsoft Tech Companion for Windows 8
+                </option>
+            
+                <option label="Microsoft Tech Companion for Windows Phone" title="Microsoft Tech Companion for Windows Phone" value="MTCWinPhone">
+                    Microsoft Tech Companion for Windows Phone
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Using Forums">
+            
+                <option label="Announcements for all Forums" title="Announcements for all Forums" value="announce">
+                    Announcements for all Forums
+                </option>
+            
+                <option label="Forums Issues (not product support)" title="Forums Issues (not product support)" value="reportabug">
+                    Forums Issues (not product support)
+                </option>
+            
+                <option label="MSDN and TechNet Profile and Recognition System Discussions" title="MSDN and TechNet Profile and Recognition System Discussions" value="Profile">
+                    MSDN and TechNet Profile and Recognition System Discussions
+                </option>
+            
+                <option label="Off-Topic Posts (Do Not Post Here)" title="Off-Topic Posts (Do Not Post Here)" value="Offtopic">
+                    Off-Topic Posts (Do Not Post Here)
+                </option>
+            
+                <option label="Suggestions and Feedback for the Forums" title="Suggestions and Feedback for the Forums" value="suggest">
+                    Suggestions and Feedback for the Forums
+                </option>
+            
+                <option label="Where is the Forum For…?" title="Where is the Forum For…?" value="whatforum">
+                    Where is the Forum For…?
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Virtual Server">
+            
+                <option label="Virtual Server" title="Virtual Server" value="virtualserver">
+                    Virtual Server
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Virtualization">
+            
+                <option label="Microsoft Virtual Machine Converter" title="Microsoft Virtual Machine Converter" value="MVMC">
+                    Microsoft Virtual Machine Converter
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Visio 2010">
+            
+                <option label="Visio General Questions and Answers for IT Professionals" title="Visio General Questions and Answers for IT Professionals" value="visiogeneral">
+                    Visio General Questions and Answers for IT Professionals
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows 10 IT Pro">
+            
+                <option label="Windows 10 Application Compatibility" title="Windows 10 Application Compatibility" value="win10itproapps">
+                    Windows 10 Application Compatibility
+                </option>
+            
+                <option label="Windows 10 General" title="Windows 10 General" value="win10itprogeneral">
+                    Windows 10 General
+                </option>
+            
+                <option label="Windows 10 Hardware &amp; Performance" title="Windows 10 Hardware &amp; Performance" value="win10itprohardware">
+                    Windows 10 Hardware &amp; Performance
+                </option>
+            
+                <option label="Windows 10 Installation, Setup, and Deployment" title="Windows 10 Installation, Setup, and Deployment" value="win10itprosetup">
+                    Windows 10 Installation, Setup, and Deployment
+                </option>
+            
+                <option label="Windows 10 Mobile" title="Windows 10 Mobile" value="win10itpromobile">
+                    Windows 10 Mobile
+                </option>
+            
+                <option label="Windows 10 Networking" title="Windows 10 Networking" value="win10itpronetworking">
+                    Windows 10 Networking
+                </option>
+            
+                <option label="Windows 10 Security" title="Windows 10 Security" value="win10itprosecurity">
+                    Windows 10 Security
+                </option>
+            
+                <option label="Windows 10 Virtualization" title="Windows 10 Virtualization" value="win10itprovirt">
+                    Windows 10 Virtualization
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows 7 IT Pro">
+            
+                <option label="Windows 7 Application Compatibility" title="Windows 7 Application Compatibility" value="w7itproappcompat">
+                    Windows 7 Application Compatibility
+                </option>
+            
+                <option label="Windows 7 Hardware Compatibility" title="Windows 7 Hardware Compatibility" value="w7itprohardware">
+                    Windows 7 Hardware Compatibility
+                </option>
+            
+                <option label="Windows 7 Installation, Setup, and Deployment" title="Windows 7 Installation, Setup, and Deployment" value="w7itproinstall">
+                    Windows 7 Installation, Setup, and Deployment
+                </option>
+            
+                <option label="Windows 7 Media" title="Windows 7 Media" value="w7itpromedia">
+                    Windows 7 Media
+                </option>
+            
+                <option label="Windows 7 Miscellaneous" title="Windows 7 Miscellaneous" value="w7itprogeneral">
+                    Windows 7 Miscellaneous
+                </option>
+            
+                <option label="Windows 7 Networking" title="Windows 7 Networking" value="w7itpronetworking">
+                    Windows 7 Networking
+                </option>
+            
+                <option label="Windows 7 Performance" title="Windows 7 Performance" value="w7itproperf">
+                    Windows 7 Performance
+                </option>
+            
+                <option label="Windows 7 Security" title="Windows 7 Security" value="w7itprosecurity">
+                    Windows 7 Security
+                </option>
+            
+                <option label="Windows 7 User Interface" title="Windows 7 User Interface" value="w7itproui">
+                    Windows 7 User Interface
+                </option>
+            
+                <option label="Windows Virtual PC and XP Mode" title="Windows Virtual PC and XP Mode" value="w7itprovirt">
+                    Windows Virtual PC and XP Mode
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows 8.1 IT Pro">
+            
+                <option label="Windows 8.1 Application Compatibility" title="Windows 8.1 Application Compatibility" value="w8itproappcompat">
+                    Windows 8.1 Application Compatibility
+                </option>
+            
+                <option label="Windows 8.1 General" title="Windows 8.1 General" value="w8itprogeneral">
+                    Windows 8.1 General
+                </option>
+            
+                <option label="Windows 8.1 Hardware Compatibility" title="Windows 8.1 Hardware Compatibility" value="w8itprohardware">
+                    Windows 8.1 Hardware Compatibility
+                </option>
+            
+                <option label="Windows 8.1 Installation, Setup, and Deployment" title="Windows 8.1 Installation, Setup, and Deployment" value="w8itproinstall">
+                    Windows 8.1 Installation, Setup, and Deployment
+                </option>
+            
+                <option label="Windows 8.1 Networking" title="Windows 8.1 Networking" value="w8itpronetworking">
+                    Windows 8.1 Networking
+                </option>
+            
+                <option label="Windows 8.1 Performance" title="Windows 8.1 Performance" value="w8itproperf">
+                    Windows 8.1 Performance
+                </option>
+            
+                <option label="Windows 8.1 Security" title="Windows 8.1 Security" value="w8itprosecurity">
+                    Windows 8.1 Security
+                </option>
+            
+                <option label="Windows 8.1 Virtualization" title="Windows 8.1 Virtualization" value="w8itprovirt">
+                    Windows 8.1 Virtualization
+                </option>
+            
+                <option label="Windows To Go" title="Windows To Go" value="W8ITProWTG">
+                    Windows To Go
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows Embedded">
+            
+                <option label="Windows Embedded POSReady" title="Windows Embedded POSReady" value="posready">
+                    Windows Embedded POSReady
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows Phone - IT Pro">
+            
+                <option label="General" title="General" value="winphonegeneral">
+                    General
+                </option>
+            
+                <option label="Mobile Device Management" title="Mobile Device Management" value="winphonemgmt">
+                    Mobile Device Management
+                </option>
+            
+                <option label="Security" title="Security" value="winphonesecurity">
+                    Security
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows Server">
+            
+                <option label="Backup – Windows and Windows Server" title="Backup – Windows and Windows Server" value="windowsbackup">
+                    Backup – Windows and Windows Server
+                </option>
+            
+                <option label="Branch Office" title="Branch Office" value="windowsserver2008r2branchoffice">
+                    Branch Office
+                </option>
+            
+                <option label="Directory Services" title="Directory Services" value="winserverDS">
+                    Directory Services
+                </option>
+            
+                <option label="File Services and Storage" title="File Services and Storage" value="winserverfiles">
+                    File Services and Storage
+                </option>
+            
+                <option label="Group Policy" title="Group Policy" value="winserverGP">
+                    Group Policy
+                </option>
+            
+                <option label="High Availability (Clustering)" title="High Availability (Clustering)" value="winserverClustering">
+                    High Availability (Clustering)
+                </option>
+            
+                <option label="Hyper-V" title="Hyper-V" value="winserverhyperv">
+                    Hyper-V
+                </option>
+            
+                <option label="IPAM, DHCP, DNS" title="IPAM, DHCP, DNS" value="winserveripamdhcpdns">
+                    IPAM, DHCP, DNS
+                </option>
+            
+                <option label="IPv6" title="IPv6" value="ipv6">
+                    IPv6
+                </option>
+            
+                <option label="Linux and FreeBSD Virtual Machines on Hyper-V" title="Linux and FreeBSD Virtual Machines on Hyper-V" value="linuxintegrationservices">
+                    Linux and FreeBSD Virtual Machines on Hyper-V
+                </option>
+            
+                <option label="Management" title="Management" value="winserverManagement">
+                    Management
+                </option>
+            
+                <option label="Migration" title="Migration" value="winserverMigration">
+                    Migration
+                </option>
+            
+                <option label="Nano Server" title="Nano Server" value="NanoServer">
+                    Nano Server
+                </option>
+            
+                <option label="Network Access Protection" title="Network Access Protection" value="winserverNAP">
+                    Network Access Protection
+                </option>
+            
+                <option label="Network Infrastructure Servers" title="Network Infrastructure Servers" value="winserverNIS">
+                    Network Infrastructure Servers
+                </option>
+            
+                <option label="Platform Networking" title="Platform Networking" value="winserverPN">
+                    Platform Networking
+                </option>
+            
+                <option label="Print/Fax" title="Print/Fax" value="winserverprint">
+                    Print/Fax
+                </option>
+            
+                <option label="Remote Desktop clients" title="Remote Desktop clients" value="winRDc">
+                    Remote Desktop clients
+                </option>
+            
+                <option label="Remote Desktop Services (Terminal Services)" title="Remote Desktop Services (Terminal Services)" value="winserverTS">
+                    Remote Desktop Services (Terminal Services)
+                </option>
+            
+                <option label="Security" title="Security" value="winserversecurity">
+                    Security
+                </option>
+            
+                <option label="Server Core" title="Server Core" value="winservercore">
+                    Server Core
+                </option>
+            
+                <option label="Server Manager" title="Server Manager" value="winservermanager">
+                    Server Manager
+                </option>
+            
+                <option label="Setup Deployment" title="Setup Deployment" value="winserversetup">
+                    Setup Deployment
+                </option>
+            
+                <option label="Streaming Media Services" title="Streaming Media Services" value="winservermedia">
+                    Streaming Media Services
+                </option>
+            
+                <option label="Windows Multipoint Server" title="Windows Multipoint Server" value="windowsmultipointserver">
+                    Windows Multipoint Server
+                </option>
+            
+                <option label="Windows PowerShell" title="Windows PowerShell" value="winserverpowershell">
+                    Windows PowerShell
+                </option>
+            
+                <option label="Windows Server 2012 Essentials" title="Windows Server 2012 Essentials" value="winserveressentials">
+                    Windows Server 2012 Essentials
+                </option>
+            
+                <option label="Windows Server 2012 General" title="Windows Server 2012 General" value="winserver8gen">
+                    Windows Server 2012 General
+                </option>
+            
+                <option label="Windows Server 2012 R2 Application Certification (Logo) program and test tools" title="Windows Server 2012 R2 Application Certification (Logo) program and test tools" value="WSAppCompat">
+                    Windows Server 2012 R2 Application Certification (Logo) program and test tools
+                </option>
+            
+                <option label="Windows Server 2012 Setup" title="Windows Server 2012 Setup" value="winserver8setup">
+                    Windows Server 2012 Setup
+                </option>
+            
+                <option label="Windows Server General Forum" title="Windows Server General Forum" value="winservergen">
+                    Windows Server General Forum
+                </option>
+            
+                <option label="Windows Server Technical Preview" title="Windows Server Technical Preview" value="WinServerPreview">
+                    Windows Server Technical Preview
+                </option>
+            
+                <option label="WSUS" title="WSUS" value="winserverwsus">
+                    WSUS
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows Small Business Server">
+            
+                <option label="Small Business Server" title="Small Business Server" value="smallbusinessserver">
+                    Small Business Server
+                </option>
+            
+                <option label="Small Business Server 2011 Essentials and Windows Storage Server 2008 R2 Essentials" title="Small Business Server 2011 Essentials and Windows Storage Server 2008 R2 Essentials" value="smallbusinessserver2011essentials">
+                    Small Business Server 2011 Essentials and Windows Storage Server 2008 R2 Essentials
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows Tools">
+            
+                <option label="Message Analyzer" title="Message Analyzer" value="messageanalyzer">
+                    Message Analyzer
+                </option>
+            
+                <option label="Network Monitor" title="Network Monitor" value="netmon">
+                    Network Monitor
+                </option>
+            
+                <option label="Windows Desktop Perfmon and Diagnostic tools" title="Windows Desktop Perfmon and Diagnostic tools" value="perfmon">
+                    Windows Desktop Perfmon and Diagnostic tools
+                </option>
+            
+                <option label="Windows SteadyState" title="Windows SteadyState" value="windowssteadystate">
+                    Windows SteadyState
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows Vista IT Pro">
+            
+                <option label="Windows Vista Activation" title="Windows Vista Activation" value="itprovistaactivation">
+                    Windows Vista Activation
+                </option>
+            
+                <option label="Windows Vista Announcements" title="Windows Vista Announcements" value="itprovistaannouncements">
+                    Windows Vista Announcements
+                </option>
+            
+                <option label="Windows Vista Application Compatibility Toolkit" title="Windows Vista Application Compatibility Toolkit" value="itprovistaact">
+                    Windows Vista Application Compatibility Toolkit
+                </option>
+            
+                <option label="Windows Vista Applications" title="Windows Vista Applications" value="itprovistaapps">
+                    Windows Vista Applications
+                </option>
+            
+                <option label="Windows Vista Deployment and Imaging" title="Windows Vista Deployment and Imaging" value="itprovistadeployment">
+                    Windows Vista Deployment and Imaging
+                </option>
+            
+                <option label="Windows Vista Desktop UI" title="Windows Vista Desktop UI" value="itprovistadesktopui">
+                    Windows Vista Desktop UI
+                </option>
+            
+                <option label="Windows Vista Hardware" title="Windows Vista Hardware" value="itprovistahardware">
+                    Windows Vista Hardware
+                </option>
+            
+                <option label="Windows Vista Migration" title="Windows Vista Migration" value="itprovistamigration">
+                    Windows Vista Migration
+                </option>
+            
+                <option label="Windows Vista Networking" title="Windows Vista Networking" value="itprovistanetworking">
+                    Windows Vista Networking
+                </option>
+            
+                <option label="Windows Vista Printing" title="Windows Vista Printing" value="itprovistaprinting">
+                    Windows Vista Printing
+                </option>
+            
+                <option label="Windows Vista Security" title="Windows Vista Security" value="itprovistasecurity">
+                    Windows Vista Security
+                </option>
+            
+                <option label="Windows Vista Service Packs/Windows Server 2008 Service Packs" title="Windows Vista Service Packs/Windows Server 2008 Service Packs" value="itprovistasp">
+                    Windows Vista Service Packs/Windows Server 2008 Service Packs
+                </option>
+            
+                <option label="Windows Vista Setup" title="Windows Vista Setup" value="itprovistasetup">
+                    Windows Vista Setup
+                </option>
+            
+        </optgroup>
+    
+        <optgroup label="Windows XP IT Pro">
+            
+                <option label="Windows XP Service Pack 3 (SP3)" title="Windows XP Service Pack 3 (SP3)" value="itproxpsp">
+                    Windows XP Service Pack 3 (SP3)
+                </option>
+            
+        </optgroup>
+    
+</select>
