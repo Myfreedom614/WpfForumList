@@ -66,7 +66,7 @@ namespace WpfForumList
             
             try
             {
-                string url = "http://openszone.com/ForumData/MSDNForum.xml";//@"\\WXPFSER12-LAB1\Users\v-frche\Desktop\ForumData\MSDNForum.xml";
+                string url = "http://openszone.com/ForumData/MSDNForum.xml";
                 using(WebClient client = new WebClient())
                 {
                     client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_MSDNDownloadFileCompleted);
@@ -87,7 +87,7 @@ namespace WpfForumList
         {
             pbMSDN.Value=50;
 
-            string url = "http://openszone.com/ForumData/MSDNCHSForum.xml";//@"\\WXPFSER12-LAB1\Users\v-frche\Desktop\ForumData\MSDNCHSForum.xml";
+            string url = "http://openszone.com/ForumData/MSDNCHSForum.xml";
             using (WebClient client = new WebClient())
             {
                 client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_MSDNCHSDownloadFileCompleted);
@@ -114,7 +114,7 @@ namespace WpfForumList
         {
             pbTechNet.Value = 50;
 
-            string url = "http://openszone.com/ForumData/TechNetCHSForum.xml";//@"\\WXPFSER12-LAB1\Users\v-frche\Desktop\ForumData\TechNetCHSForum.xml";
+            string url = "http://openszone.com/ForumData/TechNetCHSForum.xml";
             using (WebClient client = new WebClient())
             {
                 client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_TechNetCHSDownloadFileCompleted);
@@ -141,7 +141,7 @@ namespace WpfForumList
             
             try
             {
-                string url = "http://openszone.com/ForumData/TechNetForum.xml";//@"\\WXPFSER12-LAB1\Users\v-frche\Desktop\ForumData\TechNetForum.xml";
+                string url = "http://openszone.com/ForumData/TechNetForum.xml";
                 using (WebClient client = new WebClient())
                 {
                     client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_TechNetDownloadFileCompleted);

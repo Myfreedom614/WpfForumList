@@ -178,23 +178,24 @@ namespace WpfForumList
                 DataDownload w = new DataDownload(isMSDNNeedDownload, isTechNetNeedDownload);
                 if (w.ShowDialog() == false)
                 {
-                    if (isMSDNNeedDownload && File.Exists(AppDomain.CurrentDomain.BaseDirectory + "MSDNForum.xml"))
+                    string baseDir = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+                    if (isMSDNNeedDownload && File.Exists(baseDir + "\\MSDNForum.xml"))
                     {
                         //Update DataContext and Binding
                         UpdateTVMSDNDataContextBinding();
                     }
-                    else if (isMSDNNeedDownload && File.Exists(AppDomain.CurrentDomain.BaseDirectory + "MSDNCHSForum.xml"))
+                    else if (isMSDNNeedDownload && File.Exists(baseDir + "\\MSDNCHSForum.xml"))
                     {
                         //Update DataContext and Binding
                         UpdateTVMSDNCHSDataContextBinding();
                     }
 
-                    if (isTechNetNeedDownload && File.Exists(AppDomain.CurrentDomain.BaseDirectory + "TechNetForum.xml"))
+                    if (isTechNetNeedDownload && File.Exists(baseDir + "\\TechNetForum.xml"))
                     {
                         //Update DataContext and Binding
                         UpdateTVTechNetDataContextBinding();
                     }
-                    else if (isTechNetNeedDownload && File.Exists(AppDomain.CurrentDomain.BaseDirectory + "TechNetCHSForum.xml"))
+                    else if (isTechNetNeedDownload && File.Exists(baseDir + "\\TechNetCHSForum.xml"))
                     {
                         //Update DataContext and Binding
                         UpdateTVTechNetCHSDataContextBinding();
@@ -537,7 +538,7 @@ namespace WpfForumList
         private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {
             System.Diagnostics.Process proc = new System.Diagnostics.Process();
-            proc.StartInfo.FileName = "mailto:v-frche@microsoft.com?subject=[Feedback] Microsoft Forum List" + " V" + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString() + "&body=Hi Franklin,";
+            proc.StartInfo.FileName = "mailto:yapchen@microsoft.com?subject=[Feedback] Microsoft Forum List" + " V" + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString() + "&body=Hi Franklin,";
             proc.Start();
         }
 

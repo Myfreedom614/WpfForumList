@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<select id="CategoryOptionList" name="forum" class="CategoryOptionList" size="20" style="width: 100%;">
+  <optgroup label="Cloud Computing" count="0">
+    <option label="Live@edu" title="Live@edu" value="eduzhcn">
+                    Live@edu
+                </option>
+  </optgroup>
+  <optgroup label="IT管理 Operations" count="0">
+    <option label="Operations Manager" title="Operations Manager" value="operationsmanagerzhchs">
+                    Operations Manager
+                </option>
+    <option label="System Center" title="System Center" value="systemcenterzhchs">
+                    System Center
+                </option>
+    <option label="Systems Management Server" title="Systems Management Server" value="systemsmanagementserverzhchs">
+                    Systems Management Server
+                </option>
+  </optgroup>
+  <optgroup label="Microsoft Office" count="0">
+    <option label="Microsoft office system" title="Microsoft office system" value="officesystemzhchs">
+                    Microsoft office system
+                </option>
+    <option label="Office Business Application" title="Office Business Application" value="officebusinessapplicationzhchs">
+                    Office Business Application
+                </option>
+    <option label="微软拼音输入法" title="微软拼音输入法" value="2087">
+                    微软拼音输入法
+                </option>
+  </optgroup>
+  <optgroup label="Windows 10 Insider Preview" count="0">
+    <option label="Windows 10 Insider Preview: General" title="Windows 10 Insider Preview: General" value="WinPreview2014GeneralZHCN">
+                    Windows 10 Insider Preview: General
+                </option>
+    <option label="Windows 10 Insider Preview: Setup and Installation" title="Windows 10 Insider Preview: Setup and Installation" value="WinPreview2014SetupZHCN">
+                    Windows 10 Insider Preview: Setup and Installation
+                </option>
+  </optgroup>
+  <optgroup label="Windows Client" count="0">
+    <option label="Internet Explorer" title="Internet Explorer" value="iezhcn">
+                    Internet Explorer
+                </option>
+    <option label="Windows 7" title="Windows 7" value="window7betacn">
+                    Windows 7
+                </option>
+    <option label="Windows Vista" title="Windows Vista" value="vistazhchs">
+                    Windows Vista
+                </option>
+    <option label="Windows XP" title="Windows XP" value="windowsxpzhchs">
+                    Windows XP
+                </option>
+    <option label="Windows 应用程序兼容性" title="Windows 应用程序兼容性" value="windowscompatzh">
+                    Windows 应用程序兼容性
+                </option>
+    <option label="Windows硬件开发者论坛(包含WHQL测试)" title="Windows硬件开发者论坛(包含WHQL测试)" value="2150">
+                    Windows硬件开发者论坛(包含WHQL测试)
+                </option>
+    <option label="企业环境中的Windows 8" title="企业环境中的Windows 8" value="w8itprozhcn">
+                    企业环境中的Windows 8
+                </option>
+    <option label="企业用户反馈专区(Enterprise Customer Feedback Zone)" title="企业用户反馈专区(Enterprise Customer Feedback Zone)" value="enterprisefeedback">
+                    企业用户反馈专区(Enterprise Customer Feedback Zone)
+                </option>
+  </optgroup>
+  <optgroup label="Windows Server" count="0">
+    <option label="Windows Server Technical Preview" title="Windows Server Technical Preview" value="WinServerPreviewZHCN">
+                    Windows Server Technical Preview
+                </option>
+  </optgroup>
+  <optgroup label="安全性 Security " count="0">
+    <option label="Forefront" title="Forefront" value="forefrontzhchs">
+                    Forefront
+                </option>
+    <option label="ISA Server" title="ISA Server" value="isaserverzhchs">
+                    ISA Server
+                </option>
+  </optgroup>
+  <optgroup label="多产品结合与应用场景" count="0">
+    <option label="监控管理与性能分析" title="监控管理与性能分析" value="managementanalysis">
+                    监控管理与性能分析
+                </option>
+    <option label="商业智能与数据分析" title="商业智能与数据分析" value="BIDA">
+                    商业智能与数据分析
+                </option>
+    <option label="升级与迁移" title="升级与迁移" value="UpgradeMigration">
+                    升级与迁移
+                </option>
+    <option label="系统配置与部署" title="系统配置与部署" value="configurationdeployment">
+                    系统配置与部署
+                </option>
+    <option label="系统灾备及高可用性" title="系统灾备及高可用性" value="HighAvailability">
+                    系统灾备及高可用性
+                </option>
+    <option label="信息安全" title="信息安全" value="InformationSecurity">
+                    信息安全
+                </option>
+  </optgroup>
+  <optgroup label="服务器平台 Operating Systems" count="0">
+    <option label="Small Business Solution" title="Small Business Solution" value="smallbusinesssolutionzhchs">
+                    Small Business Solution
+                </option>
+    <option label="Windows Foundation Server" title="Windows Foundation Server" value="wfszhcn">
+                    Windows Foundation Server
+                </option>
+    <option label="Windows Home Server" title="Windows Home Server" value="whszhcn">
+                    Windows Home Server
+                </option>
+    <option label="Windows Server 2012" title="Windows Server 2012" value="winserver8zhcn">
+                    Windows Server 2012
+                </option>
+    <option label="Windows Server system" title="Windows Server system" value="windowsserversystemzhchs">
+                    Windows Server system
+                </option>
+  </optgroup>
+  <optgroup label="沟通与协作 Business Productivity" count="0">
+    <option label="Microsoft Office SharePoint Server(MOSS)" title="Microsoft Office SharePoint Server(MOSS)" value="sharepointportalserverzhchs">
+                    Microsoft Office SharePoint Server(MOSS)
+                </option>
+    <option label="Office Communications Server" title="Office Communications Server" value="officecommunicationsserverzhchs">
+                    Office Communications Server
+                </option>
+    <option label="Office Live Meeting" title="Office Live Meeting" value="officelivemeetingzhchs">
+                    Office Live Meeting
+                </option>
+  </optgroup>
+  <optgroup label="活动专区" count="0">
+    <option label="IT人士甘苦谈" title="IT人士甘苦谈" value="2004">
+                    IT人士甘苦谈
+                </option>
+    <option label="TechNet Webcast" title="TechNet Webcast" value="technetwebcastzhchs">
+                    TechNet Webcast
+                </option>
+    <option label="TechNet 解决方案应用论坛" title="TechNet 解决方案应用论坛" value="1708">
+                    TechNet 解决方案应用论坛
+                </option>
+    <option label="TechNet中文论坛活动专属版" title="TechNet中文论坛活动专属版" value="eventzhcn">
+                    TechNet中文论坛活动专属版
+                </option>
+    <option label="TechNet中文网站用户反馈专栏NEW！" title="TechNet中文网站用户反馈专栏NEW！" value="2154">
+                    TechNet中文网站用户反馈专栏NEW！
+                </option>
+    <option label="领先一步 从TechNet 中文速递邮件开始" title="领先一步 从TechNet 中文速递邮件开始" value="2018">
+                    领先一步 从TechNet 中文速递邮件开始
+                </option>
+    <option label="微软云计算IT体验营交流专区" title="微软云计算IT体验营交流专区" value="1695">
+                    微软云计算IT体验营交流专区
+                </option>
+  </optgroup>
+  <optgroup label="企业应用平台 Enterprise Application Platform" count="0">
+    <option label="BizTalk Server" title="BizTalk Server" value="biztalkserverzhchs">
+                    BizTalk Server
+                </option>
+    <option label="Exchange Server" title="Exchange Server" value="exchangeserverzhchs">
+                    Exchange Server
+                </option>
+    <option label="SQL Server" title="SQL Server" value="sqlserverzhchs">
+                    SQL Server
+                </option>
+  </optgroup>
+  <optgroup label="商务管理解决方案" count="0">
+    <option label="Microsoft Dynamics CRM" title="Microsoft Dynamics CRM" value="dymanicscrmzhchs">
+                    Microsoft Dynamics CRM
+                </option>
+  </optgroup>
+  <optgroup label="微软硬件" count="0">
+    <option label="微软硬件" title="微软硬件" value="2003">
+                    微软硬件
+                </option>
+  </optgroup>
+  <optgroup label="虚拟化技术 Virtualization" count="0">
+    <option label="服务器虚拟化" title="服务器虚拟化" value="2222">
+                    服务器虚拟化
+                </option>
+    <option label="虚拟化管理" title="虚拟化管理" value="2224">
+                    虚拟化管理
+                </option>
+    <option label="应用程序虚拟化" title="应用程序虚拟化" value="2223">
+                    应用程序虚拟化
+                </option>
+  </optgroup>
+  <optgroup label="综合讨论区" count="0">
+    <option label="技术资源交流区" title="技术资源交流区" value="2219">
+                    技术资源交流区
+                </option>
+    <option label="微软培训与认证" title="微软培训与认证" value="1991">
+                    微软培训与认证
+                </option>
+    <option label="新技术、热点技术讨论区" title="新技术、热点技术讨论区" value="2218">
+                    新技术、热点技术讨论区
+                </option>
+    <option label="一般性问题讨论区" title="一般性问题讨论区" value="1761">
+                    一般性问题讨论区
+                </option>
+  </optgroup>
+</select>
