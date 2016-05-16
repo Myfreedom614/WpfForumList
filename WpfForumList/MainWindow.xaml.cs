@@ -18,6 +18,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
 using System.Xml;
+using System.Xml.Linq;
+using System.Xml.XPath;
 
 namespace WpfForumList
 {
@@ -128,10 +130,32 @@ namespace WpfForumList
             tv_TechNet.SetBinding(TreeView.ItemsSourceProperty, NewBinding);
         }
 
+        private void UpdateTVMSDNData()
+        {
+            if (cbxMSDN.SelectedIndex == 0)
+            {
+                UpdateTVMSDNDataContextBinding();
+            }
+            else
+            {
+                UpdateTVMSDNCHSDataContextBinding();
+            }
+        }
+        private void UpdateTVTechNetData()
+        {
+            if (cbxTechNet.SelectedIndex == 0)
+            {
+                UpdateTVTechNetDataContextBinding();
+            }
+            else
+            {
+                UpdateTVTechNetCHSDataContextBinding();
+            }
+        }
         #endregion
 
         /// <summary>
-        /// Do initialization
+        /// Do initialization: Check XML file and updates
         /// </summary>
         private void InitialSomething()
         {
@@ -141,7 +165,19 @@ namespace WpfForumList
                 isMSDNNeedDownload = true;
             }
             else
-                EmptyXMLNode(Forums.MSDN);
+            {
+                var currentVersion = GetVersionFromXML(Forums.MSDN);
+                if (!String.IsNullOrEmpty(currentVersion))
+                {
+                    isMSDNNeedDownload = isNeedUpdate(currentVersion);
+                    if (isMSDNNeedDownload==false)
+                    {
+                        EmptyXMLNode(Forums.MSDN);
+                    }
+                }
+                else
+                    EmptyXMLNode(Forums.MSDN);
+            }
 
             if (File.Exists(baseDir + "\\MSDNCHSForum.xml") == false)
             {
@@ -149,7 +185,21 @@ namespace WpfForumList
                 isMSDNNeedDownload = true;
             }
             else
-                EmptyXMLNode(Forums.MSDNCHS);
+            {
+                {
+                    var currentVersion = GetVersionFromXML(Forums.MSDNCHS);
+                    if (!String.IsNullOrEmpty(currentVersion))
+                    {
+                        isMSDNNeedDownload = isNeedUpdate(currentVersion);
+                        if (isMSDNNeedDownload == false)
+                        {
+                            EmptyXMLNode(Forums.MSDNCHS);
+                        }
+                    }
+                    else
+                        EmptyXMLNode(Forums.MSDNCHS);
+                }
+            }
 
             if (File.Exists(baseDir + "\\TechNetForum.xml") == false)
             {
@@ -157,7 +207,21 @@ namespace WpfForumList
                 isTechNetNeedDownload = true;
             }
             else
-                EmptyXMLNode(Forums.TechNet);
+            {
+                {
+                    var currentVersion = GetVersionFromXML(Forums.TechNet);
+                    if (!String.IsNullOrEmpty(currentVersion))
+                    {
+                        isMSDNNeedDownload = isNeedUpdate(currentVersion);
+                        if (isMSDNNeedDownload == false)
+                        {
+                            EmptyXMLNode(Forums.TechNet);
+                        }
+                    }
+                    else
+                        EmptyXMLNode(Forums.TechNet);
+                }
+            }
 
             if (File.Exists(baseDir + "\\TechNetCHSForum.xml") == false)
             {
@@ -165,34 +229,55 @@ namespace WpfForumList
                 isTechNetNeedDownload = true;
             }
             else
-                EmptyXMLNode(Forums.TechNetCHS);
+            {
+                {
+                    var currentVersion = GetVersionFromXML(Forums.TechNetCHS);
+                    if (!String.IsNullOrEmpty(currentVersion))
+                    {
+                        isMSDNNeedDownload = isNeedUpdate(currentVersion);
+                        if (isMSDNNeedDownload == false)
+                        {
+                            EmptyXMLNode(Forums.TechNetCHS);
+                        }
+                    }
+                    else
+                        EmptyXMLNode(Forums.TechNetCHS);
+                }
+            }
         }
-
-        private void UpdateDataContextBinding()
+        /// <summary>
+        /// Check if Need to Update the latest data version
+        /// </summary>
+        private bool isNeedUpdate(string currentVersion)
         {
-            if (isMSDNNeedDownload && File.Exists(baseDir + "\\MSDNForum.xml"))
+            string xml = string.Empty;
+            try
             {
-                //Update DataContext and Binding
-                UpdateTVMSDNDataContextBinding();
-            }
-            else if (isMSDNNeedDownload && File.Exists(baseDir + "\\MSDNCHSForum.xml"))
-            {
-                //Update DataContext and Binding
-                UpdateTVMSDNCHSDataContextBinding();
-            }
+                using (WebClient wc = new WebClient())
+                {
+                    xml = wc.DownloadString(new Uri("http://openszone.com/ForumData/update.xml"));
+                }
 
-            if (isTechNetNeedDownload && File.Exists(baseDir + "\\TechNetForum.xml"))
+                XDocument doc = XDocument.Parse(xml);
+
+                string latestVersion = doc.XPathSelectElement("/Update/Version").Value;
+
+                //Compare
+                DateTime latestVersionDate = Convert.ToDateTime(latestVersion);
+                DateTime currentVersionDate = Convert.ToDateTime(currentVersion);
+
+                int judge = DateTime.Compare(currentVersionDate, latestVersionDate);
+                if (judge < 0)
+                {
+                    return true;
+                }
+            } catch(Exception ex)
             {
-                //Update DataContext and Binding
-                UpdateTVTechNetDataContextBinding();
+                MessageBox.Show("Oops, check update failed: " + ex.Message + "\r\n\r\nPlease try again:(");
             }
-            else if (isTechNetNeedDownload && File.Exists(baseDir + "\\TechNetCHSForum.xml"))
-            {
-                //Update DataContext and Binding
-                UpdateTVTechNetCHSDataContextBinding();
-            }
+            
+            return false;
         }
-
         /// <summary>
         /// Check If Need to Open Download Window
         /// </summary>
@@ -205,7 +290,8 @@ namespace WpfForumList
                 DataDownload w = new DataDownload(isMSDNNeedDownload, isTechNetNeedDownload);
                 if (w.ShowDialog() == false)
                 {
-                    UpdateDataContextBinding();
+                    UpdateTVMSDNData();
+                    UpdateTVTechNetData();
                 }
             }
             else
@@ -216,10 +302,30 @@ namespace WpfForumList
         }
 
         #region Processing XML File
-            /// <summary>
-            /// Empty XML Node Count
-            /// </summary>
-            /// <param name="forum"></param>
+        private string GetVersionFromXML(Enum forum)
+        {
+            string filename = forum.ToString();
+            XDocument doc = new XDocument();
+            try
+            {
+                doc = XDocument.Load(filename + "Forum.xml");
+
+                string currentVersion = doc.XPathSelectElement("/select").Attribute("version").Value;
+                if (currentVersion != null)
+                {
+                    return currentVersion;
+                }
+            }
+            catch (Exception ex)
+            {
+                return string.Empty;
+            }
+            return string.Empty;
+        }
+        /// <summary>
+        /// Empty XML Node Count
+        /// </summary>
+        /// <param name="forum"></param>
         private void EmptyXMLNode(Enum forum)
         {
             string filename = forum.ToString();
@@ -698,31 +804,7 @@ namespace WpfForumList
                 BtnSearchText_Click(null, null);
             }
         }
-
-        private void UpdateTVMSDNData()
-        {
-            if(cbxMSDN.SelectedIndex==0)
-            {
-                UpdateTVMSDNDataContextBinding();
-            }
-            else
-            {
-                UpdateTVMSDNCHSDataContextBinding();
-            }
-        }
-        private void UpdateTVTechNetData()
-        {
-            if (cbxTechNet.SelectedIndex == 0)
-            {
-                UpdateTVTechNetDataContextBinding();
-            }
-            else
-            {
-                UpdateTVTechNetCHSDataContextBinding();
-            }
-        }
-
-
+        
         /// <summary>
         /// MSDN ComboBox SelectionChanged
         /// </summary>
